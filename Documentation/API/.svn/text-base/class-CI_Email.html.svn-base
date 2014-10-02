@@ -1,0 +1,3350 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class CI_Email | DoTheMath Server API AppFrog</title>
+
+	<script type="text/javascript" src="resources/combined.js?1130135532"></script>
+	<script type="text/javascript" src="elementlist.js?4137884977"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li class="active"><a href="package-CodeIgniter.html">CodeIgniter<span></span></a>
+						<ul>
+				<li><a href="package-CodeIgniter.Drivers.html">Drivers</a>
+						</li>
+				<li class="active"><a href="package-CodeIgniter.Libraries.html">Libraries</a>
+						</li>
+							</ul></li>
+				<li><a href="package-DoTheMath.html">DoTheMath<span></span></a>
+						<ul>
+				<li><a href="package-DoTheMath.External.html">External</a>
+						</li>
+				<li><a href="package-DoTheMath.Question.html">Question</a>
+						</li>
+							</ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-CI_Benchmark.html">CI_Benchmark</a></li>
+				<li><a href="class-CI_Cache.html">CI_Cache</a></li>
+				<li><a href="class-CI_Cache_apc.html">CI_Cache_apc</a></li>
+				<li><a href="class-CI_Cache_dummy.html">CI_Cache_dummy</a></li>
+				<li><a href="class-CI_Cache_file.html">CI_Cache_file</a></li>
+				<li><a href="class-CI_Cache_memcached.html">CI_Cache_memcached</a></li>
+				<li><a href="class-CI_Calendar.html">CI_Calendar</a></li>
+				<li><a href="class-CI_Cart.html">CI_Cart</a></li>
+				<li><a href="class-CI_Config.html">CI_Config</a></li>
+				<li><a href="class-CI_Controller.html">CI_Controller</a></li>
+				<li><a href="class-CI_Driver.html">CI_Driver</a></li>
+				<li><a href="class-CI_Driver_Library.html">CI_Driver_Library</a></li>
+				<li class="active"><a href="class-CI_Email.html">CI_Email</a></li>
+				<li><a href="class-CI_Encrypt.html">CI_Encrypt</a></li>
+				<li><a href="class-CI_Exceptions.html">CI_Exceptions</a></li>
+				<li><a href="class-CI_Form_validation.html">CI_Form_validation</a></li>
+				<li><a href="class-CI_FTP.html">CI_FTP</a></li>
+				<li><a href="class-CI_Hooks.html">CI_Hooks</a></li>
+				<li><a href="class-CI_Image_lib.html">CI_Image_lib</a></li>
+				<li><a href="class-CI_Input.html">CI_Input</a></li>
+				<li><a href="class-CI_Javascript.html">CI_Javascript</a></li>
+				<li><a href="class-CI_Jquery.html">CI_Jquery</a></li>
+				<li><a href="class-CI_Lang.html">CI_Lang</a></li>
+				<li><a href="class-CI_Loader.html">CI_Loader</a></li>
+				<li><a href="class-CI_Log.html">CI_Log</a></li>
+				<li><a href="class-CI_Migration.html">CI_Migration</a></li>
+				<li><a href="class-CI_Model.html">CI_Model</a></li>
+				<li><a href="class-CI_Output.html">CI_Output</a></li>
+				<li><a href="class-CI_Pagination.html">CI_Pagination</a></li>
+				<li><a href="class-CI_Parser.html">CI_Parser</a></li>
+				<li><a href="class-CI_Profiler.html">CI_Profiler</a></li>
+				<li><a href="class-CI_Router.html">CI_Router</a></li>
+				<li><a href="class-CI_Security.html">CI_Security</a></li>
+				<li><a href="class-CI_Session.html">CI_Session</a></li>
+				<li><a href="class-CI_SHA1.html">CI_SHA1</a></li>
+				<li><a href="class-CI_Table.html">CI_Table</a></li>
+				<li><a href="class-CI_Trackback.html">CI_Trackback</a></li>
+				<li><a href="class-CI_Unit_test.html">CI_Unit_test</a></li>
+				<li><a href="class-CI_Upload.html">CI_Upload</a></li>
+				<li><a href="class-CI_URI.html">CI_URI</a></li>
+				<li><a href="class-CI_User_agent.html">CI_User_agent</a></li>
+				<li><a href="class-CI_Utf8.html">CI_Utf8</a></li>
+				<li><a href="class-CI_Xmlrpc.html">CI_Xmlrpc</a></li>
+				<li><a href="class-CI_Xmlrpcs.html">CI_Xmlrpcs</a></li>
+				<li><a href="class-CI_Zip.html">CI_Zip</a></li>
+				<li><a href="class-Curl.html">Curl</a></li>
+				<li><a href="class-Match_model.html">Match_model</a></li>
+				<li><a href="class-REST_Controller.html">REST_Controller</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-CodeIgniter.Libraries.html" title="Summary of CodeIgniter\Libraries"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+			<li>
+				<a href="deprecated.html" title="List of deprecated elements"><span>Deprecated</span></a>
+			</li>
+			<li>
+				<a href="todo.html" title="Todo list"><span>Todo</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class CI_Email</h1>
+
+
+	<div class="description">
+	
+<p>CodeIgniter Email Class</p>
+
+<p>Permits email to be sent using Mail, Sendmail, or SMTP.</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-CodeIgniter.html">CodeIgniter</a>\<a href="package-CodeIgniter.Libraries.html">Libraries</a><br />
+
+				<b>Category:</b>
+				Libraries<br />
+				<b>Author:</b>
+				ExpressionEngine Dev Team<br />
+				<b>Link:</b>
+				<a href="http://codeigniter.com/user_guide/libraries/email.html">http://codeigniter.com/user_guide/libraries/email.html</a><br />
+		<b>Located at</b> system/libraries/Email.php<br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code>__construct( <span>mixed <var>$config</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Constructor - Sets Email Preferences</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Constructor - Sets Email Preferences</p>
+
+<p>The constructor can be passed an array of config values</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="initialize" id="_initialize">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_initialize">#</a>
+		<code>initialize( <span>array <var>$config</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Initialize preferences</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Initialize preferences</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$config</var></dt>
+					<dd><code>array</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="clear" id="_clear">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_clear">#</a>
+		<code>clear( <span>mixed <var>$clear_attachments</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Initialize the Email Data</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Initialize the Email Data</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="from" id="_from">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_from">#</a>
+		<code>from( <span>string <var>$from</var></span>, <span>string <var>$name</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set FROM</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set FROM</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$from</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="reply_to" id="_reply_to">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_reply_to">#</a>
+		<code>reply_to( <span>string <var>$replyto</var></span>, <span>string <var>$name</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set Reply-to</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set Reply-to</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$replyto</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="to" id="_to">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_to">#</a>
+		<code>to( <span>string <var>$to</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set Recipients</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set Recipients</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$to</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="cc" id="_cc">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_cc">#</a>
+		<code>cc( <span>string <var>$cc</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set CC</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set CC</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$cc</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="bcc" id="_bcc">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_bcc">#</a>
+		<code>bcc( <span>string <var>$bcc</var></span>, <span>string <var>$limit</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set BCC</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set BCC</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$bcc</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$limit</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="subject" id="_subject">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_subject">#</a>
+		<code>subject( <span>string <var>$subject</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set Email Subject</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set Email Subject</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$subject</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="message" id="_message">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_message">#</a>
+		<code>message( <span>string <var>$body</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set Body</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set Body</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$body</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="attach" id="_attach">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_attach">#</a>
+		<code>attach( <span>string <var>$filename</var></span>, <span>mixed <var>$disposition</var> = <span class="php-quote">'attachment'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Assign file attachments</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Assign file attachments</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$filename</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$disposition</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_set_header" id="__set_header">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__set_header">#</a>
+		<code>_set_header( <span>string <var>$header</var></span>, <span>string <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Add a Header Item</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add a Header Item</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$header</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$value</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_str_to_array" id="__str_to_array">
+
+		<td class="attributes"><code>
+			 protected 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__str_to_array">#</a>
+		<code>_str_to_array( <span>string <var>$email</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Convert a String to an Array</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Convert a String to an Array</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$email</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set_alt_message" id="_set_alt_message">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set_alt_message">#</a>
+		<code>set_alt_message( <span>string <var>$str</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set Multipart Value</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set Multipart Value</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set_mailtype" id="_set_mailtype">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set_mailtype">#</a>
+		<code>set_mailtype( <span>string <var>$type</var> = <span class="php-quote">'text'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set Mailtype</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set Mailtype</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$type</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set_wordwrap" id="_set_wordwrap">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set_wordwrap">#</a>
+		<code>set_wordwrap( <span>string <var>$wordwrap</var> = <span class="php-keyword1">TRUE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set Wordwrap</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set Wordwrap</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$wordwrap</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set_protocol" id="_set_protocol">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set_protocol">#</a>
+		<code>set_protocol( <span>string <var>$protocol</var> = <span class="php-quote">'mail'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set Protocol</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set Protocol</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$protocol</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set_priority" id="_set_priority">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set_priority">#</a>
+		<code>set_priority( <span>integer <var>$n</var> = <span class="php-num">3</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set Priority</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set Priority</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$n</var></dt>
+					<dd><code>integer</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set_newline" id="_set_newline">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set_newline">#</a>
+		<code>set_newline( <span>string <var>$newline</var> = <span class="php-quote">&quot;\n&quot;</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set Newline Character</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set Newline Character</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$newline</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set_crlf" id="_set_crlf">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set_crlf">#</a>
+		<code>set_crlf( <span>string <var>$crlf</var> = <span class="php-quote">&quot;\n&quot;</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set CRLF</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set CRLF</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$crlf</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_set_boundaries" id="__set_boundaries">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__set_boundaries">#</a>
+		<code>_set_boundaries( )</code>
+
+		<div class="description short">
+			
+<p>Set Message Boundary</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set Message Boundary</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_get_message_id" id="__get_message_id">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__get_message_id">#</a>
+		<code>_get_message_id( )</code>
+
+		<div class="description short">
+			
+<p>Get the Message ID</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the Message ID</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_get_protocol" id="__get_protocol">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__get_protocol">#</a>
+		<code>_get_protocol( <span>boolean <var>$return</var> = <span class="php-keyword1">TRUE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get Mail Protocol</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get Mail Protocol</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$return</var></dt>
+					<dd><code>boolean</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_get_encoding" id="__get_encoding">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__get_encoding">#</a>
+		<code>_get_encoding( <span>boolean <var>$return</var> = <span class="php-keyword1">TRUE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get Mail Encoding</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get Mail Encoding</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$return</var></dt>
+					<dd><code>boolean</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_get_content_type" id="__get_content_type">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__get_content_type">#</a>
+		<code>_get_content_type( )</code>
+
+		<div class="description short">
+			
+<p>Get content type (text/html/attachment)</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get content type (text/html/attachment)</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_set_date" id="__set_date">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__set_date">#</a>
+		<code>_set_date( )</code>
+
+		<div class="description short">
+			
+<p>Set RFC 822 Date</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set RFC 822 Date</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_get_mime_message" id="__get_mime_message">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__get_mime_message">#</a>
+		<code>_get_mime_message( )</code>
+
+		<div class="description short">
+			
+<p>Mime message</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Mime message</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="validate_email" id="_validate_email">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_validate_email">#</a>
+		<code>validate_email( <span>string <var>$email</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Validate Email Address</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validate Email Address</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$email</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="valid_email" id="_valid_email">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_valid_email">#</a>
+		<code>valid_email( <span>string <var>$address</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Email Validation</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Email Validation</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$address</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="clean_email" id="_clean_email">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_clean_email">#</a>
+		<code>clean_email( <span>string <var>$email</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Clean Extended Email Address: Joe Smith &lt;<a
+href="mailto:joe&#64;smith.com">joe&#64;<!---->smith.com</a>&gt;</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Clean Extended Email Address: Joe Smith &lt;<a
+href="mailto:joe&#64;smith.com">joe&#64;<!---->smith.com</a>&gt;</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$email</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_get_alt_message" id="__get_alt_message">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__get_alt_message">#</a>
+		<code>_get_alt_message( )</code>
+
+		<div class="description short">
+			
+<p>Build alternative plain text message</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Build alternative plain text message</p>
+
+<p>This public function provides the raw message for use in plain-text headers
+of HTML-formatted emails. If the user hasn't specified his own alternative
+message it creates one by stripping the HTML</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="word_wrap" id="_word_wrap">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_word_wrap">#</a>
+		<code>word_wrap( <span>string <var>$str</var></span>, <span>integer <var>$charlim</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Word Wrap</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Word Wrap</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$charlim</var></dt>
+					<dd><code>integer</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_build_headers" id="__build_headers">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__build_headers">#</a>
+		<code>_build_headers( )</code>
+
+		<div class="description short">
+			
+<p>Build final headers</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Build final headers</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_write_headers" id="__write_headers">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__write_headers">#</a>
+		<code>_write_headers( )</code>
+
+		<div class="description short">
+			
+<p>Write Headers as a string</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Write Headers as a string</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_build_message" id="__build_message">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__build_message">#</a>
+		<code>_build_message( )</code>
+
+		<div class="description short">
+			
+<p>Build Final Body and attachments</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Build Final Body and attachments</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_prep_quoted_printable" id="__prep_quoted_printable">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__prep_quoted_printable">#</a>
+		<code>_prep_quoted_printable( <span>string <var>$str</var></span>, <span>integer <var>$charlim</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Prep Quoted Printable</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Prep Quoted Printable</p>
+
+<p>Prepares string for Quoted-Printable Content-Transfer-Encoding Refer to RFC
+2045 <a
+href="http://www.ietf.org/rfc/rfc2045.txt">http://www.ietf.org/rfc/rfc2045.txt</a></p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$charlim</var></dt>
+					<dd><code>integer</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_prep_q_encoding" id="__prep_q_encoding">
+
+		<td class="attributes"><code>
+			 protected 
+			str
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__prep_q_encoding">#</a>
+		<code>_prep_q_encoding( <span>str <var>$str</var></span>, <span>boolean <var>$from</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Prep Q Encoding</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Prep Q Encoding</p>
+
+<p>Performs "Q Encoding" on a string for use in email headers. It's related but
+not identical to quoted-printable, so it has its own method</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>str</code></dd>
+					<dt><var>$from</var></dt>
+					<dd><code>boolean</code><br>// set to TRUE for processing From: headers</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>str</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="send" id="_send">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_send">#</a>
+		<code>send( )</code>
+
+		<div class="description short">
+			
+<p>Send Email</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Send Email</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="batch_bcc_send" id="_batch_bcc_send">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_batch_bcc_send">#</a>
+		<code>batch_bcc_send( )</code>
+
+		<div class="description short">
+			
+<p>Batch Bcc Send. Sends groups of BCCs in batches</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Batch Bcc Send. Sends groups of BCCs in batches</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_unwrap_specials" id="__unwrap_specials">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__unwrap_specials">#</a>
+		<code>_unwrap_specials( )</code>
+
+		<div class="description short">
+			
+<p>Unwrap special elements</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Unwrap special elements</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_remove_nl_callback" id="__remove_nl_callback">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__remove_nl_callback">#</a>
+		<code>_remove_nl_callback( <span>mixed <var>$matches</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Strip line-breaks via callback</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Strip line-breaks via callback</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_spool_email" id="__spool_email">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__spool_email">#</a>
+		<code>_spool_email( )</code>
+
+		<div class="description short">
+			
+<p>Spool mail to the mail server</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Spool mail to the mail server</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_send_with_mail" id="__send_with_mail">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__send_with_mail">#</a>
+		<code>_send_with_mail( )</code>
+
+		<div class="description short">
+			
+<p>Send using mail()</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Send using mail()</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_send_with_sendmail" id="__send_with_sendmail">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__send_with_sendmail">#</a>
+		<code>_send_with_sendmail( )</code>
+
+		<div class="description short">
+			
+<p>Send using Sendmail</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Send using Sendmail</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_send_with_smtp" id="__send_with_smtp">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__send_with_smtp">#</a>
+		<code>_send_with_smtp( )</code>
+
+		<div class="description short">
+			
+<p>Send using SMTP</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Send using SMTP</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_smtp_connect" id="__smtp_connect">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__smtp_connect">#</a>
+		<code>_smtp_connect( )</code>
+
+		<div class="description short">
+			
+<p>SMTP Connect</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>SMTP Connect</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_send_command" id="__send_command">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__send_command">#</a>
+		<code>_send_command( <span>string <var>$cmd</var></span>, <span>string <var>$data</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Send SMTP command</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Send SMTP command</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$cmd</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$data</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_smtp_authenticate" id="__smtp_authenticate">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__smtp_authenticate">#</a>
+		<code>_smtp_authenticate( )</code>
+
+		<div class="description short">
+			
+<p>SMTP Authenticate</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>SMTP Authenticate</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_send_data" id="__send_data">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__send_data">#</a>
+		<code>_send_data( <span>mixed <var>$data</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Send SMTP data</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Send SMTP data</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_get_smtp_data" id="__get_smtp_data">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__get_smtp_data">#</a>
+		<code>_get_smtp_data( )</code>
+
+		<div class="description short">
+			
+<p>Get SMTP data</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get SMTP data</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_get_hostname" id="__get_hostname">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__get_hostname">#</a>
+		<code>_get_hostname( )</code>
+
+		<div class="description short">
+			
+<p>Get Hostname</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get Hostname</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_get_ip" id="__get_ip">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__get_ip">#</a>
+		<code>_get_ip( )</code>
+
+		<div class="description short">
+			
+<p>Get IP</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get IP</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="print_debugger" id="_print_debugger">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_print_debugger">#</a>
+		<code>print_debugger( )</code>
+
+		<div class="description short">
+			
+<p>Get Debug Message</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get Debug Message</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_set_error_message" id="__set_error_message">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__set_error_message">#</a>
+		<code>_set_error_message( <span>string <var>$msg</var></span>, <span>mixed <var>$val</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set Message</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set Message</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$msg</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$val</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_mime_types" id="__mime_types">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__mime_types">#</a>
+		<code>_mime_types( <span>string <var>$ext</var> = <span class="php-quote">&quot;&quot;</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Mime Types</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Mime Types</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$ext</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="useragent" id="$useragent">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$useragent</var>		</td>
+		<td class="value"><code><span class="php-quote">&quot;CodeIgniter&quot;</span></code></td>
+		<td class="description"><div>
+			<a href="#$useragent" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="mailpath" id="$mailpath">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$mailpath</var>		</td>
+		<td class="value"><code><span class="php-quote">&quot;/usr/sbin/sendmail&quot;</span></code></td>
+		<td class="description"><div>
+			<a href="#$mailpath" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="protocol" id="$protocol">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$protocol</var>		</td>
+		<td class="value"><code><span class="php-quote">&quot;mail&quot;</span></code></td>
+		<td class="description"><div>
+			<a href="#$protocol" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="smtp_host" id="$smtp_host">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$smtp_host</var>		</td>
+		<td class="value"><code><span class="php-quote">&quot;&quot;</span></code></td>
+		<td class="description"><div>
+			<a href="#$smtp_host" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="smtp_user" id="$smtp_user">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$smtp_user</var>		</td>
+		<td class="value"><code><span class="php-quote">&quot;&quot;</span></code></td>
+		<td class="description"><div>
+			<a href="#$smtp_user" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="smtp_pass" id="$smtp_pass">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$smtp_pass</var>		</td>
+		<td class="value"><code><span class="php-quote">&quot;&quot;</span></code></td>
+		<td class="description"><div>
+			<a href="#$smtp_pass" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="smtp_port" id="$smtp_port">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$smtp_port</var>		</td>
+		<td class="value"><code><span class="php-quote">&quot;25&quot;</span></code></td>
+		<td class="description"><div>
+			<a href="#$smtp_port" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="smtp_timeout" id="$smtp_timeout">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+<var>$smtp_timeout</var>		</td>
+		<td class="value"><code><span class="php-num">5</span></code></td>
+		<td class="description"><div>
+			<a href="#$smtp_timeout" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="smtp_crypto" id="$smtp_crypto">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$smtp_crypto</var>		</td>
+		<td class="value"><code><span class="php-quote">&quot;&quot;</span></code></td>
+		<td class="description"><div>
+			<a href="#$smtp_crypto" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="wordwrap" id="$wordwrap">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+<var>$wordwrap</var>		</td>
+		<td class="value"><code><span class="php-keyword1">TRUE</span></code></td>
+		<td class="description"><div>
+			<a href="#$wordwrap" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="wrapchars" id="$wrapchars">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$wrapchars</var>		</td>
+		<td class="value"><code><span class="php-quote">&quot;76&quot;</span></code></td>
+		<td class="description"><div>
+			<a href="#$wrapchars" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="mailtype" id="$mailtype">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$mailtype</var>		</td>
+		<td class="value"><code><span class="php-quote">&quot;text&quot;</span></code></td>
+		<td class="description"><div>
+			<a href="#$mailtype" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="charset" id="$charset">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$charset</var>		</td>
+		<td class="value"><code><span class="php-quote">&quot;utf-8&quot;</span></code></td>
+		<td class="description"><div>
+			<a href="#$charset" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="multipart" id="$multipart">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$multipart</var>		</td>
+		<td class="value"><code><span class="php-quote">&quot;mixed&quot;</span></code></td>
+		<td class="description"><div>
+			<a href="#$multipart" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="alt_message" id="$alt_message">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$alt_message</var>		</td>
+		<td class="value"><code><span class="php-quote">''</span></code></td>
+		<td class="description"><div>
+			<a href="#$alt_message" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="validate" id="$validate">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+<var>$validate</var>		</td>
+		<td class="value"><code><span class="php-keyword1">FALSE</span></code></td>
+		<td class="description"><div>
+			<a href="#$validate" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="priority" id="$priority">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$priority</var>		</td>
+		<td class="value"><code><span class="php-quote">&quot;3&quot;</span></code></td>
+		<td class="description"><div>
+			<a href="#$priority" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="newline" id="$newline">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$newline</var>		</td>
+		<td class="value"><code><span class="php-quote">&quot;\n&quot;</span></code></td>
+		<td class="description"><div>
+			<a href="#$newline" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="crlf" id="$crlf">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$crlf</var>		</td>
+		<td class="value"><code><span class="php-quote">&quot;\n&quot;</span></code></td>
+		<td class="description"><div>
+			<a href="#$crlf" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="send_multipart" id="$send_multipart">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+<var>$send_multipart</var>		</td>
+		<td class="value"><code><span class="php-keyword1">TRUE</span></code></td>
+		<td class="description"><div>
+			<a href="#$send_multipart" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="bcc_batch_mode" id="$bcc_batch_mode">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+<var>$bcc_batch_mode</var>		</td>
+		<td class="value"><code><span class="php-keyword1">FALSE</span></code></td>
+		<td class="description"><div>
+			<a href="#$bcc_batch_mode" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="bcc_batch_size" id="$bcc_batch_size">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+<var>$bcc_batch_size</var>		</td>
+		<td class="value"><code><span class="php-num">200</span></code></td>
+		<td class="description"><div>
+			<a href="#$bcc_batch_size" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_safe_mode" id="$_safe_mode">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+<var>$_safe_mode</var>		</td>
+		<td class="value"><code><span class="php-keyword1">FALSE</span></code></td>
+		<td class="description"><div>
+			<a href="#$_safe_mode" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_subject" id="$_subject">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$_subject</var>		</td>
+		<td class="value"><code><span class="php-quote">&quot;&quot;</span></code></td>
+		<td class="description"><div>
+			<a href="#$_subject" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_body" id="$_body">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$_body</var>		</td>
+		<td class="value"><code><span class="php-quote">&quot;&quot;</span></code></td>
+		<td class="description"><div>
+			<a href="#$_body" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_finalbody" id="$_finalbody">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$_finalbody</var>		</td>
+		<td class="value"><code><span class="php-quote">&quot;&quot;</span></code></td>
+		<td class="description"><div>
+			<a href="#$_finalbody" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_alt_boundary" id="$_alt_boundary">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$_alt_boundary</var>		</td>
+		<td class="value"><code><span class="php-quote">&quot;&quot;</span></code></td>
+		<td class="description"><div>
+			<a href="#$_alt_boundary" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_atc_boundary" id="$_atc_boundary">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$_atc_boundary</var>		</td>
+		<td class="value"><code><span class="php-quote">&quot;&quot;</span></code></td>
+		<td class="description"><div>
+			<a href="#$_atc_boundary" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_header_str" id="$_header_str">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$_header_str</var>		</td>
+		<td class="value"><code><span class="php-quote">&quot;&quot;</span></code></td>
+		<td class="description"><div>
+			<a href="#$_header_str" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_smtp_connect" id="$_smtp_connect">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$_smtp_connect</var>		</td>
+		<td class="value"><code><span class="php-quote">&quot;&quot;</span></code></td>
+		<td class="description"><div>
+			<a href="#$_smtp_connect" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_encoding" id="$_encoding">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$_encoding</var>		</td>
+		<td class="value"><code><span class="php-quote">&quot;8bit&quot;</span></code></td>
+		<td class="description"><div>
+			<a href="#$_encoding" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_IP" id="$_IP">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+<var>$_IP</var>		</td>
+		<td class="value"><code><span class="php-keyword1">FALSE</span></code></td>
+		<td class="description"><div>
+			<a href="#$_IP" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_smtp_auth" id="$_smtp_auth">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+<var>$_smtp_auth</var>		</td>
+		<td class="value"><code><span class="php-keyword1">FALSE</span></code></td>
+		<td class="description"><div>
+			<a href="#$_smtp_auth" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_replyto_flag" id="$_replyto_flag">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+<var>$_replyto_flag</var>		</td>
+		<td class="value"><code><span class="php-keyword1">FALSE</span></code></td>
+		<td class="description"><div>
+			<a href="#$_replyto_flag" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_debug_msg" id="$_debug_msg">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$_debug_msg</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$_debug_msg" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_recipients" id="$_recipients">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$_recipients</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$_recipients" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_cc_array" id="$_cc_array">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$_cc_array</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$_cc_array" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_bcc_array" id="$_bcc_array">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$_bcc_array</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$_bcc_array" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_headers" id="$_headers">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$_headers</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$_headers" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_attach_name" id="$_attach_name">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$_attach_name</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$_attach_name" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_attach_type" id="$_attach_type">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$_attach_type</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$_attach_type" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_attach_disp" id="$_attach_disp">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$_attach_disp</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$_attach_disp" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_protocols" id="$_protocols">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$_protocols</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(<span class="php-quote">'mail'</span>, <span class="php-quote">'sendmail'</span>, <span class="php-quote">'smtp'</span>)</code></td>
+		<td class="description"><div>
+			<a href="#$_protocols" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_base_charsets" id="$_base_charsets">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$_base_charsets</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(<span class="php-quote">'us-ascii'</span>, <span class="php-quote">'iso-2022-'</span>)</code></td>
+		<td class="description"><div>
+			<a href="#$_base_charsets" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_bit_depths" id="$_bit_depths">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$_bit_depths</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(<span class="php-quote">'7bit'</span>, <span class="php-quote">'8bit'</span>)</code></td>
+		<td class="description"><div>
+			<a href="#$_bit_depths" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_priorities" id="$_priorities">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$_priorities</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(<span class="php-quote">'1 (Highest)'</span>, <span class="php-quote">'2 (High)'</span>, <span class="php-quote">'3 (Normal)'</span>, <span class="php-quote">'4 (Low)'</span>, <span class="php-quote">'5 (Lowest)'</span>)</code></td>
+		<td class="description"><div>
+			<a href="#$_priorities" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		DoTheMath Server API AppFrog API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

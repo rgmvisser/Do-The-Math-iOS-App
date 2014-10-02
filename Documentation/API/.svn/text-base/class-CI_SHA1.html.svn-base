@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class CI_SHA1 | DoTheMath Server API AppFrog</title>
+
+	<script type="text/javascript" src="resources/combined.js?1130135532"></script>
+	<script type="text/javascript" src="elementlist.js?4137884977"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li class="active"><a href="package-CodeIgniter.html">CodeIgniter<span></span></a>
+						<ul>
+				<li><a href="package-CodeIgniter.Drivers.html">Drivers</a>
+						</li>
+				<li class="active"><a href="package-CodeIgniter.Libraries.html">Libraries</a>
+						</li>
+							</ul></li>
+				<li><a href="package-DoTheMath.html">DoTheMath<span></span></a>
+						<ul>
+				<li><a href="package-DoTheMath.External.html">External</a>
+						</li>
+				<li><a href="package-DoTheMath.Question.html">Question</a>
+						</li>
+							</ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-CI_Benchmark.html">CI_Benchmark</a></li>
+				<li><a href="class-CI_Cache.html">CI_Cache</a></li>
+				<li><a href="class-CI_Cache_apc.html">CI_Cache_apc</a></li>
+				<li><a href="class-CI_Cache_dummy.html">CI_Cache_dummy</a></li>
+				<li><a href="class-CI_Cache_file.html">CI_Cache_file</a></li>
+				<li><a href="class-CI_Cache_memcached.html">CI_Cache_memcached</a></li>
+				<li><a href="class-CI_Calendar.html">CI_Calendar</a></li>
+				<li><a href="class-CI_Cart.html">CI_Cart</a></li>
+				<li><a href="class-CI_Config.html">CI_Config</a></li>
+				<li><a href="class-CI_Controller.html">CI_Controller</a></li>
+				<li><a href="class-CI_Driver.html">CI_Driver</a></li>
+				<li><a href="class-CI_Driver_Library.html">CI_Driver_Library</a></li>
+				<li><a href="class-CI_Email.html">CI_Email</a></li>
+				<li><a href="class-CI_Encrypt.html">CI_Encrypt</a></li>
+				<li><a href="class-CI_Exceptions.html">CI_Exceptions</a></li>
+				<li><a href="class-CI_Form_validation.html">CI_Form_validation</a></li>
+				<li><a href="class-CI_FTP.html">CI_FTP</a></li>
+				<li><a href="class-CI_Hooks.html">CI_Hooks</a></li>
+				<li><a href="class-CI_Image_lib.html">CI_Image_lib</a></li>
+				<li><a href="class-CI_Input.html">CI_Input</a></li>
+				<li><a href="class-CI_Javascript.html">CI_Javascript</a></li>
+				<li><a href="class-CI_Jquery.html">CI_Jquery</a></li>
+				<li><a href="class-CI_Lang.html">CI_Lang</a></li>
+				<li><a href="class-CI_Loader.html">CI_Loader</a></li>
+				<li><a href="class-CI_Log.html">CI_Log</a></li>
+				<li><a href="class-CI_Migration.html">CI_Migration</a></li>
+				<li><a href="class-CI_Model.html">CI_Model</a></li>
+				<li><a href="class-CI_Output.html">CI_Output</a></li>
+				<li><a href="class-CI_Pagination.html">CI_Pagination</a></li>
+				<li><a href="class-CI_Parser.html">CI_Parser</a></li>
+				<li><a href="class-CI_Profiler.html">CI_Profiler</a></li>
+				<li><a href="class-CI_Router.html">CI_Router</a></li>
+				<li><a href="class-CI_Security.html">CI_Security</a></li>
+				<li><a href="class-CI_Session.html">CI_Session</a></li>
+				<li class="active"><a href="class-CI_SHA1.html">CI_SHA1</a></li>
+				<li><a href="class-CI_Table.html">CI_Table</a></li>
+				<li><a href="class-CI_Trackback.html">CI_Trackback</a></li>
+				<li><a href="class-CI_Unit_test.html">CI_Unit_test</a></li>
+				<li><a href="class-CI_Upload.html">CI_Upload</a></li>
+				<li><a href="class-CI_URI.html">CI_URI</a></li>
+				<li><a href="class-CI_User_agent.html">CI_User_agent</a></li>
+				<li><a href="class-CI_Utf8.html">CI_Utf8</a></li>
+				<li><a href="class-CI_Xmlrpc.html">CI_Xmlrpc</a></li>
+				<li><a href="class-CI_Xmlrpcs.html">CI_Xmlrpcs</a></li>
+				<li><a href="class-CI_Zip.html">CI_Zip</a></li>
+				<li><a href="class-Curl.html">Curl</a></li>
+				<li><a href="class-Match_model.html">Match_model</a></li>
+				<li><a href="class-REST_Controller.html">REST_Controller</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-CodeIgniter.Libraries.html" title="Summary of CodeIgniter\Libraries"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+			<li>
+				<a href="deprecated.html" title="List of deprecated elements"><span>Deprecated</span></a>
+			</li>
+			<li>
+				<a href="todo.html" title="Todo list"><span>Todo</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class CI_SHA1</h1>
+
+
+	<div class="description">
+	
+<p>SHA1 Encoding Class</p>
+
+<p>Purpose: Provides 160 bit hashing using The Secure Hash Algorithm developed
+at the National Institute of Standards and Technology. The 40 character SHA1
+message hash is computationally infeasible to crack.</p>
+
+<p>This class is a fallback for servers that are not running PHP greater than
+4.3, or do not have the MHASH library.</p>
+
+<p>This class is based on two scripts:</p>
+
+<p>Marcus Campbell's PHP implementation (GNU license) <a
+href="http://www.tecknik.net/sha-1/">http://www.tecknik.net/sha-1/</a></p>
+
+<p>...which is based on Paul Johnston's JavaScript version (BSD license). <a
+href="http://pajhome.org.uk/">http://pajhome.org.uk/</a></p>
+
+<p>I encapsulated the functions and wrote one additional method to fix a hex
+conversion bug. - Rick Ellis</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-CodeIgniter.html">CodeIgniter</a>\<a href="package-CodeIgniter.Libraries.html">Libraries</a><br />
+
+				<b>Category:</b>
+				Encryption<br />
+				<b>Author:</b>
+				ExpressionEngine Dev Team<br />
+				<b>Link:</b>
+				<a href="http://codeigniter.com/user_guide/general/encryption.html">http://codeigniter.com/user_guide/general/encryption.html</a><br />
+		<b>Located at</b> system/libraries/Sha1.php<br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code>__construct( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="generate" id="_generate">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_generate">#</a>
+		<code>generate( <span>string <var>$str</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Generate the Hash</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Generate the Hash</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_hex" id="__hex">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__hex">#</a>
+		<code>_hex( <span>string <var>$str</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Convert a decimal to hex</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Convert a decimal to hex</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_ft" id="__ft">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__ft">#</a>
+		<code>_ft( <span>mixed <var>$t</var></span>, <span>mixed <var>$b</var></span>, <span>mixed <var>$c</var></span>, <span>mixed <var>$d</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Return result based on iteration</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Return result based on iteration</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_kt" id="__kt">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__kt">#</a>
+		<code>_kt( <span>mixed <var>$t</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Determine the additive constant</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Determine the additive constant</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_safe_add" id="__safe_add">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__safe_add">#</a>
+		<code>_safe_add( <span>mixed <var>$x</var></span>, <span>mixed <var>$y</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Add integers, wrapping at 2<sup>32</sup></p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add integers, wrapping at 2<sup>32</sup></p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_rol" id="__rol">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__rol">#</a>
+		<code>_rol( <span>mixed <var>$num</var></span>, <span>mixed <var>$cnt</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Bitwise rotate a 32-bit number</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Bitwise rotate a 32-bit number</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_zero_fill" id="__zero_fill">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__zero_fill">#</a>
+		<code>_zero_fill( <span>mixed <var>$a</var></span>, <span>mixed <var>$b</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Pad string with zero</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Pad string with zero</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		DoTheMath Server API AppFrog API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

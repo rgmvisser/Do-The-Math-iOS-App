@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class CI_Output | DoTheMath Server API AppFrog</title>
+
+	<script type="text/javascript" src="resources/combined.js?1130135532"></script>
+	<script type="text/javascript" src="elementlist.js?4137884977"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li class="active"><a href="package-CodeIgniter.html">CodeIgniter<span></span></a>
+						<ul>
+				<li><a href="package-CodeIgniter.Drivers.html">Drivers</a>
+						</li>
+				<li class="active"><a href="package-CodeIgniter.Libraries.html">Libraries</a>
+						</li>
+							</ul></li>
+				<li><a href="package-DoTheMath.html">DoTheMath<span></span></a>
+						<ul>
+				<li><a href="package-DoTheMath.External.html">External</a>
+						</li>
+				<li><a href="package-DoTheMath.Question.html">Question</a>
+						</li>
+							</ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-CI_Benchmark.html">CI_Benchmark</a></li>
+				<li><a href="class-CI_Cache.html">CI_Cache</a></li>
+				<li><a href="class-CI_Cache_apc.html">CI_Cache_apc</a></li>
+				<li><a href="class-CI_Cache_dummy.html">CI_Cache_dummy</a></li>
+				<li><a href="class-CI_Cache_file.html">CI_Cache_file</a></li>
+				<li><a href="class-CI_Cache_memcached.html">CI_Cache_memcached</a></li>
+				<li><a href="class-CI_Calendar.html">CI_Calendar</a></li>
+				<li><a href="class-CI_Cart.html">CI_Cart</a></li>
+				<li><a href="class-CI_Config.html">CI_Config</a></li>
+				<li><a href="class-CI_Controller.html">CI_Controller</a></li>
+				<li><a href="class-CI_Driver.html">CI_Driver</a></li>
+				<li><a href="class-CI_Driver_Library.html">CI_Driver_Library</a></li>
+				<li><a href="class-CI_Email.html">CI_Email</a></li>
+				<li><a href="class-CI_Encrypt.html">CI_Encrypt</a></li>
+				<li><a href="class-CI_Exceptions.html">CI_Exceptions</a></li>
+				<li><a href="class-CI_Form_validation.html">CI_Form_validation</a></li>
+				<li><a href="class-CI_FTP.html">CI_FTP</a></li>
+				<li><a href="class-CI_Hooks.html">CI_Hooks</a></li>
+				<li><a href="class-CI_Image_lib.html">CI_Image_lib</a></li>
+				<li><a href="class-CI_Input.html">CI_Input</a></li>
+				<li><a href="class-CI_Javascript.html">CI_Javascript</a></li>
+				<li><a href="class-CI_Jquery.html">CI_Jquery</a></li>
+				<li><a href="class-CI_Lang.html">CI_Lang</a></li>
+				<li><a href="class-CI_Loader.html">CI_Loader</a></li>
+				<li><a href="class-CI_Log.html">CI_Log</a></li>
+				<li><a href="class-CI_Migration.html">CI_Migration</a></li>
+				<li><a href="class-CI_Model.html">CI_Model</a></li>
+				<li class="active"><a href="class-CI_Output.html">CI_Output</a></li>
+				<li><a href="class-CI_Pagination.html">CI_Pagination</a></li>
+				<li><a href="class-CI_Parser.html">CI_Parser</a></li>
+				<li><a href="class-CI_Profiler.html">CI_Profiler</a></li>
+				<li><a href="class-CI_Router.html">CI_Router</a></li>
+				<li><a href="class-CI_Security.html">CI_Security</a></li>
+				<li><a href="class-CI_Session.html">CI_Session</a></li>
+				<li><a href="class-CI_SHA1.html">CI_SHA1</a></li>
+				<li><a href="class-CI_Table.html">CI_Table</a></li>
+				<li><a href="class-CI_Trackback.html">CI_Trackback</a></li>
+				<li><a href="class-CI_Unit_test.html">CI_Unit_test</a></li>
+				<li><a href="class-CI_Upload.html">CI_Upload</a></li>
+				<li><a href="class-CI_URI.html">CI_URI</a></li>
+				<li><a href="class-CI_User_agent.html">CI_User_agent</a></li>
+				<li><a href="class-CI_Utf8.html">CI_Utf8</a></li>
+				<li><a href="class-CI_Xmlrpc.html">CI_Xmlrpc</a></li>
+				<li><a href="class-CI_Xmlrpcs.html">CI_Xmlrpcs</a></li>
+				<li><a href="class-CI_Zip.html">CI_Zip</a></li>
+				<li><a href="class-Curl.html">Curl</a></li>
+				<li><a href="class-Match_model.html">Match_model</a></li>
+				<li><a href="class-REST_Controller.html">REST_Controller</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-CodeIgniter.Libraries.html" title="Summary of CodeIgniter\Libraries"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+			<li>
+				<a href="deprecated.html" title="List of deprecated elements"><span>Deprecated</span></a>
+			</li>
+			<li>
+				<a href="todo.html" title="Todo list"><span>Todo</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class CI_Output</h1>
+
+
+	<div class="description">
+	
+<p>Output Class</p>
+
+<p>Responsible for sending final output to browser</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-CodeIgniter.html">CodeIgniter</a>\<a href="package-CodeIgniter.Libraries.html">Libraries</a><br />
+
+				<b>Category:</b>
+				Output<br />
+				<b>Author:</b>
+				ExpressionEngine Dev Team<br />
+				<b>Link:</b>
+				<a href="http://codeigniter.com/user_guide/libraries/output.html">http://codeigniter.com/user_guide/libraries/output.html</a><br />
+		<b>Located at</b> system/core/Output.php<br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code>__construct( )</code>
+
+		<div class="description short">
+			
+<p>Constructor</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Constructor</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get_output" id="_get_output">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get_output">#</a>
+		<code>get_output( )</code>
+
+		<div class="description short">
+			
+<p>Get Output</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get Output</p>
+
+<p>Returns the current output string</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set_output" id="_set_output">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set_output">#</a>
+		<code>set_output( <span>string <var>$output</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set Output</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set Output</p>
+
+<p>Sets the output string</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$output</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="append_output" id="_append_output">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_append_output">#</a>
+		<code>append_output( <span>string <var>$output</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Append Output</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Append Output</p>
+
+<p>Appends data onto the output string</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$output</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set_header" id="_set_header">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set_header">#</a>
+		<code>set_header( <span>string <var>$header</var></span>, <span>boolean <var>$replace</var> = <span class="php-keyword1">TRUE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set Header</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set Header</p>
+
+<p>Lets you set a server header which will be outputted with the final
+display.</p>
+
+<p>Note: If a file is cached, headers will not be sent. We need to figure out
+how to permit header data to be saved with the cache data...</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$header</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$replace</var></dt>
+					<dd><code>boolean</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set_content_type" id="_set_content_type">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set_content_type">#</a>
+		<code>set_content_type( <span>string <var>$mime_type</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set Content Type Header</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set Content Type Header</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$mime_type</var></dt>
+					<dd><code>string</code><br>extension of the file we're outputting</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set_status_header" id="_set_status_header">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set_status_header">#</a>
+		<code>set_status_header( <span>integer <var>$code</var> = <span class="php-num">200</span></span>, <span>string <var>$text</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set HTTP Status Header moved to Common procedural functions in 1.7.2</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set HTTP Status Header moved to Common procedural functions in 1.7.2</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$code</var></dt>
+					<dd><code>integer</code><br>the status code</dd>
+					<dt><var>$text</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="enable_profiler" id="_enable_profiler">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_enable_profiler">#</a>
+		<code>enable_profiler( <span>boolean <var>$val</var> = <span class="php-keyword1">TRUE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Enable/disable Profiler</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Enable/disable Profiler</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$val</var></dt>
+					<dd><code>boolean</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set_profiler_sections" id="_set_profiler_sections">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set_profiler_sections">#</a>
+		<code>set_profiler_sections( <span>array <var>$sections</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set Profiler Sections</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set Profiler Sections</p>
+
+<p>Allows override of default / config settings for Profiler section display</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$sections</var></dt>
+					<dd><code>array</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="cache" id="_cache">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_cache">#</a>
+		<code>cache( <span>integer <var>$time</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set Cache</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set Cache</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$time</var></dt>
+					<dd><code>integer</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_display" id="__display">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__display">#</a>
+		<code>_display( <span>string <var>$output</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Display Output</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Display Output</p>
+
+<p>All "view" data is automatically put into this variable by the controller
+class:</p>
+
+<p>$this-&gt;final_output</p>
+
+<p>This function sends the finalized output data to the browser along with any
+server headers and profile data. It also stops the benchmark timer so the page
+rendering speed and memory usage can be shown.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$output</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_write_cache" id="__write_cache">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__write_cache">#</a>
+		<code>_write_cache( <span>string <var>$output</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Write a Cache File</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Write a Cache File</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$output</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_display_cache" id="__display_cache">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__display_cache">#</a>
+		<code>_display_cache( <span>object <var>&amp; $CFG</var></span>, <span>object <var>&amp; $URI</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Update/serve a cached file</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Update/serve a cached file</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$CFG</var></dt>
+					<dd><code>object</code><br>config class</dd>
+					<dt><var>$URI</var></dt>
+					<dd><code>object</code><br>uri class</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="final_output" id="$final_output">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$final_output</var>		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$final_output" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Current output string</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Current output string</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="cache_expiration" id="$cache_expiration">
+		<td class="attributes"><code>
+			protected  
+			integer
+		</code></td>
+
+		<td class="name">
+<var>$cache_expiration</var>		</td>
+		<td class="value"><code><span class="php-num">0</span></code></td>
+		<td class="description"><div>
+			<a href="#$cache_expiration" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Cache expiration time</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Cache expiration time</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="headers" id="$headers">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$headers</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$headers" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>List of server headers</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>List of server headers</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="mime_types" id="$mime_types">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$mime_types</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$mime_types" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>List of mime types</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>List of mime types</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="enable_profiler" id="$enable_profiler">
+		<td class="attributes"><code>
+			protected  
+			book
+		</code></td>
+
+		<td class="name">
+<var>$enable_profiler</var>		</td>
+		<td class="value"><code><span class="php-keyword1">FALSE</span></code></td>
+		<td class="description"><div>
+			<a href="#$enable_profiler" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Determines wether profiler is enabled</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Determines wether profiler is enabled</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_zlib_oc" id="$_zlib_oc">
+		<td class="attributes"><code>
+			protected  
+			boolean
+		</code></td>
+
+		<td class="name">
+<var>$_zlib_oc</var>		</td>
+		<td class="value"><code><span class="php-keyword1">FALSE</span></code></td>
+		<td class="description"><div>
+			<a href="#$_zlib_oc" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Determines if output compression is enabled</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Determines if output compression is enabled</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_profiler_sections" id="$_profiler_sections">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$_profiler_sections</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$_profiler_sections" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>List of profiler sections</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>List of profiler sections</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="parse_exec_vars" id="$parse_exec_vars">
+		<td class="attributes"><code>
+			protected  
+			boolean
+		</code></td>
+
+		<td class="name">
+<var>$parse_exec_vars</var>		</td>
+		<td class="value"><code><span class="php-keyword1">TRUE</span></code></td>
+		<td class="description"><div>
+			<a href="#$parse_exec_vars" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Whether or not to parse variables like {elapsed_time} and {memory_usage}</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Whether or not to parse variables like {elapsed_time} and {memory_usage}</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		DoTheMath Server API AppFrog API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+K 13
+svn:mergeinfo
+V 1420
+/branches/Code review/libGoogleAdMobAds.a:151-168
+/branches/Edit Profile/libGoogleAdMobAds.a:22-27
+/branches/Game invite/libGoogleAdMobAds.a:64-67
+/branches/Implementing game/libGoogleAdMobAds.a:70-81
+/branches/Main Game controllers/libGoogleAdMobAds.a:74-89
+/branches/Play Game/libGoogleAdMobAds.a:95-103
+/branches/Random player invite/libGoogleAdMobAds.a:138-148
+/branches/RestKit update/libGoogleAdMobAds.a:107-111
+/branches/Results/libGoogleAdMobAds.a:114-126
+/branches/Results to server/libGoogleAdMobAds.a:129-135
+/branches/SolveGame/libGoogleAdMobAds.a:118-122
+/branches/Starting game/libGoogleAdMobAds.a:83-91
+/branches/Week 10/libGoogleAdMobAds.a:195-206
+/branches/Week 13/libGoogleAdMobAds.a:248-266
+/branches/Week 14/libGoogleAdMobAds.a:268-274
+/branches/Week 14.2/libGoogleAdMobAds.a:276-295
+/branches/Week 17/libGoogleAdMobAds.a:334-357
+/branches/Week 18/libGoogleAdMobAds.a:359-369
+/branches/Week 19/libGoogleAdMobAds.a:374-400
+/branches/Week 22/libGoogleAdMobAds.a:402-437
+/branches/Week 24/libGoogleAdMobAds.a:439-478
+/branches/Week 9/libGoogleAdMobAds.a:176-192
+/branches/friend search/libGoogleAdMobAds.a:24-41
+/branches/friend_invite/libGoogleAdMobAds.a:53-58
+/branches/serverAPI correct-wrong/libGoogleAdMobAds.a:60-72
+/branches/week 11/libGoogleAdMobAds.a:209-221
+/branches/week 12/libGoogleAdMobAds.a:230-245
+/branches/week15/libGoogleAdMobAds.a:298-311
+/branches/week16/libGoogleAdMobAds.a:316-332
+K 13
+svn:mime-type
+V 24
+application/octet-stream
+END

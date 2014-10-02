@@ -1,0 +1,1392 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class CI_Session | DoTheMath Server API AppFrog</title>
+
+	<script type="text/javascript" src="resources/combined.js?1130135532"></script>
+	<script type="text/javascript" src="elementlist.js?4137884977"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li class="active"><a href="package-CodeIgniter.html">CodeIgniter<span></span></a>
+						<ul>
+				<li><a href="package-CodeIgniter.Drivers.html">Drivers</a>
+						</li>
+				<li class="active"><a href="package-CodeIgniter.Libraries.html">Libraries</a>
+						</li>
+							</ul></li>
+				<li><a href="package-DoTheMath.html">DoTheMath<span></span></a>
+						<ul>
+				<li><a href="package-DoTheMath.External.html">External</a>
+						</li>
+				<li><a href="package-DoTheMath.Question.html">Question</a>
+						</li>
+							</ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-CI_Benchmark.html">CI_Benchmark</a></li>
+				<li><a href="class-CI_Cache.html">CI_Cache</a></li>
+				<li><a href="class-CI_Cache_apc.html">CI_Cache_apc</a></li>
+				<li><a href="class-CI_Cache_dummy.html">CI_Cache_dummy</a></li>
+				<li><a href="class-CI_Cache_file.html">CI_Cache_file</a></li>
+				<li><a href="class-CI_Cache_memcached.html">CI_Cache_memcached</a></li>
+				<li><a href="class-CI_Calendar.html">CI_Calendar</a></li>
+				<li><a href="class-CI_Cart.html">CI_Cart</a></li>
+				<li><a href="class-CI_Config.html">CI_Config</a></li>
+				<li><a href="class-CI_Controller.html">CI_Controller</a></li>
+				<li><a href="class-CI_Driver.html">CI_Driver</a></li>
+				<li><a href="class-CI_Driver_Library.html">CI_Driver_Library</a></li>
+				<li><a href="class-CI_Email.html">CI_Email</a></li>
+				<li><a href="class-CI_Encrypt.html">CI_Encrypt</a></li>
+				<li><a href="class-CI_Exceptions.html">CI_Exceptions</a></li>
+				<li><a href="class-CI_Form_validation.html">CI_Form_validation</a></li>
+				<li><a href="class-CI_FTP.html">CI_FTP</a></li>
+				<li><a href="class-CI_Hooks.html">CI_Hooks</a></li>
+				<li><a href="class-CI_Image_lib.html">CI_Image_lib</a></li>
+				<li><a href="class-CI_Input.html">CI_Input</a></li>
+				<li><a href="class-CI_Javascript.html">CI_Javascript</a></li>
+				<li><a href="class-CI_Jquery.html">CI_Jquery</a></li>
+				<li><a href="class-CI_Lang.html">CI_Lang</a></li>
+				<li><a href="class-CI_Loader.html">CI_Loader</a></li>
+				<li><a href="class-CI_Log.html">CI_Log</a></li>
+				<li><a href="class-CI_Migration.html">CI_Migration</a></li>
+				<li><a href="class-CI_Model.html">CI_Model</a></li>
+				<li><a href="class-CI_Output.html">CI_Output</a></li>
+				<li><a href="class-CI_Pagination.html">CI_Pagination</a></li>
+				<li><a href="class-CI_Parser.html">CI_Parser</a></li>
+				<li><a href="class-CI_Profiler.html">CI_Profiler</a></li>
+				<li><a href="class-CI_Router.html">CI_Router</a></li>
+				<li><a href="class-CI_Security.html">CI_Security</a></li>
+				<li class="active"><a href="class-CI_Session.html">CI_Session</a></li>
+				<li><a href="class-CI_SHA1.html">CI_SHA1</a></li>
+				<li><a href="class-CI_Table.html">CI_Table</a></li>
+				<li><a href="class-CI_Trackback.html">CI_Trackback</a></li>
+				<li><a href="class-CI_Unit_test.html">CI_Unit_test</a></li>
+				<li><a href="class-CI_Upload.html">CI_Upload</a></li>
+				<li><a href="class-CI_URI.html">CI_URI</a></li>
+				<li><a href="class-CI_User_agent.html">CI_User_agent</a></li>
+				<li><a href="class-CI_Utf8.html">CI_Utf8</a></li>
+				<li><a href="class-CI_Xmlrpc.html">CI_Xmlrpc</a></li>
+				<li><a href="class-CI_Xmlrpcs.html">CI_Xmlrpcs</a></li>
+				<li><a href="class-CI_Zip.html">CI_Zip</a></li>
+				<li><a href="class-Curl.html">Curl</a></li>
+				<li><a href="class-Match_model.html">Match_model</a></li>
+				<li><a href="class-REST_Controller.html">REST_Controller</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-CodeIgniter.Libraries.html" title="Summary of CodeIgniter\Libraries"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+			<li>
+				<a href="deprecated.html" title="List of deprecated elements"><span>Deprecated</span></a>
+			</li>
+			<li>
+				<a href="todo.html" title="Todo list"><span>Todo</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class CI_Session</h1>
+
+
+	<div class="description">
+	
+<p>Session Class</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-CodeIgniter.html">CodeIgniter</a>\<a href="package-CodeIgniter.Libraries.html">Libraries</a><br />
+
+				<b>Category:</b>
+				Sessions<br />
+				<b>Author:</b>
+				ExpressionEngine Dev Team<br />
+				<b>Link:</b>
+				<a href="http://codeigniter.com/user_guide/libraries/sessions.html">http://codeigniter.com/user_guide/libraries/sessions.html</a><br />
+		<b>Located at</b> system/libraries/Session.php<br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code>__construct( <span>mixed <var>$params</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Session Constructor</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Session Constructor</p>
+
+<p>The constructor runs the session routines automatically whenever the class is
+instantiated.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="sess_read" id="_sess_read">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_sess_read">#</a>
+		<code>sess_read( )</code>
+
+		<div class="description short">
+			
+<p>Fetch the current session data if it exists</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Fetch the current session data if it exists</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="sess_write" id="_sess_write">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_sess_write">#</a>
+		<code>sess_write( )</code>
+
+		<div class="description short">
+			
+<p>Write the session data</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Write the session data</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="sess_create" id="_sess_create">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_sess_create">#</a>
+		<code>sess_create( )</code>
+
+		<div class="description short">
+			
+<p>Create a new session</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a new session</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="sess_update" id="_sess_update">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_sess_update">#</a>
+		<code>sess_update( )</code>
+
+		<div class="description short">
+			
+<p>Update an existing session</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Update an existing session</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="sess_destroy" id="_sess_destroy">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_sess_destroy">#</a>
+		<code>sess_destroy( )</code>
+
+		<div class="description short">
+			
+<p>Destroy the current session</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Destroy the current session</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="userdata" id="_userdata">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_userdata">#</a>
+		<code>userdata( <span>string <var>$item</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Fetch a specific item from the session array</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Fetch a specific item from the session array</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$item</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="all_userdata" id="_all_userdata">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_all_userdata">#</a>
+		<code>all_userdata( )</code>
+
+		<div class="description short">
+			
+<p>Fetch all session data</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Fetch all session data</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set_userdata" id="_set_userdata">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set_userdata">#</a>
+		<code>set_userdata( <span>mixed <var>$newdata</var> = <span class="php-keyword1">array</span>()</span>, <span>string <var>$newval</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Add or change data in the "userdata" array</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add or change data in the "userdata" array</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$newdata</var></dt>
+					<dd><code>mixed</code></dd>
+					<dt><var>$newval</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="unset_userdata" id="_unset_userdata">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_unset_userdata">#</a>
+		<code>unset_userdata( <span>mixed <var>$newdata</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Delete a session variable from the "userdata" array</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Delete a session variable from the "userdata" array</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set_flashdata" id="_set_flashdata">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set_flashdata">#</a>
+		<code>set_flashdata( <span>mixed <var>$newdata</var> = <span class="php-keyword1">array</span>()</span>, <span>string <var>$newval</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Add or change flashdata, only available until the next request</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add or change flashdata, only available until the next request</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$newdata</var></dt>
+					<dd><code>mixed</code></dd>
+					<dt><var>$newval</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="keep_flashdata" id="_keep_flashdata">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_keep_flashdata">#</a>
+		<code>keep_flashdata( <span>string <var>$key</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Keeps existing flashdata available to next request.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Keeps existing flashdata available to next request.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="flashdata" id="_flashdata">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_flashdata">#</a>
+		<code>flashdata( <span>string <var>$key</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Fetch a specific flashdata item from the session array</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Fetch a specific flashdata item from the session array</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_flashdata_mark" id="__flashdata_mark">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__flashdata_mark">#</a>
+		<code>_flashdata_mark( )</code>
+
+		<div class="description short">
+			
+<p>Identifies flashdata as 'old' for removal when _flashdata_sweep() runs.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Identifies flashdata as 'old' for removal when _flashdata_sweep() runs.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_flashdata_sweep" id="__flashdata_sweep">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__flashdata_sweep">#</a>
+		<code>_flashdata_sweep( )</code>
+
+		<div class="description short">
+			
+<p>Removes all flashdata marked as 'old'</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Removes all flashdata marked as 'old'</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_get_time" id="__get_time">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__get_time">#</a>
+		<code>_get_time( )</code>
+
+		<div class="description short">
+			
+<p>Get the "now" time</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the "now" time</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_set_cookie" id="__set_cookie">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__set_cookie">#</a>
+		<code>_set_cookie( <span>mixed <var>$cookie_data</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Write the session cookie</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Write the session cookie</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_serialize" id="__serialize">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__serialize">#</a>
+		<code>_serialize( <span>array <var>$data</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Serialize an array</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Serialize an array</p>
+
+<p>This function first converts any slashes found in the array to a temporary
+marker, so when it gets unserialized the slashes will be preserved</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd><code>array</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_unserialize" id="__unserialize">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__unserialize">#</a>
+		<code>_unserialize( <span>array <var>$data</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Unserialize</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Unserialize</p>
+
+<p>This function unserializes a data string, then converts any temporary slash
+markers back to actual slashes</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd><code>array</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_sess_gc" id="__sess_gc">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__sess_gc">#</a>
+		<code>_sess_gc( )</code>
+
+		<div class="description short">
+			
+<p>Garbage collection</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Garbage collection</p>
+
+<p>This deletes expired session rows from database if the probability percentage
+is met</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="sess_encrypt_cookie" id="$sess_encrypt_cookie">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+<var>$sess_encrypt_cookie</var>		</td>
+		<td class="value"><code><span class="php-keyword1">FALSE</span></code></td>
+		<td class="description"><div>
+			<a href="#$sess_encrypt_cookie" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="sess_use_database" id="$sess_use_database">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+<var>$sess_use_database</var>		</td>
+		<td class="value"><code><span class="php-keyword1">FALSE</span></code></td>
+		<td class="description"><div>
+			<a href="#$sess_use_database" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="sess_table_name" id="$sess_table_name">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$sess_table_name</var>		</td>
+		<td class="value"><code><span class="php-quote">''</span></code></td>
+		<td class="description"><div>
+			<a href="#$sess_table_name" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="sess_expiration" id="$sess_expiration">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+<var>$sess_expiration</var>		</td>
+		<td class="value"><code><span class="php-num">7200</span></code></td>
+		<td class="description"><div>
+			<a href="#$sess_expiration" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="sess_expire_on_close" id="$sess_expire_on_close">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+<var>$sess_expire_on_close</var>		</td>
+		<td class="value"><code><span class="php-keyword1">FALSE</span></code></td>
+		<td class="description"><div>
+			<a href="#$sess_expire_on_close" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="sess_match_ip" id="$sess_match_ip">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+<var>$sess_match_ip</var>		</td>
+		<td class="value"><code><span class="php-keyword1">FALSE</span></code></td>
+		<td class="description"><div>
+			<a href="#$sess_match_ip" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="sess_match_useragent" id="$sess_match_useragent">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+<var>$sess_match_useragent</var>		</td>
+		<td class="value"><code><span class="php-keyword1">TRUE</span></code></td>
+		<td class="description"><div>
+			<a href="#$sess_match_useragent" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="sess_cookie_name" id="$sess_cookie_name">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$sess_cookie_name</var>		</td>
+		<td class="value"><code><span class="php-quote">'ci_session'</span></code></td>
+		<td class="description"><div>
+			<a href="#$sess_cookie_name" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="cookie_prefix" id="$cookie_prefix">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$cookie_prefix</var>		</td>
+		<td class="value"><code><span class="php-quote">''</span></code></td>
+		<td class="description"><div>
+			<a href="#$cookie_prefix" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="cookie_path" id="$cookie_path">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$cookie_path</var>		</td>
+		<td class="value"><code><span class="php-quote">''</span></code></td>
+		<td class="description"><div>
+			<a href="#$cookie_path" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="cookie_domain" id="$cookie_domain">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$cookie_domain</var>		</td>
+		<td class="value"><code><span class="php-quote">''</span></code></td>
+		<td class="description"><div>
+			<a href="#$cookie_domain" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="cookie_secure" id="$cookie_secure">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+<var>$cookie_secure</var>		</td>
+		<td class="value"><code><span class="php-keyword1">FALSE</span></code></td>
+		<td class="description"><div>
+			<a href="#$cookie_secure" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="sess_time_to_update" id="$sess_time_to_update">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+<var>$sess_time_to_update</var>		</td>
+		<td class="value"><code><span class="php-num">300</span></code></td>
+		<td class="description"><div>
+			<a href="#$sess_time_to_update" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="encryption_key" id="$encryption_key">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$encryption_key</var>		</td>
+		<td class="value"><code><span class="php-quote">''</span></code></td>
+		<td class="description"><div>
+			<a href="#$encryption_key" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="flashdata_key" id="$flashdata_key">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$flashdata_key</var>		</td>
+		<td class="value"><code><span class="php-quote">'flash'</span></code></td>
+		<td class="description"><div>
+			<a href="#$flashdata_key" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="time_reference" id="$time_reference">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$time_reference</var>		</td>
+		<td class="value"><code><span class="php-quote">'time'</span></code></td>
+		<td class="description"><div>
+			<a href="#$time_reference" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="gc_probability" id="$gc_probability">
+		<td class="attributes"><code>
+			public  
+			integer
+		</code></td>
+
+		<td class="name">
+<var>$gc_probability</var>		</td>
+		<td class="value"><code><span class="php-num">5</span></code></td>
+		<td class="description"><div>
+			<a href="#$gc_probability" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="userdata" id="$userdata">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$userdata</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$userdata" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="CI" id="$CI">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+<var>$CI</var>		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$CI" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="now" id="$now">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+<var>$now</var>		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$now" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		DoTheMath Server API AppFrog API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

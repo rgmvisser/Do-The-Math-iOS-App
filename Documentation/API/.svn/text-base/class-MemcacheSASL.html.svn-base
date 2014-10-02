@@ -1,0 +1,1080 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class MemcacheSASL | DoTheMath Server API AppFrog</title>
+
+	<script type="text/javascript" src="resources/combined.js?1130135532"></script>
+	<script type="text/javascript" src="elementlist.js?4137884977"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-CodeIgniter.html">CodeIgniter<span></span></a>
+						<ul>
+				<li><a href="package-CodeIgniter.Drivers.html">Drivers</a>
+						</li>
+				<li><a href="package-CodeIgniter.Libraries.html">Libraries</a>
+						</li>
+							</ul></li>
+				<li class="active"><a href="package-DoTheMath.html">DoTheMath<span></span></a>
+						<ul>
+				<li class="active"><a href="package-DoTheMath.External.html">External</a>
+						</li>
+				<li><a href="package-DoTheMath.Question.html">Question</a>
+						</li>
+							</ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-APN.html">APN</a></li>
+				<li class="active"><a href="class-MemcacheSASL.html">MemcacheSASL</a></li>
+				<li><a href="class-S3.html">S3</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-DoTheMath.External.html" title="Summary of DoTheMath\External"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+			<li>
+				<a href="deprecated.html" title="List of deprecated elements"><span>Deprecated</span></a>
+			</li>
+			<li>
+				<a href="todo.html" title="Todo list"><span>Todo</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class MemcacheSASL</h1>
+
+
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-DoTheMath.html">DoTheMath</a>\<a href="package-DoTheMath.External.html">External</a><br />
+
+		<b>Located at</b> application/libraries/MemcacheSASL.php<br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="_build_request" id="__build_request">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__build_request">#</a>
+		<code>_build_request( <span>mixed <var>$data</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_show_request" id="__show_request">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__show_request">#</a>
+		<code>_show_request( <span>mixed <var>$data</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_send" id="__send">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__send">#</a>
+		<code>_send( <span>mixed <var>$data</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_recv" id="__recv">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__recv">#</a>
+		<code>_recv( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code>__construct( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="listMechanisms" id="_listMechanisms">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_listMechanisms">#</a>
+		<code>listMechanisms( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setSaslAuthData" id="_setSaslAuthData">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setSaslAuthData">#</a>
+		<code>setSaslAuthData( <span>mixed <var>$user</var></span>, <span>mixed <var>$password</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addServer" id="_addServer">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addServer">#</a>
+		<code>addServer( <span>mixed <var>$host</var></span>, <span>mixed <var>$port</var></span>, <span>mixed <var>$weight</var> = <span class="php-num">0</span></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get" id="_get">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get">#</a>
+		<code>get( <span>mixed <var>$key</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_processValue" id="__processValue">
+
+		<td class="attributes"><code>
+			 protected 
+			array($flag,
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__processValue">#</a>
+		<code>_processValue( <span>integer <var>$flag</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>process value and get flag</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>process value and get flag</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$flag</var></dt>
+					<dd><code>integer</code><br>$flag</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code><br>$value</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array($flag,</code><br>$flag, $processed_value)<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="add" id="_add">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_add">#</a>
+		<code>add( <span>mixed <var>$key</var></span>, <span>mixed <var>$value</var></span>, <span>mixed <var>$expiration</var> = <span class="php-num">0</span></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set" id="_set">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set">#</a>
+		<code>set( <span>mixed <var>$key</var></span>, <span>mixed <var>$value</var></span>, <span>mixed <var>$expiration</var> = <span class="php-num">0</span></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="delete" id="_delete">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_delete">#</a>
+		<code>delete( <span>mixed <var>$key</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="replace" id="_replace">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_replace">#</a>
+		<code>replace( <span>mixed <var>$key</var></span>, <span>mixed <var>$value</var></span>, <span>mixed <var>$expiration</var> = <span class="php-num">0</span></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_upper" id="__upper">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__upper">#</a>
+		<code>_upper( <span>mixed <var>$num</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_lower" id="__lower">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__lower">#</a>
+		<code>_lower( <span>mixed <var>$num</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="increment" id="_increment">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_increment">#</a>
+		<code>increment( <span>mixed <var>$key</var></span>, <span>mixed <var>$offset</var> = <span class="php-num">1</span></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="decrement" id="_decrement">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_decrement">#</a>
+		<code>decrement( <span>mixed <var>$key</var></span>, <span>mixed <var>$offset</var> = <span class="php-num">1</span></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getStats" id="_getStats">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getStats">#</a>
+		<code>getStats( <span>string <var>$type</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get statistics of the server</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get statistics of the server</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$type</var></dt>
+					<dd><code>string</code><br>$type The type of statistics to fetch. Valid values are {reset, malloc, maps,
+cachedump, slabs, items, sizes}. According to the memcached protocol spec these
+additional arguments "are subject to change for the convenience of memcache
+developers".</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>Returns an associative array of server statistics or FALSE on failure.<br />
+				</div>
+
+
+				<h4>Link</h4>
+				<div class="list">
+						<a href="http://code.google.com/p/memcached/wiki/BinaryProtocolRevamped#Stat">http://code.google.com/p/memcached/wiki/BinaryProtocolRevamped#Stat</a><br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="append" id="_append">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_append">#</a>
+		<code>append( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="prepend" id="_prepend">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_prepend">#</a>
+		<code>prepend( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getMulti" id="_getMulti">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getMulti">#</a>
+		<code>getMulti( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setOption" id="_setOption">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setOption">#</a>
+		<code>setOption( <span>mixed <var>$key</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+	<table class="summary" id="constants">
+	<caption>Constants summary</caption>
+	<tr data-order="OPT_COMPRESSION" id="OPT_COMPRESSION">
+
+		<td class="attributes"><code>integer</code></td>
+		<td class="name"><code>
+<b>OPT_COMPRESSION</b>		</code></td>
+		<td class="value"><code>-<span class="php-num">1001</span></code></td>
+		<td class="description"><div>
+			<a href="#OPT_COMPRESSION" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="MEMC_VAL_TYPE_MASK" id="MEMC_VAL_TYPE_MASK">
+
+		<td class="attributes"><code>integer</code></td>
+		<td class="name"><code>
+<b>MEMC_VAL_TYPE_MASK</b>		</code></td>
+		<td class="value"><code><span class="php-num">0xf</span></code></td>
+		<td class="description"><div>
+			<a href="#MEMC_VAL_TYPE_MASK" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="MEMC_VAL_IS_STRING" id="MEMC_VAL_IS_STRING">
+
+		<td class="attributes"><code>integer</code></td>
+		<td class="name"><code>
+<b>MEMC_VAL_IS_STRING</b>		</code></td>
+		<td class="value"><code><span class="php-num">0</span></code></td>
+		<td class="description"><div>
+			<a href="#MEMC_VAL_IS_STRING" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="MEMC_VAL_IS_LONG" id="MEMC_VAL_IS_LONG">
+
+		<td class="attributes"><code>integer</code></td>
+		<td class="name"><code>
+<b>MEMC_VAL_IS_LONG</b>		</code></td>
+		<td class="value"><code><span class="php-num">1</span></code></td>
+		<td class="description"><div>
+			<a href="#MEMC_VAL_IS_LONG" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="MEMC_VAL_IS_DOUBLE" id="MEMC_VAL_IS_DOUBLE">
+
+		<td class="attributes"><code>integer</code></td>
+		<td class="name"><code>
+<b>MEMC_VAL_IS_DOUBLE</b>		</code></td>
+		<td class="value"><code><span class="php-num">2</span></code></td>
+		<td class="description"><div>
+			<a href="#MEMC_VAL_IS_DOUBLE" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="MEMC_VAL_IS_BOOL" id="MEMC_VAL_IS_BOOL">
+
+		<td class="attributes"><code>integer</code></td>
+		<td class="name"><code>
+<b>MEMC_VAL_IS_BOOL</b>		</code></td>
+		<td class="value"><code><span class="php-num">3</span></code></td>
+		<td class="description"><div>
+			<a href="#MEMC_VAL_IS_BOOL" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="MEMC_VAL_IS_SERIALIZED" id="MEMC_VAL_IS_SERIALIZED">
+
+		<td class="attributes"><code>integer</code></td>
+		<td class="name"><code>
+<b>MEMC_VAL_IS_SERIALIZED</b>		</code></td>
+		<td class="value"><code><span class="php-num">4</span></code></td>
+		<td class="description"><div>
+			<a href="#MEMC_VAL_IS_SERIALIZED" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="MEMC_VAL_COMPRESSED" id="MEMC_VAL_COMPRESSED">
+
+		<td class="attributes"><code>integer</code></td>
+		<td class="name"><code>
+<b>MEMC_VAL_COMPRESSED</b>		</code></td>
+		<td class="value"><code><span class="php-num">16</span></code></td>
+		<td class="description"><div>
+			<a href="#MEMC_VAL_COMPRESSED" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="_request_format" id="$_request_format">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$_request_format</var>		</td>
+		<td class="value"><code><span class="php-quote">'CCnCCnNNNN'</span></code></td>
+		<td class="description"><div>
+			<a href="#$_request_format" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_response_format" id="$_response_format">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$_response_format</var>		</td>
+		<td class="value"><code><span class="php-quote">'Cmagic/Copcode/nkeylength/Cextralength/Cdatatype/nstatus/Nbodylength/NOpaque/NCAS1/NCAS2'</span></code></td>
+		<td class="description"><div>
+			<a href="#$_response_format" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_options" id="$_options">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$_options</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$_options" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		DoTheMath Server API AppFrog API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

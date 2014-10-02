@@ -1,0 +1,2229 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class CI_Form_validation | DoTheMath Server API AppFrog</title>
+
+	<script type="text/javascript" src="resources/combined.js?1130135532"></script>
+	<script type="text/javascript" src="elementlist.js?4137884977"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li class="active"><a href="package-CodeIgniter.html">CodeIgniter<span></span></a>
+						<ul>
+				<li><a href="package-CodeIgniter.Drivers.html">Drivers</a>
+						</li>
+				<li class="active"><a href="package-CodeIgniter.Libraries.html">Libraries</a>
+						</li>
+							</ul></li>
+				<li><a href="package-DoTheMath.html">DoTheMath<span></span></a>
+						<ul>
+				<li><a href="package-DoTheMath.External.html">External</a>
+						</li>
+				<li><a href="package-DoTheMath.Question.html">Question</a>
+						</li>
+							</ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-CI_Benchmark.html">CI_Benchmark</a></li>
+				<li><a href="class-CI_Cache.html">CI_Cache</a></li>
+				<li><a href="class-CI_Cache_apc.html">CI_Cache_apc</a></li>
+				<li><a href="class-CI_Cache_dummy.html">CI_Cache_dummy</a></li>
+				<li><a href="class-CI_Cache_file.html">CI_Cache_file</a></li>
+				<li><a href="class-CI_Cache_memcached.html">CI_Cache_memcached</a></li>
+				<li><a href="class-CI_Calendar.html">CI_Calendar</a></li>
+				<li><a href="class-CI_Cart.html">CI_Cart</a></li>
+				<li><a href="class-CI_Config.html">CI_Config</a></li>
+				<li><a href="class-CI_Controller.html">CI_Controller</a></li>
+				<li><a href="class-CI_Driver.html">CI_Driver</a></li>
+				<li><a href="class-CI_Driver_Library.html">CI_Driver_Library</a></li>
+				<li><a href="class-CI_Email.html">CI_Email</a></li>
+				<li><a href="class-CI_Encrypt.html">CI_Encrypt</a></li>
+				<li><a href="class-CI_Exceptions.html">CI_Exceptions</a></li>
+				<li class="active"><a href="class-CI_Form_validation.html">CI_Form_validation</a></li>
+				<li><a href="class-CI_FTP.html">CI_FTP</a></li>
+				<li><a href="class-CI_Hooks.html">CI_Hooks</a></li>
+				<li><a href="class-CI_Image_lib.html">CI_Image_lib</a></li>
+				<li><a href="class-CI_Input.html">CI_Input</a></li>
+				<li><a href="class-CI_Javascript.html">CI_Javascript</a></li>
+				<li><a href="class-CI_Jquery.html">CI_Jquery</a></li>
+				<li><a href="class-CI_Lang.html">CI_Lang</a></li>
+				<li><a href="class-CI_Loader.html">CI_Loader</a></li>
+				<li><a href="class-CI_Log.html">CI_Log</a></li>
+				<li><a href="class-CI_Migration.html">CI_Migration</a></li>
+				<li><a href="class-CI_Model.html">CI_Model</a></li>
+				<li><a href="class-CI_Output.html">CI_Output</a></li>
+				<li><a href="class-CI_Pagination.html">CI_Pagination</a></li>
+				<li><a href="class-CI_Parser.html">CI_Parser</a></li>
+				<li><a href="class-CI_Profiler.html">CI_Profiler</a></li>
+				<li><a href="class-CI_Router.html">CI_Router</a></li>
+				<li><a href="class-CI_Security.html">CI_Security</a></li>
+				<li><a href="class-CI_Session.html">CI_Session</a></li>
+				<li><a href="class-CI_SHA1.html">CI_SHA1</a></li>
+				<li><a href="class-CI_Table.html">CI_Table</a></li>
+				<li><a href="class-CI_Trackback.html">CI_Trackback</a></li>
+				<li><a href="class-CI_Unit_test.html">CI_Unit_test</a></li>
+				<li><a href="class-CI_Upload.html">CI_Upload</a></li>
+				<li><a href="class-CI_URI.html">CI_URI</a></li>
+				<li><a href="class-CI_User_agent.html">CI_User_agent</a></li>
+				<li><a href="class-CI_Utf8.html">CI_Utf8</a></li>
+				<li><a href="class-CI_Xmlrpc.html">CI_Xmlrpc</a></li>
+				<li><a href="class-CI_Xmlrpcs.html">CI_Xmlrpcs</a></li>
+				<li><a href="class-CI_Zip.html">CI_Zip</a></li>
+				<li><a href="class-Curl.html">Curl</a></li>
+				<li><a href="class-Match_model.html">Match_model</a></li>
+				<li><a href="class-REST_Controller.html">REST_Controller</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-CodeIgniter.Libraries.html" title="Summary of CodeIgniter\Libraries"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+			<li>
+				<a href="deprecated.html" title="List of deprecated elements"><span>Deprecated</span></a>
+			</li>
+			<li>
+				<a href="todo.html" title="Todo list"><span>Todo</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class CI_Form_validation</h1>
+
+
+	<div class="description">
+	
+<p>Form Validation Class</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-CodeIgniter.html">CodeIgniter</a>\<a href="package-CodeIgniter.Libraries.html">Libraries</a><br />
+
+				<b>Category:</b>
+				Validation<br />
+				<b>Author:</b>
+				ExpressionEngine Dev Team<br />
+				<b>Link:</b>
+				<a href="http://codeigniter.com/user_guide/libraries/form_validation.html">http://codeigniter.com/user_guide/libraries/form_validation.html</a><br />
+		<b>Located at</b> system/libraries/Form_validation.php<br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code>__construct( <span>mixed <var>$rules</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Constructor</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Constructor</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set_rules" id="_set_rules">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set_rules">#</a>
+		<code>set_rules( <span>mixed <var>$field</var></span>, <span>string <var>$label</var> = <span class="php-quote">''</span></span>, <span>mixed <var>$rules</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set Rules</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set Rules</p>
+
+<p>This function takes an array of field names and validation rules as input,
+validates the info, and stores it</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$field</var></dt>
+					<dd><code>mixed</code></dd>
+					<dt><var>$label</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$rules</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set_message" id="_set_message">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set_message">#</a>
+		<code>set_message( <span>string <var>$lang</var></span>, <span>string <var>$val</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set Error Message</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set Error Message</p>
+
+<p>Lets users set their own error messages on the fly. Note: The key name has to
+match the function name that it corresponds to.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$lang</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$val</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set_error_delimiters" id="_set_error_delimiters">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set_error_delimiters">#</a>
+		<code>set_error_delimiters( <span>string <var>$prefix</var> = <span class="php-quote">'&lt;p&gt;'</span></span>, <span>string <var>$suffix</var> = <span class="php-quote">'&lt;/p&gt;'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set The Error Delimiter</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set The Error Delimiter</p>
+
+<p>Permits a prefix/suffix to be added to each error message</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$prefix</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$suffix</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="error" id="_error">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_error">#</a>
+		<code>error( <span>string <var>$field</var> = <span class="php-quote">''</span></span>, <span>mixed <var>$prefix</var> = <span class="php-quote">''</span></span>, <span>mixed <var>$suffix</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get Error Message</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get Error Message</p>
+
+<p>Gets the error message associated with a particular field</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$field</var></dt>
+					<dd><code>string</code><br>the field name</dd>
+					<dt><var>$prefix</var></dt>
+					<dd></dd>
+					<dt><var>$suffix</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="error_string" id="_error_string">
+
+		<td class="attributes"><code>
+			 public 
+			str
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_error_string">#</a>
+		<code>error_string( <span>string <var>$prefix</var> = <span class="php-quote">''</span></span>, <span>string <var>$suffix</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Error String</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Error String</p>
+
+<p>Returns the error messages as a string, wrapped in the error delimiters</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$prefix</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$suffix</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>str</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="run" id="_run">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_run">#</a>
+		<code>run( <span>mixed <var>$group</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Run the Validator</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Run the Validator</p>
+
+<p>This function does all the work.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_reduce_array" id="__reduce_array">
+
+		<td class="attributes"><code>
+			 protected 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__reduce_array">#</a>
+		<code>_reduce_array( <span>array <var>$array</var></span>, <span>array <var>$keys</var></span>, <span>integer <var>$i</var> = <span class="php-num">0</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Traverse a multidimensional $_POST array index until the data is found</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Traverse a multidimensional $_POST array index until the data is found</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$array</var></dt>
+					<dd><code>array</code></dd>
+					<dt><var>$keys</var></dt>
+					<dd><code>array</code></dd>
+					<dt><var>$i</var></dt>
+					<dd><code>integer</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_reset_post_array" id="__reset_post_array">
+
+		<td class="attributes"><code>
+			 protected 
+			null
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__reset_post_array">#</a>
+		<code>_reset_post_array( )</code>
+
+		<div class="description short">
+			
+<p>Re-populate the _POST array with our finalized and processed data</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Re-populate the _POST array with our finalized and processed data</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>null</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_execute" id="__execute">
+
+		<td class="attributes"><code>
+			 protected 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__execute">#</a>
+		<code>_execute( <span>array <var>$row</var></span>, <span>array <var>$rules</var></span>, <span>mixed <var>$postdata</var> = <span class="php-keyword1">NULL</span></span>, <span>integer <var>$cycles</var> = <span class="php-num">0</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Executes the Validation routines</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Executes the Validation routines</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$row</var></dt>
+					<dd><code>array</code></dd>
+					<dt><var>$rules</var></dt>
+					<dd><code>array</code></dd>
+					<dt><var>$postdata</var></dt>
+					<dd><code>mixed</code></dd>
+					<dt><var>$cycles</var></dt>
+					<dd><code>integer</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_translate_fieldname" id="__translate_fieldname">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__translate_fieldname">#</a>
+		<code>_translate_fieldname( <span>string <var>$fieldname</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Translate a field name</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Translate a field name</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fieldname</var></dt>
+					<dd><code>string</code><br>the field name</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set_value" id="_set_value">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set_value">#</a>
+		<code>set_value( <span>string <var>$field</var> = <span class="php-quote">''</span></span>, <span>string <var>$default</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the value from a form</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the value from a form</p>
+
+<p>Permits you to repopulate a form field with the value it was submitted with,
+or, if that value doesn't exist, with the default</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$field</var></dt>
+					<dd><code>string</code><br>the field name</dd>
+					<dt><var>$default</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set_select" id="_set_select">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set_select">#</a>
+		<code>set_select( <span>string <var>$field</var> = <span class="php-quote">''</span></span>, <span>string <var>$value</var> = <span class="php-quote">''</span></span>, <span>mixed <var>$default</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set Select</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set Select</p>
+
+<p>Enables pull-down lists to be set to the value the user selected in the event
+of an error</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$field</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$value</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$default</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set_radio" id="_set_radio">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set_radio">#</a>
+		<code>set_radio( <span>string <var>$field</var> = <span class="php-quote">''</span></span>, <span>string <var>$value</var> = <span class="php-quote">''</span></span>, <span>mixed <var>$default</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set Radio</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set Radio</p>
+
+<p>Enables radio buttons to be set to the value the user selected in the event
+of an error</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$field</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$value</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$default</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set_checkbox" id="_set_checkbox">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set_checkbox">#</a>
+		<code>set_checkbox( <span>string <var>$field</var> = <span class="php-quote">''</span></span>, <span>string <var>$value</var> = <span class="php-quote">''</span></span>, <span>mixed <var>$default</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set Checkbox</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set Checkbox</p>
+
+<p>Enables checkboxes to be set to the value the user selected in the event of
+an error</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$field</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$value</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$default</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="required" id="_required">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_required">#</a>
+		<code>required( <span>string <var>$str</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Required</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Required</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="regex_match" id="_regex_match">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_regex_match">#</a>
+		<code>regex_match( <span>string <var>$str</var></span>, <span>regex <var>$regex</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Performs a Regular Expression match test.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Performs a Regular Expression match test.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$regex</var></dt>
+					<dd><code>regex</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="matches" id="_matches">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_matches">#</a>
+		<code>matches( <span>string <var>$str</var></span>, <span>field <var>$field</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Match one field to another</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Match one field to another</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$field</var></dt>
+					<dd><code>field</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="is_unique" id="_is_unique">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_is_unique">#</a>
+		<code>is_unique( <span>string <var>$str</var></span>, <span>field <var>$field</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Match one field to another</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Match one field to another</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$field</var></dt>
+					<dd><code>field</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="min_length" id="_min_length">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_min_length">#</a>
+		<code>min_length( <span>string <var>$str</var></span>, <span>value <var>$val</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Minimum Length</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Minimum Length</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$val</var></dt>
+					<dd><code>value</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="max_length" id="_max_length">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_max_length">#</a>
+		<code>max_length( <span>string <var>$str</var></span>, <span>value <var>$val</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Max Length</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Max Length</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$val</var></dt>
+					<dd><code>value</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="exact_length" id="_exact_length">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_exact_length">#</a>
+		<code>exact_length( <span>string <var>$str</var></span>, <span>value <var>$val</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Exact Length</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Exact Length</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$val</var></dt>
+					<dd><code>value</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="valid_email" id="_valid_email">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_valid_email">#</a>
+		<code>valid_email( <span>string <var>$str</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Valid Email</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Valid Email</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="valid_emails" id="_valid_emails">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_valid_emails">#</a>
+		<code>valid_emails( <span>string <var>$str</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Valid Emails</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Valid Emails</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="valid_ip" id="_valid_ip">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_valid_ip">#</a>
+		<code>valid_ip( <span>string <var>$ip</var></span>, <span>string <var>$which</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Validate IP Address</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validate IP Address</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$ip</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$which</var></dt>
+					<dd><code>string</code><br>"ipv4" or "ipv6" to validate a specific ip format</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="alpha" id="_alpha">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_alpha">#</a>
+		<code>alpha( <span>string <var>$str</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Alpha</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Alpha</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="alpha_numeric" id="_alpha_numeric">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_alpha_numeric">#</a>
+		<code>alpha_numeric( <span>string <var>$str</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Alpha-numeric</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Alpha-numeric</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="alpha_dash" id="_alpha_dash">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_alpha_dash">#</a>
+		<code>alpha_dash( <span>string <var>$str</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Alpha-numeric with underscores and dashes</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Alpha-numeric with underscores and dashes</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="numeric" id="_numeric">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_numeric">#</a>
+		<code>numeric( <span>string <var>$str</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Numeric</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Numeric</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="is_numeric" id="_is_numeric">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_is_numeric">#</a>
+		<code>is_numeric( <span>string <var>$str</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Is Numeric</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Is Numeric</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="integer" id="_integer">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_integer">#</a>
+		<code>integer( <span>string <var>$str</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Integer</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Integer</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="decimal" id="_decimal">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_decimal">#</a>
+		<code>decimal( <span>string <var>$str</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Decimal number</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Decimal number</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="greater_than" id="_greater_than">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_greater_than">#</a>
+		<code>greater_than( <span>string <var>$str</var></span>, <span>mixed <var>$min</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Greather than</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Greather than</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$min</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="less_than" id="_less_than">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_less_than">#</a>
+		<code>less_than( <span>string <var>$str</var></span>, <span>mixed <var>$max</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Less than</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Less than</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$max</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="is_natural" id="_is_natural">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_is_natural">#</a>
+		<code>is_natural( <span>string <var>$str</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Is a Natural number (0,1,2,3, etc.)</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Is a Natural number (0,1,2,3, etc.)</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="is_natural_no_zero" id="_is_natural_no_zero">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_is_natural_no_zero">#</a>
+		<code>is_natural_no_zero( <span>string <var>$str</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Is a Natural number, but not a zero (1,2,3, etc.)</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Is a Natural number, but not a zero (1,2,3, etc.)</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="valid_base64" id="_valid_base64">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_valid_base64">#</a>
+		<code>valid_base64( <span>string <var>$str</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Valid Base64</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Valid Base64</p>
+
+<p>Tests a string for characters outside of the Base64 alphabet as defined by
+RFC 2045 <a
+href="http://www.faqs.org/rfcs/rfc2045">http://www.faqs.org/rfcs/rfc2045</a></p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="prep_for_form" id="_prep_for_form">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_prep_for_form">#</a>
+		<code>prep_for_form( <span>string <var>$data</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Prep data for form</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Prep data for form</p>
+
+<p>This function allows HTML to be safely shown in a form. Special characters
+are converted.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="prep_url" id="_prep_url">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_prep_url">#</a>
+		<code>prep_url( <span>string <var>$str</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Prep URL</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Prep URL</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="strip_image_tags" id="_strip_image_tags">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_strip_image_tags">#</a>
+		<code>strip_image_tags( <span>string <var>$str</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Strip Image Tags</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Strip Image Tags</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="xss_clean" id="_xss_clean">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_xss_clean">#</a>
+		<code>xss_clean( <span>string <var>$str</var></span> )</code>
+
+		<div class="description short">
+			
+<p>XSS Clean</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>XSS Clean</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="encode_php_tags" id="_encode_php_tags">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_encode_php_tags">#</a>
+		<code>encode_php_tags( <span>string <var>$str</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Convert PHP tags to entities</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Convert PHP tags to entities</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="CI" id="$CI">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+<var>$CI</var>		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$CI" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_field_data" id="$_field_data">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$_field_data</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$_field_data" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_config_rules" id="$_config_rules">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$_config_rules</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$_config_rules" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_error_array" id="$_error_array">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$_error_array</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$_error_array" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_error_messages" id="$_error_messages">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$_error_messages</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$_error_messages" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_error_prefix" id="$_error_prefix">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$_error_prefix</var>		</td>
+		<td class="value"><code><span class="php-quote">'&lt;p&gt;'</span></code></td>
+		<td class="description"><div>
+			<a href="#$_error_prefix" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_error_suffix" id="$_error_suffix">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$_error_suffix</var>		</td>
+		<td class="value"><code><span class="php-quote">'&lt;/p&gt;'</span></code></td>
+		<td class="description"><div>
+			<a href="#$_error_suffix" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="error_string" id="$error_string">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$error_string</var>		</td>
+		<td class="value"><code><span class="php-quote">''</span></code></td>
+		<td class="description"><div>
+			<a href="#$error_string" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_safe_form_data" id="$_safe_form_data">
+		<td class="attributes"><code>
+			protected  
+			boolean
+		</code></td>
+
+		<td class="name">
+<var>$_safe_form_data</var>		</td>
+		<td class="value"><code><span class="php-keyword1">FALSE</span></code></td>
+		<td class="description"><div>
+			<a href="#$_safe_form_data" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		DoTheMath Server API AppFrog API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

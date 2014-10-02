@@ -1,0 +1,1073 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class APN | DoTheMath Server API AppFrog</title>
+
+	<script type="text/javascript" src="resources/combined.js?1130135532"></script>
+	<script type="text/javascript" src="elementlist.js?4137884977"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-CodeIgniter.html">CodeIgniter<span></span></a>
+						<ul>
+				<li><a href="package-CodeIgniter.Drivers.html">Drivers</a>
+						</li>
+				<li><a href="package-CodeIgniter.Libraries.html">Libraries</a>
+						</li>
+							</ul></li>
+				<li class="active"><a href="package-DoTheMath.html">DoTheMath<span></span></a>
+						<ul>
+				<li class="active"><a href="package-DoTheMath.External.html">External</a>
+						</li>
+				<li><a href="package-DoTheMath.Question.html">Question</a>
+						</li>
+							</ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-APN.html">APN</a></li>
+				<li><a href="class-MemcacheSASL.html">MemcacheSASL</a></li>
+				<li><a href="class-S3.html">S3</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-DoTheMath.External.html" title="Summary of DoTheMath\External"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+			<li>
+				<a href="deprecated.html" title="List of deprecated elements"><span>Deprecated</span></a>
+			</li>
+			<li>
+				<a href="todo.html" title="Todo list"><span>Todo</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class APN</h1>
+
+
+	<div class="description">
+	
+<p>Apple Push Notification Server</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-DoTheMath.html">DoTheMath</a>\<a href="package-DoTheMath.External.html">External</a><br />
+
+		<b>Located at</b> application/libraries/apn.php<br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="connect" id="_connect">
+
+		<td class="attributes"><code>
+			 protected 
+			&lt;void&gt;
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_connect">#</a>
+		<code>connect( <span>mixed <var>$server</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Connects to the server with the certificate and passphrase</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Connects to the server with the certificate and passphrase</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>&lt;void&gt;</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="generatePayload" id="_generatePayload">
+
+		<td class="attributes"><code>
+			 protected 
+			&lt;string&gt;
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_generatePayload">#</a>
+		<code>generatePayload( <span>&lt;string&gt; <var>$message</var></span>, <span>&lt;int&gt; <var>$badge</var> = <span class="php-keyword1">NULL</span></span>, <span>&lt;string&gt; <var>$sound</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Generates the payload</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Generates the payload</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>&lt;string&gt;</code><br>$message</dd>
+					<dt><var>$badge</var></dt>
+					<dd><code>&lt;int&gt;</code><br>$badge</dd>
+					<dt><var>$sound</var></dt>
+					<dd><code>&lt;string&gt;</code><br>$sound</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>&lt;string&gt;</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="sendPayloadSimple" id="_sendPayloadSimple">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_sendPayloadSimple">#</a>
+		<code>sendPayloadSimple( <span>&lt;string&gt; <var>$deviceToken</var></span>, <span>&lt;string&gt; <var>$payload</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Writes the contents of payload to the file stream</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Writes the contents of payload to the file stream</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$deviceToken</var></dt>
+					<dd><code>&lt;string&gt;</code><br>$deviceToken</dd>
+					<dt><var>$payload</var></dt>
+					<dd><code>&lt;string&gt;</code><br>$payload</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="sendPayloadEnhance" id="_sendPayloadEnhance">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_sendPayloadEnhance">#</a>
+		<code>sendPayloadEnhance( <span>&lt;string&gt; <var>$deviceToken</var></span>, <span>&lt;string&gt; <var>$payload</var></span>, <span>mixed <var>$expiry</var> = <span class="php-num">86400</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Writes the contents of payload to the file stream with enhanced api (expiry,
+debug)</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Writes the contents of payload to the file stream with enhanced api (expiry,
+debug)</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$deviceToken</var></dt>
+					<dd><code>&lt;string&gt;</code><br>$deviceToken</dd>
+					<dt><var>$payload</var></dt>
+					<dd><code>&lt;string&gt;</code><br>$payload</dd>
+					<dt><var>$expiry</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="timeoutSoon" id="_timeoutSoon">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_timeoutSoon">#</a>
+		<code>timeoutSoon( <span>mixed <var>$left_seconds</var> = <span class="php-num">5</span></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code>__construct( )</code>
+
+		<div class="description short">
+			
+<p>Connects to the APNS server with a certificate and a passphrase</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Connects to the APNS server with a certificate and a passphrase</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="connectToPush" id="_connectToPush">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_connectToPush">#</a>
+		<code>connectToPush( )</code>
+
+		<div class="description short">
+			
+<p>Public connector to push service</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Public connector to push service</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="connectToFeedback" id="_connectToFeedback">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_connectToFeedback">#</a>
+		<code>connectToFeedback( )</code>
+
+		<div class="description short">
+			
+<p>Public connector to feedback service</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Public connector to feedback service</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="disconnectPush" id="_disconnectPush">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_disconnectPush">#</a>
+		<code>disconnectPush( )</code>
+
+		<div class="description short">
+			
+<p>Public diconnector to push service</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Public diconnector to push service</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="disconnectFeedback" id="_disconnectFeedback">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_disconnectFeedback">#</a>
+		<code>disconnectFeedback( )</code>
+
+		<div class="description short">
+			
+<p>Public disconnector to feedback service</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Public disconnector to feedback service</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="reconnectPush" id="_reconnectPush">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_reconnectPush">#</a>
+		<code>reconnectPush( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="tryReconnectPush" id="_tryReconnectPush">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_tryReconnectPush">#</a>
+		<code>tryReconnectPush( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="sendMessage" id="_sendMessage">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_sendMessage">#</a>
+		<code>sendMessage( <span>&lt;string&gt; <var>$deviceToken</var></span>, <span>&lt;string&gt; <var>$message</var></span>, <span>&lt;int&gt; <var>$badge</var> = <span class="php-keyword1">NULL</span></span>, <span>&lt;string&gt; <var>$sound</var> = <span class="php-keyword1">NULL</span></span>, <span>mixed <var>$expiry</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Sends a message to device</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sends a message to device</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$deviceToken</var></dt>
+					<dd><code>&lt;string&gt;</code><br>$deviceToken</dd>
+					<dt><var>$message</var></dt>
+					<dd><code>&lt;string&gt;</code><br>$message</dd>
+					<dt><var>$badge</var></dt>
+					<dd><code>&lt;int&gt;</code><br>$badge</dd>
+					<dt><var>$sound</var></dt>
+					<dd><code>&lt;string&gt;</code><br>$sound</dd>
+					<dt><var>$expiry</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getPayloadStatuses" id="_getPayloadStatuses">
+
+		<td class="attributes"><code>
+			 public 
+			&lt;bool&gt;
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getPayloadStatuses">#</a>
+		<code>getPayloadStatuses( )</code>
+
+		<div class="description short">
+			
+<p>Writes the contents of payload to the file stream</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Writes the contents of payload to the file stream</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>&lt;bool&gt;</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getFeedbackTokens" id="_getFeedbackTokens">
+
+		<td class="attributes"><code>
+			 public 
+			&lt;array&gt;
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getFeedbackTokens">#</a>
+		<code>getFeedbackTokens( )</code>
+
+		<div class="description short">
+			
+<p>Gets an array of feedback tokens</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets an array of feedback tokens</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>&lt;array&gt;</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setData" id="_setData">
+
+		<td class="attributes"><code>
+			 public 
+			&lt;array&gt;
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setData">#</a>
+		<code>setData( <span>&lt;array&gt; <var>$data</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets additional data which will be send with main apn message</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets additional data which will be send with main apn message</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd><code>&lt;array&gt;</code><br>$data</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>&lt;array&gt;</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__destruct" id="___destruct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___destruct">#</a>
+		<code>__destruct( )</code>
+
+		<div class="description short">
+			
+<p>Closes the stream</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Closes the stream</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="server" id="$server">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+<var>$server</var>		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$server" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="keyCertFilePath" id="$keyCertFilePath">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+<var>$keyCertFilePath</var>		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$keyCertFilePath" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="passphrase" id="$passphrase">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+<var>$passphrase</var>		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$passphrase" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="pushStream" id="$pushStream">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+<var>$pushStream</var>		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$pushStream" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="feedbackStream" id="$feedbackStream">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+<var>$feedbackStream</var>		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$feedbackStream" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="timeout" id="$timeout">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+<var>$timeout</var>		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$timeout" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="idCounter" id="$idCounter">
+		<td class="attributes"><code>
+			protected  
+			integer
+		</code></td>
+
+		<td class="name">
+<var>$idCounter</var>		</td>
+		<td class="value"><code><span class="php-num">0</span></code></td>
+		<td class="description"><div>
+			<a href="#$idCounter" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="expiry" id="$expiry">
+		<td class="attributes"><code>
+			protected  
+			mixed
+		</code></td>
+
+		<td class="name">
+<var>$expiry</var>		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$expiry" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="allowReconnect" id="$allowReconnect">
+		<td class="attributes"><code>
+			protected  
+			boolean
+		</code></td>
+
+		<td class="name">
+<var>$allowReconnect</var>		</td>
+		<td class="value"><code><span class="php-keyword1">true</span></code></td>
+		<td class="description"><div>
+			<a href="#$allowReconnect" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="additionalData" id="$additionalData">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$additionalData</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$additionalData" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="apnResonses" id="$apnResonses">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$apnResonses</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(
+	<span class="php-num">0</span> =&gt; <span class="php-quote">'No errors encountered'</span>,
+	<span class="php-num">1</span> =&gt; <span class="php-quote">'Processing error'</span>,
+	<span class="php-num">2</span> =&gt; <span class="php-quote">'Missing device token'</span>,
+	<span class="php-num">3</span> =&gt; <span class="php-quote">'Missing topic'</span>,
+	<span class="php-num">4</span> =&gt; <span class="php-quote">'Missing payload'</span>,
+	<span class="php-num">5</span> =&gt; <span class="php-quote">'Invalid token size'</span>,
+	<span class="php-num">6</span> =&gt; <span class="php-quote">'Invalid topic size'</span>,
+	<span class="php-num">7</span> =&gt; <span class="php-quote">'Invalid payload size'</span>,
+	<span class="php-num">8</span> =&gt; <span class="php-quote">'Invalid token'</span>,
+	<span class="php-num">255</span> =&gt; <span class="php-quote">'None (unknown)'</span>,
+)</code></td>
+		<td class="description"><div>
+			<a href="#$apnResonses" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="error" id="$error">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+<var>$error</var>		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$error" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="payloadMethod" id="$payloadMethod">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$payloadMethod</var>		</td>
+		<td class="value"><code><span class="php-quote">'simple'</span></code></td>
+		<td class="description"><div>
+			<a href="#$payloadMethod" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		DoTheMath Server API AppFrog API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

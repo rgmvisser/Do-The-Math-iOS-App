@@ -1,0 +1,33 @@
+K 13
+svn:mergeinfo
+V 1420
+/branches/Code review/dothemath.xcodeproj:151-168
+/branches/Edit Profile/dothemath.xcodeproj:22-27
+/branches/Game invite/dothemath.xcodeproj:64-67
+/branches/Implementing game/dothemath.xcodeproj:70-81
+/branches/Main Game controllers/dothemath.xcodeproj:74-89
+/branches/Play Game/dothemath.xcodeproj:95-103
+/branches/Random player invite/dothemath.xcodeproj:138-148
+/branches/RestKit update/dothemath.xcodeproj:107-111
+/branches/Results/dothemath.xcodeproj:114-126
+/branches/Results to server/dothemath.xcodeproj:129-135
+/branches/SolveGame/dothemath.xcodeproj:118-122
+/branches/Starting game/dothemath.xcodeproj:83-91
+/branches/Week 10/dothemath.xcodeproj:195-206
+/branches/Week 13/dothemath.xcodeproj:248-266
+/branches/Week 14/dothemath.xcodeproj:268-274
+/branches/Week 14.2/dothemath.xcodeproj:276-295
+/branches/Week 17/dothemath.xcodeproj:334-357
+/branches/Week 18/dothemath.xcodeproj:359-369
+/branches/Week 19/dothemath.xcodeproj:374-400
+/branches/Week 22/dothemath.xcodeproj:402-437
+/branches/Week 24/dothemath.xcodeproj:439-478
+/branches/Week 9/dothemath.xcodeproj:176-192
+/branches/friend search/dothemath.xcodeproj:24-41
+/branches/friend_invite/dothemath.xcodeproj:53-58
+/branches/serverAPI correct-wrong/dothemath.xcodeproj:60-72
+/branches/week 11/dothemath.xcodeproj:209-221
+/branches/week 12/dothemath.xcodeproj:230-245
+/branches/week15/dothemath.xcodeproj:298-311
+/branches/week16/dothemath.xcodeproj:316-332
+END

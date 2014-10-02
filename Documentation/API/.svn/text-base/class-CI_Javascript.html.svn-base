@@ -1,0 +1,2156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class CI_Javascript | DoTheMath Server API AppFrog</title>
+
+	<script type="text/javascript" src="resources/combined.js?1130135532"></script>
+	<script type="text/javascript" src="elementlist.js?4137884977"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li class="active"><a href="package-CodeIgniter.html">CodeIgniter<span></span></a>
+						<ul>
+				<li><a href="package-CodeIgniter.Drivers.html">Drivers</a>
+						</li>
+				<li class="active"><a href="package-CodeIgniter.Libraries.html">Libraries</a>
+						</li>
+							</ul></li>
+				<li><a href="package-DoTheMath.html">DoTheMath<span></span></a>
+						<ul>
+				<li><a href="package-DoTheMath.External.html">External</a>
+						</li>
+				<li><a href="package-DoTheMath.Question.html">Question</a>
+						</li>
+							</ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-CI_Benchmark.html">CI_Benchmark</a></li>
+				<li><a href="class-CI_Cache.html">CI_Cache</a></li>
+				<li><a href="class-CI_Cache_apc.html">CI_Cache_apc</a></li>
+				<li><a href="class-CI_Cache_dummy.html">CI_Cache_dummy</a></li>
+				<li><a href="class-CI_Cache_file.html">CI_Cache_file</a></li>
+				<li><a href="class-CI_Cache_memcached.html">CI_Cache_memcached</a></li>
+				<li><a href="class-CI_Calendar.html">CI_Calendar</a></li>
+				<li><a href="class-CI_Cart.html">CI_Cart</a></li>
+				<li><a href="class-CI_Config.html">CI_Config</a></li>
+				<li><a href="class-CI_Controller.html">CI_Controller</a></li>
+				<li><a href="class-CI_Driver.html">CI_Driver</a></li>
+				<li><a href="class-CI_Driver_Library.html">CI_Driver_Library</a></li>
+				<li><a href="class-CI_Email.html">CI_Email</a></li>
+				<li><a href="class-CI_Encrypt.html">CI_Encrypt</a></li>
+				<li><a href="class-CI_Exceptions.html">CI_Exceptions</a></li>
+				<li><a href="class-CI_Form_validation.html">CI_Form_validation</a></li>
+				<li><a href="class-CI_FTP.html">CI_FTP</a></li>
+				<li><a href="class-CI_Hooks.html">CI_Hooks</a></li>
+				<li><a href="class-CI_Image_lib.html">CI_Image_lib</a></li>
+				<li><a href="class-CI_Input.html">CI_Input</a></li>
+				<li class="active"><a href="class-CI_Javascript.html">CI_Javascript</a></li>
+				<li><a href="class-CI_Jquery.html">CI_Jquery</a></li>
+				<li><a href="class-CI_Lang.html">CI_Lang</a></li>
+				<li><a href="class-CI_Loader.html">CI_Loader</a></li>
+				<li><a href="class-CI_Log.html">CI_Log</a></li>
+				<li><a href="class-CI_Migration.html">CI_Migration</a></li>
+				<li><a href="class-CI_Model.html">CI_Model</a></li>
+				<li><a href="class-CI_Output.html">CI_Output</a></li>
+				<li><a href="class-CI_Pagination.html">CI_Pagination</a></li>
+				<li><a href="class-CI_Parser.html">CI_Parser</a></li>
+				<li><a href="class-CI_Profiler.html">CI_Profiler</a></li>
+				<li><a href="class-CI_Router.html">CI_Router</a></li>
+				<li><a href="class-CI_Security.html">CI_Security</a></li>
+				<li><a href="class-CI_Session.html">CI_Session</a></li>
+				<li><a href="class-CI_SHA1.html">CI_SHA1</a></li>
+				<li><a href="class-CI_Table.html">CI_Table</a></li>
+				<li><a href="class-CI_Trackback.html">CI_Trackback</a></li>
+				<li><a href="class-CI_Unit_test.html">CI_Unit_test</a></li>
+				<li><a href="class-CI_Upload.html">CI_Upload</a></li>
+				<li><a href="class-CI_URI.html">CI_URI</a></li>
+				<li><a href="class-CI_User_agent.html">CI_User_agent</a></li>
+				<li><a href="class-CI_Utf8.html">CI_Utf8</a></li>
+				<li><a href="class-CI_Xmlrpc.html">CI_Xmlrpc</a></li>
+				<li><a href="class-CI_Xmlrpcs.html">CI_Xmlrpcs</a></li>
+				<li><a href="class-CI_Zip.html">CI_Zip</a></li>
+				<li><a href="class-Curl.html">Curl</a></li>
+				<li><a href="class-Match_model.html">Match_model</a></li>
+				<li><a href="class-REST_Controller.html">REST_Controller</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-CodeIgniter.Libraries.html" title="Summary of CodeIgniter\Libraries"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+			<li>
+				<a href="deprecated.html" title="List of deprecated elements"><span>Deprecated</span></a>
+			</li>
+			<li>
+				<a href="todo.html" title="Todo list"><span>Todo</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class CI_Javascript</h1>
+
+
+	<div class="description">
+	
+<p>Javascript Class</p>
+
+	</div>
+
+
+
+	<div>
+		<h4>Direct known subclasses</h4>
+			<a href="class-CI_Jquery.html">CI_Jquery</a>
+	</div>
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-CodeIgniter.html">CodeIgniter</a>\<a href="package-CodeIgniter.Libraries.html">Libraries</a><br />
+
+				<b>Category:</b>
+				Javascript<br />
+				<b>Author:</b>
+				ExpressionEngine Dev Team<br />
+				<b>Link:</b>
+				<a href="http://codeigniter.com/user_guide/libraries/javascript.html">http://codeigniter.com/user_guide/libraries/javascript.html</a><br />
+		<b>Located at</b> system/libraries/Javascript.php<br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code>__construct( <span>mixed <var>$params</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="blur" id="_blur">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_blur">#</a>
+		<code>blur( <span>string <var>$element</var> = <span class="php-quote">'this'</span></span>, <span>string <var>$js</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Blur</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Blur</p>
+
+<p>Outputs a javascript library blur event</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$element</var></dt>
+					<dd><code>string</code><br>The element to attach the event to</dd>
+					<dt><var>$js</var></dt>
+					<dd><code>string</code><br>The code to execute</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="change" id="_change">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_change">#</a>
+		<code>change( <span>string <var>$element</var> = <span class="php-quote">'this'</span></span>, <span>string <var>$js</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Change</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Change</p>
+
+<p>Outputs a javascript library change event</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$element</var></dt>
+					<dd><code>string</code><br>The element to attach the event to</dd>
+					<dt><var>$js</var></dt>
+					<dd><code>string</code><br>The code to execute</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="click" id="_click">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_click">#</a>
+		<code>click( <span>string <var>$element</var> = <span class="php-quote">'this'</span></span>, <span>string <var>$js</var> = <span class="php-quote">''</span></span>, <span>boolean <var>$ret_false</var> = <span class="php-keyword1">TRUE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Click</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Click</p>
+
+<p>Outputs a javascript library click event</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$element</var></dt>
+					<dd><code>string</code><br>The element to attach the event to</dd>
+					<dt><var>$js</var></dt>
+					<dd><code>string</code><br>The code to execute</dd>
+					<dt><var>$ret_false</var></dt>
+					<dd><code>boolean</code><br>whether or not to return false</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="dblclick" id="_dblclick">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_dblclick">#</a>
+		<code>dblclick( <span>string <var>$element</var> = <span class="php-quote">'this'</span></span>, <span>string <var>$js</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Double Click</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Double Click</p>
+
+<p>Outputs a javascript library dblclick event</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$element</var></dt>
+					<dd><code>string</code><br>The element to attach the event to</dd>
+					<dt><var>$js</var></dt>
+					<dd><code>string</code><br>The code to execute</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="error" id="_error">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_error">#</a>
+		<code>error( <span>string <var>$element</var> = <span class="php-quote">'this'</span></span>, <span>string <var>$js</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Error</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Error</p>
+
+<p>Outputs a javascript library error event</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$element</var></dt>
+					<dd><code>string</code><br>The element to attach the event to</dd>
+					<dt><var>$js</var></dt>
+					<dd><code>string</code><br>The code to execute</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="focus" id="_focus">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_focus">#</a>
+		<code>focus( <span>string <var>$element</var> = <span class="php-quote">'this'</span></span>, <span>string <var>$js</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Focus</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Focus</p>
+
+<p>Outputs a javascript library focus event</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$element</var></dt>
+					<dd><code>string</code><br>The element to attach the event to</dd>
+					<dt><var>$js</var></dt>
+					<dd><code>string</code><br>The code to execute</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="hover" id="_hover">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_hover">#</a>
+		<code>hover( <span>string <var>$element</var> = <span class="php-quote">'this'</span></span>, <span>string <var>$over</var></span>, <span>string <var>$out</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Hover</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Hover</p>
+
+<p>Outputs a javascript library hover event</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$element</var></dt>
+					<dd><code>string</code><br>- element</dd>
+					<dt><var>$over</var></dt>
+					<dd><code>string</code><br>- Javascript code for mouse over</dd>
+					<dt><var>$out</var></dt>
+					<dd><code>string</code><br>- Javascript code for mouse out</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="keydown" id="_keydown">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_keydown">#</a>
+		<code>keydown( <span>string <var>$element</var> = <span class="php-quote">'this'</span></span>, <span>string <var>$js</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Keydown</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Keydown</p>
+
+<p>Outputs a javascript library keydown event</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$element</var></dt>
+					<dd><code>string</code><br>The element to attach the event to</dd>
+					<dt><var>$js</var></dt>
+					<dd><code>string</code><br>The code to execute</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="keyup" id="_keyup">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_keyup">#</a>
+		<code>keyup( <span>string <var>$element</var> = <span class="php-quote">'this'</span></span>, <span>string <var>$js</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Keyup</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Keyup</p>
+
+<p>Outputs a javascript library keydown event</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$element</var></dt>
+					<dd><code>string</code><br>The element to attach the event to</dd>
+					<dt><var>$js</var></dt>
+					<dd><code>string</code><br>The code to execute</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="load" id="_load">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_load">#</a>
+		<code>load( <span>string <var>$element</var> = <span class="php-quote">'this'</span></span>, <span>string <var>$js</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Load</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Load</p>
+
+<p>Outputs a javascript library load event</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$element</var></dt>
+					<dd><code>string</code><br>The element to attach the event to</dd>
+					<dt><var>$js</var></dt>
+					<dd><code>string</code><br>The code to execute</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="mousedown" id="_mousedown">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_mousedown">#</a>
+		<code>mousedown( <span>string <var>$element</var> = <span class="php-quote">'this'</span></span>, <span>string <var>$js</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Mousedown</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Mousedown</p>
+
+<p>Outputs a javascript library mousedown event</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$element</var></dt>
+					<dd><code>string</code><br>The element to attach the event to</dd>
+					<dt><var>$js</var></dt>
+					<dd><code>string</code><br>The code to execute</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="mouseout" id="_mouseout">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_mouseout">#</a>
+		<code>mouseout( <span>string <var>$element</var> = <span class="php-quote">'this'</span></span>, <span>string <var>$js</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Mouse Out</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Mouse Out</p>
+
+<p>Outputs a javascript library mouseout event</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$element</var></dt>
+					<dd><code>string</code><br>The element to attach the event to</dd>
+					<dt><var>$js</var></dt>
+					<dd><code>string</code><br>The code to execute</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="mouseover" id="_mouseover">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_mouseover">#</a>
+		<code>mouseover( <span>string <var>$element</var> = <span class="php-quote">'this'</span></span>, <span>string <var>$js</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Mouse Over</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Mouse Over</p>
+
+<p>Outputs a javascript library mouseover event</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$element</var></dt>
+					<dd><code>string</code><br>The element to attach the event to</dd>
+					<dt><var>$js</var></dt>
+					<dd><code>string</code><br>The code to execute</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="mouseup" id="_mouseup">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_mouseup">#</a>
+		<code>mouseup( <span>string <var>$element</var> = <span class="php-quote">'this'</span></span>, <span>string <var>$js</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Mouseup</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Mouseup</p>
+
+<p>Outputs a javascript library mouseup event</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$element</var></dt>
+					<dd><code>string</code><br>The element to attach the event to</dd>
+					<dt><var>$js</var></dt>
+					<dd><code>string</code><br>The code to execute</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="output" id="_output">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_output">#</a>
+		<code>output( <span>string <var>$js</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Output</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Output</p>
+
+<p>Outputs the called javascript to the screen</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$js</var></dt>
+					<dd><code>string</code><br>The code to output</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="ready" id="_ready">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_ready">#</a>
+		<code>ready( <span>string <var>$js</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Ready</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Ready</p>
+
+<p>Outputs a javascript library mouseup event</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$js</var></dt>
+					<dd><code>string</code><br>The element to attach the event to</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="resize" id="_resize">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_resize">#</a>
+		<code>resize( <span>string <var>$element</var> = <span class="php-quote">'this'</span></span>, <span>string <var>$js</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Resize</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Resize</p>
+
+<p>Outputs a javascript library resize event</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$element</var></dt>
+					<dd><code>string</code><br>The element to attach the event to</dd>
+					<dt><var>$js</var></dt>
+					<dd><code>string</code><br>The code to execute</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="scroll" id="_scroll">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_scroll">#</a>
+		<code>scroll( <span>string <var>$element</var> = <span class="php-quote">'this'</span></span>, <span>string <var>$js</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Scroll</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Scroll</p>
+
+<p>Outputs a javascript library scroll event</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$element</var></dt>
+					<dd><code>string</code><br>The element to attach the event to</dd>
+					<dt><var>$js</var></dt>
+					<dd><code>string</code><br>The code to execute</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="unload" id="_unload">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_unload">#</a>
+		<code>unload( <span>string <var>$element</var> = <span class="php-quote">'this'</span></span>, <span>string <var>$js</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Unload</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Unload</p>
+
+<p>Outputs a javascript library unload event</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$element</var></dt>
+					<dd><code>string</code><br>The element to attach the event to</dd>
+					<dt><var>$js</var></dt>
+					<dd><code>string</code><br>The code to execute</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addClass" id="_addClass">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addClass">#</a>
+		<code>addClass( <span>string <var>$element</var> = <span class="php-quote">'this'</span></span>, <span>string <var>$class</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Add Class</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add Class</p>
+
+<p>Outputs a javascript library addClass event</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$element</var></dt>
+					<dd><code>string</code><br>- element</dd>
+					<dt><var>$class</var></dt>
+					<dd><code>string</code><br>- Class to add</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="animate" id="_animate">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_animate">#</a>
+		<code>animate( <span>string <var>$element</var> = <span class="php-quote">'this'</span></span>, <span>string <var>$params</var> = <span class="php-keyword1">array</span>()</span>, <span>string <var>$speed</var> = <span class="php-quote">''</span></span>, <span>mixed <var>$extra</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Animate</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Animate</p>
+
+<p>Outputs a javascript library animate event</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$element</var></dt>
+					<dd><code>string</code><br>- element</dd>
+					<dt><var>$params</var></dt>
+					<dd><code>string</code><br>- One of 'slow', 'normal', 'fast', or time in milliseconds</dd>
+					<dt><var>$speed</var></dt>
+					<dd><code>string</code><br>- Javascript callback function</dd>
+					<dt><var>$extra</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="fadeIn" id="_fadeIn">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_fadeIn">#</a>
+		<code>fadeIn( <span>string <var>$element</var> = <span class="php-quote">'this'</span></span>, <span>string <var>$speed</var> = <span class="php-quote">''</span></span>, <span>string <var>$callback</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Fade In</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Fade In</p>
+
+<p>Outputs a javascript library hide event</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$element</var></dt>
+					<dd><code>string</code><br>- element</dd>
+					<dt><var>$speed</var></dt>
+					<dd><code>string</code><br>- One of 'slow', 'normal', 'fast', or time in milliseconds</dd>
+					<dt><var>$callback</var></dt>
+					<dd><code>string</code><br>- Javascript callback function</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="fadeOut" id="_fadeOut">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_fadeOut">#</a>
+		<code>fadeOut( <span>string <var>$element</var> = <span class="php-quote">'this'</span></span>, <span>string <var>$speed</var> = <span class="php-quote">''</span></span>, <span>string <var>$callback</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Fade Out</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Fade Out</p>
+
+<p>Outputs a javascript library hide event</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$element</var></dt>
+					<dd><code>string</code><br>- element</dd>
+					<dt><var>$speed</var></dt>
+					<dd><code>string</code><br>- One of 'slow', 'normal', 'fast', or time in milliseconds</dd>
+					<dt><var>$callback</var></dt>
+					<dd><code>string</code><br>- Javascript callback function</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="slideUp" id="_slideUp">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_slideUp">#</a>
+		<code>slideUp( <span>string <var>$element</var> = <span class="php-quote">'this'</span></span>, <span>string <var>$speed</var> = <span class="php-quote">''</span></span>, <span>string <var>$callback</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Slide Up</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Slide Up</p>
+
+<p>Outputs a javascript library slideUp event</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$element</var></dt>
+					<dd><code>string</code><br>- element</dd>
+					<dt><var>$speed</var></dt>
+					<dd><code>string</code><br>- One of 'slow', 'normal', 'fast', or time in milliseconds</dd>
+					<dt><var>$callback</var></dt>
+					<dd><code>string</code><br>- Javascript callback function</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="removeClass" id="_removeClass">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_removeClass">#</a>
+		<code>removeClass( <span>string <var>$element</var> = <span class="php-quote">'this'</span></span>, <span>string <var>$class</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Remove Class</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Remove Class</p>
+
+<p>Outputs a javascript library removeClass event</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$element</var></dt>
+					<dd><code>string</code><br>- element</dd>
+					<dt><var>$class</var></dt>
+					<dd><code>string</code><br>- Class to add</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="slideDown" id="_slideDown">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_slideDown">#</a>
+		<code>slideDown( <span>string <var>$element</var> = <span class="php-quote">'this'</span></span>, <span>string <var>$speed</var> = <span class="php-quote">''</span></span>, <span>string <var>$callback</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Slide Down</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Slide Down</p>
+
+<p>Outputs a javascript library slideDown event</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$element</var></dt>
+					<dd><code>string</code><br>- element</dd>
+					<dt><var>$speed</var></dt>
+					<dd><code>string</code><br>- One of 'slow', 'normal', 'fast', or time in milliseconds</dd>
+					<dt><var>$callback</var></dt>
+					<dd><code>string</code><br>- Javascript callback function</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="slideToggle" id="_slideToggle">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_slideToggle">#</a>
+		<code>slideToggle( <span>string <var>$element</var> = <span class="php-quote">'this'</span></span>, <span>string <var>$speed</var> = <span class="php-quote">''</span></span>, <span>string <var>$callback</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Slide Toggle</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Slide Toggle</p>
+
+<p>Outputs a javascript library slideToggle event</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$element</var></dt>
+					<dd><code>string</code><br>- element</dd>
+					<dt><var>$speed</var></dt>
+					<dd><code>string</code><br>- One of 'slow', 'normal', 'fast', or time in milliseconds</dd>
+					<dt><var>$callback</var></dt>
+					<dd><code>string</code><br>- Javascript callback function</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="hide" id="_hide">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_hide">#</a>
+		<code>hide( <span>string <var>$element</var> = <span class="php-quote">'this'</span></span>, <span>string <var>$speed</var> = <span class="php-quote">''</span></span>, <span>string <var>$callback</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Hide</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Hide</p>
+
+<p>Outputs a javascript library hide action</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$element</var></dt>
+					<dd><code>string</code><br>- element</dd>
+					<dt><var>$speed</var></dt>
+					<dd><code>string</code><br>- One of 'slow', 'normal', 'fast', or time in milliseconds</dd>
+					<dt><var>$callback</var></dt>
+					<dd><code>string</code><br>- Javascript callback function</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="toggle" id="_toggle">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_toggle">#</a>
+		<code>toggle( <span>string <var>$element</var> = <span class="php-quote">'this'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Toggle</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Toggle</p>
+
+<p>Outputs a javascript library toggle event</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$element</var></dt>
+					<dd><code>string</code><br>- element</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="toggleClass" id="_toggleClass">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_toggleClass">#</a>
+		<code>toggleClass( <span>string <var>$element</var> = <span class="php-quote">'this'</span></span>, <span>mixed <var>$class</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Toggle Class</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Toggle Class</p>
+
+<p>Outputs a javascript library toggle class event</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$element</var></dt>
+					<dd><code>string</code><br>- element</dd>
+					<dt><var>$class</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="show" id="_show">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_show">#</a>
+		<code>show( <span>string <var>$element</var> = <span class="php-quote">'this'</span></span>, <span>string <var>$speed</var> = <span class="php-quote">''</span></span>, <span>string <var>$callback</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Show</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Show</p>
+
+<p>Outputs a javascript library show event</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$element</var></dt>
+					<dd><code>string</code><br>- element</dd>
+					<dt><var>$speed</var></dt>
+					<dd><code>string</code><br>- One of 'slow', 'normal', 'fast', or time in milliseconds</dd>
+					<dt><var>$callback</var></dt>
+					<dd><code>string</code><br>- Javascript callback function</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="compile" id="_compile">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_compile">#</a>
+		<code>compile( <span>string <var>$view_var</var> = <span class="php-quote">'script_foot'</span></span>, <span>mixed <var>$script_tags</var> = <span class="php-keyword1">TRUE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Compile</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Compile</p>
+
+<p>gather together all script needing to be output</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$view_var</var></dt>
+					<dd><code>string</code><br>The element to attach the event to</dd>
+					<dt><var>$script_tags</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="clear_compile" id="_clear_compile">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_clear_compile">#</a>
+		<code>clear_compile( )</code>
+
+		<div class="description short">
+			
+<p>Clear Compile</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Clear Compile</p>
+
+<p>Clears any previous javascript collected for output</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="external" id="_external">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_external">#</a>
+		<code>external( <span>string <var>$external_file</var> = <span class="php-quote">''</span></span>, <span>mixed <var>$relative</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>External</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>External</p>
+
+<p>Outputs a &lt;script&gt; tag with the source as an external js file</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$external_file</var></dt>
+					<dd><code>string</code><br>The element to attach the event to</dd>
+					<dt><var>$relative</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="inline" id="_inline">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_inline">#</a>
+		<code>inline( <span>string <var>$script</var></span>, <span>boolean <var>$cdata</var> = <span class="php-keyword1">TRUE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Inline</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Inline</p>
+
+<p>Outputs a &lt;script&gt; tag</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$script</var></dt>
+					<dd><code>string</code><br>The element to attach the event to</dd>
+					<dt><var>$cdata</var></dt>
+					<dd><code>boolean</code><br>If a CDATA section should be added</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_open_script" id="__open_script">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__open_script">#</a>
+		<code>_open_script( <span>string <var>$src</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Open Script</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Open Script</p>
+
+<p>Outputs an opening &lt;script&gt;</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$src</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_close_script" id="__close_script">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__close_script">#</a>
+		<code>_close_script( <span>string <var>$extra</var> = <span class="php-quote">&quot;\n&quot;</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Close Script</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Close Script</p>
+
+<p>Outputs an closing &lt;/script&gt;</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$extra</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="update" id="_update">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_update">#</a>
+		<code>update( <span>string <var>$element</var> = <span class="php-quote">'this'</span></span>, <span>string <var>$speed</var> = <span class="php-quote">''</span></span>, <span>string <var>$callback</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Update</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Update</p>
+
+<p>Outputs a javascript library slideDown event</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$element</var></dt>
+					<dd><code>string</code><br>- element</dd>
+					<dt><var>$speed</var></dt>
+					<dd><code>string</code><br>- One of 'slow', 'normal', 'fast', or time in milliseconds</dd>
+					<dt><var>$callback</var></dt>
+					<dd><code>string</code><br>- Javascript callback function</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="generate_json" id="_generate_json">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_generate_json">#</a>
+		<code>generate_json( <span>mixed <var>$result</var> = <span class="php-keyword1">NULL</span></span>, <span>boolean <var>$match_array_type</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Generate JSON</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Generate JSON</p>
+
+<p>Can be passed a database result or associative array and returns a JSON
+formatted string</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$result</var></dt>
+					<dd><code>mixed</code><br>result set or array</dd>
+					<dt><var>$match_array_type</var></dt>
+					<dd><code>boolean</code><br>match array types (defaults to objects)</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>a json formatted string<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_is_associative_array" id="__is_associative_array">
+
+		<td class="attributes"><code>
+			 public 
+			type
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__is_associative_array">#</a>
+		<code>_is_associative_array( <span>type <var>$arr</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Is associative array</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Is associative array</p>
+
+<p>Checks for an associative array</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$arr</var></dt>
+					<dd><code>type</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>type</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_prep_args" id="__prep_args">
+
+		<td class="attributes"><code>
+			 public 
+			type
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__prep_args">#</a>
+		<code>_prep_args( <span>type <var>$result</var></span>, <span>mixed <var>$is_key</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Prep Args</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Prep Args</p>
+
+<p>Ensures a standard json value and escapes values</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$result</var></dt>
+					<dd><code>type</code></dd>
+					<dt><var>$is_key</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>type</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="_javascript_location" id="$_javascript_location">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$_javascript_location</var>		</td>
+		<td class="value"><code><span class="php-quote">'js'</span></code></td>
+		<td class="description"><div>
+			<a href="#$_javascript_location" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		DoTheMath Server API AppFrog API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

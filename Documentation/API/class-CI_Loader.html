@@ -1,0 +1,1648 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class CI_Loader | DoTheMath Server API AppFrog</title>
+
+	<script type="text/javascript" src="resources/combined.js?1130135532"></script>
+	<script type="text/javascript" src="elementlist.js?4137884977"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li class="active"><a href="package-CodeIgniter.html">CodeIgniter<span></span></a>
+						<ul>
+				<li><a href="package-CodeIgniter.Drivers.html">Drivers</a>
+						</li>
+				<li class="active"><a href="package-CodeIgniter.Libraries.html">Libraries</a>
+						</li>
+							</ul></li>
+				<li><a href="package-DoTheMath.html">DoTheMath<span></span></a>
+						<ul>
+				<li><a href="package-DoTheMath.External.html">External</a>
+						</li>
+				<li><a href="package-DoTheMath.Question.html">Question</a>
+						</li>
+							</ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-CI_Benchmark.html">CI_Benchmark</a></li>
+				<li><a href="class-CI_Cache.html">CI_Cache</a></li>
+				<li><a href="class-CI_Cache_apc.html">CI_Cache_apc</a></li>
+				<li><a href="class-CI_Cache_dummy.html">CI_Cache_dummy</a></li>
+				<li><a href="class-CI_Cache_file.html">CI_Cache_file</a></li>
+				<li><a href="class-CI_Cache_memcached.html">CI_Cache_memcached</a></li>
+				<li><a href="class-CI_Calendar.html">CI_Calendar</a></li>
+				<li><a href="class-CI_Cart.html">CI_Cart</a></li>
+				<li><a href="class-CI_Config.html">CI_Config</a></li>
+				<li><a href="class-CI_Controller.html">CI_Controller</a></li>
+				<li><a href="class-CI_Driver.html">CI_Driver</a></li>
+				<li><a href="class-CI_Driver_Library.html">CI_Driver_Library</a></li>
+				<li><a href="class-CI_Email.html">CI_Email</a></li>
+				<li><a href="class-CI_Encrypt.html">CI_Encrypt</a></li>
+				<li><a href="class-CI_Exceptions.html">CI_Exceptions</a></li>
+				<li><a href="class-CI_Form_validation.html">CI_Form_validation</a></li>
+				<li><a href="class-CI_FTP.html">CI_FTP</a></li>
+				<li><a href="class-CI_Hooks.html">CI_Hooks</a></li>
+				<li><a href="class-CI_Image_lib.html">CI_Image_lib</a></li>
+				<li><a href="class-CI_Input.html">CI_Input</a></li>
+				<li><a href="class-CI_Javascript.html">CI_Javascript</a></li>
+				<li><a href="class-CI_Jquery.html">CI_Jquery</a></li>
+				<li><a href="class-CI_Lang.html">CI_Lang</a></li>
+				<li class="active"><a href="class-CI_Loader.html">CI_Loader</a></li>
+				<li><a href="class-CI_Log.html">CI_Log</a></li>
+				<li><a href="class-CI_Migration.html">CI_Migration</a></li>
+				<li><a href="class-CI_Model.html">CI_Model</a></li>
+				<li><a href="class-CI_Output.html">CI_Output</a></li>
+				<li><a href="class-CI_Pagination.html">CI_Pagination</a></li>
+				<li><a href="class-CI_Parser.html">CI_Parser</a></li>
+				<li><a href="class-CI_Profiler.html">CI_Profiler</a></li>
+				<li><a href="class-CI_Router.html">CI_Router</a></li>
+				<li><a href="class-CI_Security.html">CI_Security</a></li>
+				<li><a href="class-CI_Session.html">CI_Session</a></li>
+				<li><a href="class-CI_SHA1.html">CI_SHA1</a></li>
+				<li><a href="class-CI_Table.html">CI_Table</a></li>
+				<li><a href="class-CI_Trackback.html">CI_Trackback</a></li>
+				<li><a href="class-CI_Unit_test.html">CI_Unit_test</a></li>
+				<li><a href="class-CI_Upload.html">CI_Upload</a></li>
+				<li><a href="class-CI_URI.html">CI_URI</a></li>
+				<li><a href="class-CI_User_agent.html">CI_User_agent</a></li>
+				<li><a href="class-CI_Utf8.html">CI_Utf8</a></li>
+				<li><a href="class-CI_Xmlrpc.html">CI_Xmlrpc</a></li>
+				<li><a href="class-CI_Xmlrpcs.html">CI_Xmlrpcs</a></li>
+				<li><a href="class-CI_Zip.html">CI_Zip</a></li>
+				<li><a href="class-Curl.html">Curl</a></li>
+				<li><a href="class-Match_model.html">Match_model</a></li>
+				<li><a href="class-REST_Controller.html">REST_Controller</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-CodeIgniter.Libraries.html" title="Summary of CodeIgniter\Libraries"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+			<li>
+				<a href="deprecated.html" title="List of deprecated elements"><span>Deprecated</span></a>
+			</li>
+			<li>
+				<a href="todo.html" title="Todo list"><span>Todo</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class CI_Loader</h1>
+
+
+	<div class="description">
+	
+<p>Loader Class</p>
+
+<p>Loads views and files</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-CodeIgniter.html">CodeIgniter</a>\<a href="package-CodeIgniter.Libraries.html">Libraries</a><br />
+
+				<b>Category:</b>
+				Loader<br />
+				<b>Author:</b>
+				ExpressionEngine Dev Team<br />
+				<b>Link:</b>
+				<a href="http://codeigniter.com/user_guide/libraries/loader.html">http://codeigniter.com/user_guide/libraries/loader.html</a><br />
+		<b>Located at</b> system/core/Loader.php<br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code>__construct( )</code>
+
+		<div class="description short">
+			
+<p>Constructor</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Constructor</p>
+
+<p>Sets the path to the view files and gets the initial output buffering
+level</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="initialize" id="_initialize">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_initialize">#</a>
+		<code>initialize( )</code>
+
+		<div class="description short">
+			
+<p>Initialize the Loader</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Initialize the Loader</p>
+
+<p>This method is called once in CI_Controller.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="is_loaded" id="_is_loaded">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_is_loaded">#</a>
+		<code>is_loaded( <span>string <var>$class</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Is Loaded</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Is Loaded</p>
+
+<p>A utility function to test if a class is in the self::$_ci_classes array.
+This function returns the object name if the class tested for is loaded, and
+returns FALSE if it isn't.</p>
+
+<p>It is mainly used in the form_helper -&gt; _get_validation_object()</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$class</var></dt>
+					<dd><code>string</code><br>class being checked for</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>class object name on the CI SuperObject or FALSE<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="library" id="_library">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_library">#</a>
+		<code>library( <span>string <var>$library</var> = <span class="php-quote">''</span></span>, <span>mixed <var>$params</var> = <span class="php-keyword1">NULL</span></span>, <span>string <var>$object_name</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Class Loader</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Class Loader</p>
+
+<p>This function lets users load and instantiate classes. It is designed to be
+called from a user's app controllers.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$library</var></dt>
+					<dd><code>string</code><br>the name of the class</dd>
+					<dt><var>$params</var></dt>
+					<dd><code>mixed</code><br>the optional parameters</dd>
+					<dt><var>$object_name</var></dt>
+					<dd><code>string</code><br>an optional object name</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="model" id="_model">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_model">#</a>
+		<code>model( <span>string <var>$model</var></span>, <span>string <var>$name</var> = <span class="php-quote">''</span></span>, <span>boolean <var>$db_conn</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Model Loader</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Model Loader</p>
+
+<p>This function lets users load and instantiate models.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd><code>string</code><br>the name of the class</dd>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br>name for the model</dd>
+					<dt><var>$db_conn</var></dt>
+					<dd><code>boolean</code><br>database connection</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="database" id="_database">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_database">#</a>
+		<code>database( <span>string <var>$params</var> = <span class="php-quote">''</span></span>, <span>boolean <var>$return</var> = <span class="php-keyword1">FALSE</span></span>, <span>boolean <var>$active_record</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Database Loader</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Database Loader</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$params</var></dt>
+					<dd><code>string</code><br>the DB credentials</dd>
+					<dt><var>$return</var></dt>
+					<dd><code>boolean</code><br>whether to return the DB object</dd>
+					<dt><var>$active_record</var></dt>
+					<dd><code>boolean</code><br>whether to enable active record (this allows us to override the config setting)</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="dbutil" id="_dbutil">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_dbutil">#</a>
+		<code>dbutil( )</code>
+
+		<div class="description short">
+			
+<p>Load the Utilities Class</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Load the Utilities Class</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="dbforge" id="_dbforge">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_dbforge">#</a>
+		<code>dbforge( )</code>
+
+		<div class="description short">
+			
+<p>Load the Database Forge Class</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Load the Database Forge Class</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="view" id="_view">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_view">#</a>
+		<code>view( <span>string <var>$view</var></span>, <span>array <var>$vars</var> = <span class="php-keyword1">array</span>()</span>, <span>boolean <var>$return</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Load View</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Load View</p>
+
+<p>This function is used to load a "view" file. It has three parameters:</p>
+
+<ol>
+	<li>The name of the "view" file to be included.</li>
+
+	<li>An associative array of data to be extracted for use in the view.</li>
+
+	<li>TRUE/FALSE - whether to return the data or load it. In</li>
+</ol>
+
+<p>some cases it's advantageous to be able to return data so that a developer
+can process it in some way.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$view</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$vars</var></dt>
+					<dd><code>array</code></dd>
+					<dt><var>$return</var></dt>
+					<dd><code>boolean</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="file" id="_file">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_file">#</a>
+		<code>file( <span>string <var>$path</var></span>, <span>boolean <var>$return</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Load File</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Load File</p>
+
+<p>This is a generic file loader</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$path</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$return</var></dt>
+					<dd><code>boolean</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="vars" id="_vars">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_vars">#</a>
+		<code>vars( <span>array <var>$vars</var> = <span class="php-keyword1">array</span>()</span>, <span>string <var>$val</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set Variables</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set Variables</p>
+
+<p>Once variables are set they become available within the controller class and
+its "view" files.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$vars</var></dt>
+					<dd><code>array</code></dd>
+					<dt><var>$val</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get_var" id="_get_var">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get_var">#</a>
+		<code>get_var( <span>array <var>$key</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get Variable</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get Variable</p>
+
+<p>Check if a variable is set and retrieve it.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>array</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="helper" id="_helper">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_helper">#</a>
+		<code>helper( <span>mixed <var>$helpers</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Load Helper</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Load Helper</p>
+
+<p>This function loads the specified helper file.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$helpers</var></dt>
+					<dd><code>mixed</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="helpers" id="_helpers">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_helpers">#</a>
+		<code>helpers( <span>array <var>$helpers</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Load Helpers</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Load Helpers</p>
+
+<p>This is simply an alias to the above function in case the user has written
+the plural form of this function.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$helpers</var></dt>
+					<dd><code>array</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="language" id="_language">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_language">#</a>
+		<code>language( <span>array <var>$file</var> = <span class="php-keyword1">array</span>()</span>, <span>string <var>$lang</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Loads a language file</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Loads a language file</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$file</var></dt>
+					<dd><code>array</code></dd>
+					<dt><var>$lang</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="config" id="_config">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_config">#</a>
+		<code>config( <span>string <var>$file</var> = <span class="php-quote">''</span></span>, <span>boolean <var>$use_sections</var> = <span class="php-keyword1">FALSE</span></span>, <span>boolean <var>$fail_gracefully</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Loads a config file</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Loads a config file</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$file</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$use_sections</var></dt>
+					<dd><code>boolean</code></dd>
+					<dt><var>$fail_gracefully</var></dt>
+					<dd><code>boolean</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="driver" id="_driver">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_driver">#</a>
+		<code>driver( <span>string <var>$library</var> = <span class="php-quote">''</span></span>, <span>mixed <var>$params</var> = <span class="php-keyword1">NULL</span></span>, <span>string <var>$object_name</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Driver</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Driver</p>
+
+<p>Loads a driver library</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$library</var></dt>
+					<dd><code>string</code><br>the name of the class</dd>
+					<dt><var>$params</var></dt>
+					<dd><code>mixed</code><br>the optional parameters</dd>
+					<dt><var>$object_name</var></dt>
+					<dd><code>string</code><br>an optional object name</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="add_package_path" id="_add_package_path">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_add_package_path">#</a>
+		<code>add_package_path( <span>string <var>$path</var></span>, <span>boolean <var>$view_cascade</var> = <span class="php-keyword1">TRUE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Add Package Path</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Add Package Path</p>
+
+<p>Prepends a parent path to the library, model, helper, and config path
+arrays</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$path</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$view_cascade</var></dt>
+					<dd><code>boolean</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get_package_paths" id="_get_package_paths">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get_package_paths">#</a>
+		<code>get_package_paths( <span>string <var>$include_base</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get Package Paths</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get Package Paths</p>
+
+<p>Return a list of all package paths, by default it will ignore BASEPATH.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$include_base</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="remove_package_path" id="_remove_package_path">
+
+		<td class="attributes"><code>
+			 public 
+			type
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_remove_package_path">#</a>
+		<code>remove_package_path( <span>type <var>$path</var> = <span class="php-quote">''</span></span>, <span>boolean <var>$remove_config_path</var> = <span class="php-keyword1">TRUE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Remove Package Path</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Remove Package Path</p>
+
+<p>Remove a path from the library, model, and helper path arrays if it exists If
+no path is provided, the most recently added path is removed.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$path</var></dt>
+					<dd><code>type</code></dd>
+					<dt><var>$remove_config_path</var></dt>
+					<dd><code>boolean</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>type</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_ci_load" id="__ci_load">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__ci_load">#</a>
+		<code>_ci_load( <span>array <var>$_ci_data</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Loader</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Loader</p>
+
+<p>This function is used to load views and files. Variables are prefixed with
+_ci_ to avoid symbol collision with variables made available to view files</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$_ci_data</var></dt>
+					<dd><code>array</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_ci_load_class" id="__ci_load_class">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__ci_load_class">#</a>
+		<code>_ci_load_class( <span>string <var>$class</var></span>, <span>mixed <var>$params</var> = <span class="php-keyword1">NULL</span></span>, <span>string <var>$object_name</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Load class</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Load class</p>
+
+<p>This function loads the requested class.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$class</var></dt>
+					<dd><code>string</code><br>the item that is being loaded</dd>
+					<dt><var>$params</var></dt>
+					<dd><code>mixed</code><br>any additional parameters</dd>
+					<dt><var>$object_name</var></dt>
+					<dd><code>string</code><br>an optional object name</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_ci_init_class" id="__ci_init_class">
+
+		<td class="attributes"><code>
+			 protected 
+			null
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__ci_init_class">#</a>
+		<code>_ci_init_class( <span>string <var>$class</var></span>, <span>string <var>$prefix</var> = <span class="php-quote">''</span></span>, <span>boolean <var>$config</var> = <span class="php-keyword1">FALSE</span></span>, <span>string <var>$object_name</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Instantiates a class</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Instantiates a class</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$class</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$prefix</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$config</var></dt>
+					<dd><code>boolean</code></dd>
+					<dt><var>$object_name</var></dt>
+					<dd><code>string</code><br>an optional object name</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>null</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_ci_object_to_array" id="__ci_object_to_array">
+
+		<td class="attributes"><code>
+			 protected 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__ci_object_to_array">#</a>
+		<code>_ci_object_to_array( <span>object <var>$object</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Object to Array</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Object to Array</p>
+
+<p>Takes an object as input and converts the class variables to array
+key/vals</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$object</var></dt>
+					<dd><code>object</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_ci_get_component" id="__ci_get_component">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			&amp;
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__ci_get_component">#</a>
+		<code>_ci_get_component( <span>string <var>$component</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get a reference to a specific library or model</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get a reference to a specific library or model</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$component</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_ci_prep_filename" id="__ci_prep_filename">
+
+		<td class="attributes"><code>
+			 protected 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__ci_prep_filename">#</a>
+		<code>_ci_prep_filename( <span>mixed <var>$filename</var></span>, <span>string <var>$extension</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Prep filename</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Prep filename</p>
+
+<p>This function preps the name of various items to make loading them more
+reliable.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$filename</var></dt>
+					<dd><code>mixed</code></dd>
+					<dt><var>$extension</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="_ci_ob_level" id="$_ci_ob_level">
+		<td class="attributes"><code>
+			protected  
+			integer
+		</code></td>
+
+		<td class="name">
+<var>$_ci_ob_level</var>		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$_ci_ob_level" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Nesting level of the output buffering mechanism</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Nesting level of the output buffering mechanism</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_ci_view_paths" id="$_ci_view_paths">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$_ci_view_paths</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$_ci_view_paths" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>List of paths to load views from</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>List of paths to load views from</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_ci_library_paths" id="$_ci_library_paths">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$_ci_library_paths</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$_ci_library_paths" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>List of paths to load libraries from</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>List of paths to load libraries from</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_ci_model_paths" id="$_ci_model_paths">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$_ci_model_paths</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$_ci_model_paths" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>List of paths to load models from</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>List of paths to load models from</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_ci_helper_paths" id="$_ci_helper_paths">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$_ci_helper_paths</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$_ci_helper_paths" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>List of paths to load helpers from</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>List of paths to load helpers from</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_base_classes" id="$_base_classes">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$_base_classes</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$_base_classes" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>List of loaded base classes Set by the controller class</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>List of loaded base classes Set by the controller class</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_ci_cached_vars" id="$_ci_cached_vars">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$_ci_cached_vars</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$_ci_cached_vars" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>List of cached variables</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>List of cached variables</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_ci_classes" id="$_ci_classes">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$_ci_classes</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$_ci_classes" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>List of loaded classes</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>List of loaded classes</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_ci_loaded_files" id="$_ci_loaded_files">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$_ci_loaded_files</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$_ci_loaded_files" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>List of loaded files</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>List of loaded files</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_ci_models" id="$_ci_models">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$_ci_models</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$_ci_models" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>List of loaded models</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>List of loaded models</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_ci_helpers" id="$_ci_helpers">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$_ci_helpers</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$_ci_helpers" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>List of loaded helpers</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>List of loaded helpers</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_ci_varmap" id="$_ci_varmap">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$_ci_varmap</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>(<span class="php-quote">'unit_test'</span> =&gt; <span class="php-quote">'unit'</span>,
+										<span class="php-quote">'user_agent'</span> =&gt; <span class="php-quote">'agent'</span>)</code></td>
+		<td class="description"><div>
+			<a href="#$_ci_varmap" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>List of class name mappings</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>List of class name mappings</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		DoTheMath Server API AppFrog API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

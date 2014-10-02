@@ -1,0 +1,1263 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class CI_Input | DoTheMath Server API AppFrog</title>
+
+	<script type="text/javascript" src="resources/combined.js?1130135532"></script>
+	<script type="text/javascript" src="elementlist.js?4137884977"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li class="active"><a href="package-CodeIgniter.html">CodeIgniter<span></span></a>
+						<ul>
+				<li><a href="package-CodeIgniter.Drivers.html">Drivers</a>
+						</li>
+				<li class="active"><a href="package-CodeIgniter.Libraries.html">Libraries</a>
+						</li>
+							</ul></li>
+				<li><a href="package-DoTheMath.html">DoTheMath<span></span></a>
+						<ul>
+				<li><a href="package-DoTheMath.External.html">External</a>
+						</li>
+				<li><a href="package-DoTheMath.Question.html">Question</a>
+						</li>
+							</ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-CI_Benchmark.html">CI_Benchmark</a></li>
+				<li><a href="class-CI_Cache.html">CI_Cache</a></li>
+				<li><a href="class-CI_Cache_apc.html">CI_Cache_apc</a></li>
+				<li><a href="class-CI_Cache_dummy.html">CI_Cache_dummy</a></li>
+				<li><a href="class-CI_Cache_file.html">CI_Cache_file</a></li>
+				<li><a href="class-CI_Cache_memcached.html">CI_Cache_memcached</a></li>
+				<li><a href="class-CI_Calendar.html">CI_Calendar</a></li>
+				<li><a href="class-CI_Cart.html">CI_Cart</a></li>
+				<li><a href="class-CI_Config.html">CI_Config</a></li>
+				<li><a href="class-CI_Controller.html">CI_Controller</a></li>
+				<li><a href="class-CI_Driver.html">CI_Driver</a></li>
+				<li><a href="class-CI_Driver_Library.html">CI_Driver_Library</a></li>
+				<li><a href="class-CI_Email.html">CI_Email</a></li>
+				<li><a href="class-CI_Encrypt.html">CI_Encrypt</a></li>
+				<li><a href="class-CI_Exceptions.html">CI_Exceptions</a></li>
+				<li><a href="class-CI_Form_validation.html">CI_Form_validation</a></li>
+				<li><a href="class-CI_FTP.html">CI_FTP</a></li>
+				<li><a href="class-CI_Hooks.html">CI_Hooks</a></li>
+				<li><a href="class-CI_Image_lib.html">CI_Image_lib</a></li>
+				<li class="active"><a href="class-CI_Input.html">CI_Input</a></li>
+				<li><a href="class-CI_Javascript.html">CI_Javascript</a></li>
+				<li><a href="class-CI_Jquery.html">CI_Jquery</a></li>
+				<li><a href="class-CI_Lang.html">CI_Lang</a></li>
+				<li><a href="class-CI_Loader.html">CI_Loader</a></li>
+				<li><a href="class-CI_Log.html">CI_Log</a></li>
+				<li><a href="class-CI_Migration.html">CI_Migration</a></li>
+				<li><a href="class-CI_Model.html">CI_Model</a></li>
+				<li><a href="class-CI_Output.html">CI_Output</a></li>
+				<li><a href="class-CI_Pagination.html">CI_Pagination</a></li>
+				<li><a href="class-CI_Parser.html">CI_Parser</a></li>
+				<li><a href="class-CI_Profiler.html">CI_Profiler</a></li>
+				<li><a href="class-CI_Router.html">CI_Router</a></li>
+				<li><a href="class-CI_Security.html">CI_Security</a></li>
+				<li><a href="class-CI_Session.html">CI_Session</a></li>
+				<li><a href="class-CI_SHA1.html">CI_SHA1</a></li>
+				<li><a href="class-CI_Table.html">CI_Table</a></li>
+				<li><a href="class-CI_Trackback.html">CI_Trackback</a></li>
+				<li><a href="class-CI_Unit_test.html">CI_Unit_test</a></li>
+				<li><a href="class-CI_Upload.html">CI_Upload</a></li>
+				<li><a href="class-CI_URI.html">CI_URI</a></li>
+				<li><a href="class-CI_User_agent.html">CI_User_agent</a></li>
+				<li><a href="class-CI_Utf8.html">CI_Utf8</a></li>
+				<li><a href="class-CI_Xmlrpc.html">CI_Xmlrpc</a></li>
+				<li><a href="class-CI_Xmlrpcs.html">CI_Xmlrpcs</a></li>
+				<li><a href="class-CI_Zip.html">CI_Zip</a></li>
+				<li><a href="class-Curl.html">Curl</a></li>
+				<li><a href="class-Match_model.html">Match_model</a></li>
+				<li><a href="class-REST_Controller.html">REST_Controller</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-CodeIgniter.Libraries.html" title="Summary of CodeIgniter\Libraries"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+			<li>
+				<a href="deprecated.html" title="List of deprecated elements"><span>Deprecated</span></a>
+			</li>
+			<li>
+				<a href="todo.html" title="Todo list"><span>Todo</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class CI_Input</h1>
+
+
+	<div class="description">
+	
+<p>Input Class</p>
+
+<p>Pre-processes global input data for security</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-CodeIgniter.html">CodeIgniter</a>\<a href="package-CodeIgniter.Libraries.html">Libraries</a><br />
+
+				<b>Category:</b>
+				Input<br />
+				<b>Author:</b>
+				ExpressionEngine Dev Team<br />
+				<b>Link:</b>
+				<a href="http://codeigniter.com/user_guide/libraries/input.html">http://codeigniter.com/user_guide/libraries/input.html</a><br />
+		<b>Located at</b> system/core/Input.php<br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code>__construct( )</code>
+
+		<div class="description short">
+			
+<p>Constructor</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Constructor</p>
+
+<p>Sets whether to globally enable the XSS processing and whether to allow the
+$_GET array</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_fetch_from_array" id="__fetch_from_array">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__fetch_from_array">#</a>
+		<code>_fetch_from_array( <span>array <var>&amp; $array</var></span>, <span>string <var>$index</var> = <span class="php-quote">''</span></span>, <span>boolean <var>$xss_clean</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Fetch from array</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Fetch from array</p>
+
+<p>This is a helper function to retrieve values from global arrays</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$array</var></dt>
+					<dd><code>array</code></dd>
+					<dt><var>$index</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$xss_clean</var></dt>
+					<dd><code>boolean</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get" id="_get">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get">#</a>
+		<code>get( <span>string <var>$index</var> = <span class="php-keyword1">NULL</span></span>, <span>boolean <var>$xss_clean</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Fetch an item from the GET array</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Fetch an item from the GET array</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$index</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$xss_clean</var></dt>
+					<dd><code>boolean</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="post" id="_post">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_post">#</a>
+		<code>post( <span>string <var>$index</var> = <span class="php-keyword1">NULL</span></span>, <span>boolean <var>$xss_clean</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Fetch an item from the POST array</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Fetch an item from the POST array</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$index</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$xss_clean</var></dt>
+					<dd><code>boolean</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get_post" id="_get_post">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get_post">#</a>
+		<code>get_post( <span>string <var>$index</var> = <span class="php-quote">''</span></span>, <span>boolean <var>$xss_clean</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Fetch an item from either the GET array or the POST</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Fetch an item from either the GET array or the POST</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$index</var></dt>
+					<dd><code>string</code><br>The index key</dd>
+					<dt><var>$xss_clean</var></dt>
+					<dd><code>boolean</code><br>XSS cleaning</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="cookie" id="_cookie">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_cookie">#</a>
+		<code>cookie( <span>string <var>$index</var> = <span class="php-quote">''</span></span>, <span>boolean <var>$xss_clean</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Fetch an item from the COOKIE array</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Fetch an item from the COOKIE array</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$index</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$xss_clean</var></dt>
+					<dd><code>boolean</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set_cookie" id="_set_cookie">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set_cookie">#</a>
+		<code>set_cookie( <span>mixed <var>$name</var> = <span class="php-quote">''</span></span>, <span>string <var>$value</var> = <span class="php-quote">''</span></span>, <span>string <var>$expire</var> = <span class="php-quote">''</span></span>, <span>string <var>$domain</var> = <span class="php-quote">''</span></span>, <span>string <var>$path</var> = <span class="php-quote">'/'</span></span>, <span>string <var>$prefix</var> = <span class="php-quote">''</span></span>, <span>boolean <var>$secure</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set cookie</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set cookie</p>
+
+<p>Accepts six parameter, or you can submit an associative array in the first
+parameter containing all the values.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>mixed</code></dd>
+					<dt><var>$value</var></dt>
+					<dd><code>string</code><br>the value of the cookie</dd>
+					<dt><var>$expire</var></dt>
+					<dd><code>string</code><br>the number of seconds until expiration</dd>
+					<dt><var>$domain</var></dt>
+					<dd><code>string</code><br>the cookie domain. Usually: .yourdomain.com</dd>
+					<dt><var>$path</var></dt>
+					<dd><code>string</code><br>the cookie path</dd>
+					<dt><var>$prefix</var></dt>
+					<dd><code>string</code><br>the cookie prefix</dd>
+					<dt><var>$secure</var></dt>
+					<dd><code>boolean</code><br>true makes the cookie secure</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="server" id="_server">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_server">#</a>
+		<code>server( <span>string <var>$index</var> = <span class="php-quote">''</span></span>, <span>boolean <var>$xss_clean</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Fetch an item from the SERVER array</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Fetch an item from the SERVER array</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$index</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$xss_clean</var></dt>
+					<dd><code>boolean</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="ip_address" id="_ip_address">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_ip_address">#</a>
+		<code>ip_address( )</code>
+
+		<div class="description short">
+			
+<p>Fetch the IP Address</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Fetch the IP Address</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="valid_ip" id="_valid_ip">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_valid_ip">#</a>
+		<code>valid_ip( <span>string <var>$ip</var></span>, <span>string <var>$which</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Validate IP Address</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validate IP Address</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$ip</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$which</var></dt>
+					<dd><code>string</code><br>ipv4 or ipv6</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_valid_ipv4" id="__valid_ipv4">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__valid_ipv4">#</a>
+		<code>_valid_ipv4( <span>string <var>$ip</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Validate IPv4 Address</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validate IPv4 Address</p>
+
+<p>Updated version suggested by Geert De Deckere</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$ip</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_valid_ipv6" id="__valid_ipv6">
+
+		<td class="attributes"><code>
+			 protected 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__valid_ipv6">#</a>
+		<code>_valid_ipv6( <span>string <var>$str</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Validate IPv6 Address</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validate IPv6 Address</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="user_agent" id="_user_agent">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_user_agent">#</a>
+		<code>user_agent( )</code>
+
+		<div class="description short">
+			
+<p>User Agent</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>User Agent</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_sanitize_globals" id="__sanitize_globals">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__sanitize_globals">#</a>
+		<code>_sanitize_globals( )</code>
+
+		<div class="description short">
+			
+<p>Sanitize Globals</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sanitize Globals</p>
+
+<p>This function does the following:</p>
+
+<p>Unsets $_GET data (if query strings are not enabled)</p>
+
+<p>Unsets all globals if register_globals is enabled</p>
+
+<p>Standardizes newline characters to \n</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_clean_input_data" id="__clean_input_data">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__clean_input_data">#</a>
+		<code>_clean_input_data( <span>string <var>$str</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Clean Input Data</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Clean Input Data</p>
+
+<p>This is a helper function. It escapes data and standardizes newline
+characters to \n</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_clean_input_keys" id="__clean_input_keys">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__clean_input_keys">#</a>
+		<code>_clean_input_keys( <span>string <var>$str</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Clean Keys</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Clean Keys</p>
+
+<p>This is a helper function. To prevent malicious users from trying to exploit
+keys we make sure that keys are only named with alpha-numeric text and a few
+other items.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="request_headers" id="_request_headers">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_request_headers">#</a>
+		<code>request_headers( <span>boolean <var>$xss_clean</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Request Headers</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Request Headers</p>
+
+<p>In Apache, you can simply call apache_request_headers(), however for people
+running other webservers the function is undefined.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$xss_clean</var></dt>
+					<dd><code>boolean</code><br>XSS cleaning</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get_request_header" id="_get_request_header">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get_request_header">#</a>
+		<code>get_request_header( <span>string <var>$index</var></span>, <span>boolean <var>$xss_clean</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get Request Header</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get Request Header</p>
+
+<p>Returns the value of a single member of the headers class member</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$index</var></dt>
+					<dd><code>string</code><br>array key for $this-&gt;headers</dd>
+					<dt><var>$xss_clean</var></dt>
+					<dd><code>boolean</code><br>XSS Clean or not</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>FALSE on failure, string on success<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="is_ajax_request" id="_is_ajax_request">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_is_ajax_request">#</a>
+		<code>is_ajax_request( )</code>
+
+		<div class="description short">
+			
+<p>Is ajax Request?</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Is ajax Request?</p>
+
+<p>Test to see if a request contains the HTTP_X_REQUESTED_WITH header</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="is_cli_request" id="_is_cli_request">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_is_cli_request">#</a>
+		<code>is_cli_request( )</code>
+
+		<div class="description short">
+			
+<p>Is cli Request?</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Is cli Request?</p>
+
+<p>Test to see if a request was made from the command line</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="ip_address" id="$ip_address">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$ip_address</var>		</td>
+		<td class="value"><code><span class="php-keyword1">FALSE</span></code></td>
+		<td class="description"><div>
+			<a href="#$ip_address" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>IP address of the current user</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>IP address of the current user</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="user_agent" id="$user_agent">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$user_agent</var>		</td>
+		<td class="value"><code><span class="php-keyword1">FALSE</span></code></td>
+		<td class="description"><div>
+			<a href="#$user_agent" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>user agent (web browser) being used by the current user</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>user agent (web browser) being used by the current user</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_allow_get_array" id="$_allow_get_array">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+<var>$_allow_get_array</var>		</td>
+		<td class="value"><code><span class="php-keyword1">TRUE</span></code></td>
+		<td class="description"><div>
+			<a href="#$_allow_get_array" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>If FALSE, then $_GET will be set to an empty array</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>If FALSE, then $_GET will be set to an empty array</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_standardize_newlines" id="$_standardize_newlines">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+<var>$_standardize_newlines</var>		</td>
+		<td class="value"><code><span class="php-keyword1">TRUE</span></code></td>
+		<td class="description"><div>
+			<a href="#$_standardize_newlines" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>If TRUE, then newlines are standardized</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>If TRUE, then newlines are standardized</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_enable_xss" id="$_enable_xss">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+<var>$_enable_xss</var>		</td>
+		<td class="value"><code><span class="php-keyword1">FALSE</span></code></td>
+		<td class="description"><div>
+			<a href="#$_enable_xss" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Determines whether the XSS filter is always active when GET, POST or COOKIE
+data is encountered Set automatically based on config setting</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Determines whether the XSS filter is always active when GET, POST or COOKIE
+data is encountered Set automatically based on config setting</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_enable_csrf" id="$_enable_csrf">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+<var>$_enable_csrf</var>		</td>
+		<td class="value"><code><span class="php-keyword1">FALSE</span></code></td>
+		<td class="description"><div>
+			<a href="#$_enable_csrf" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Enables a CSRF cookie token to be set. Set automatically based on config
+setting</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Enables a CSRF cookie token to be set. Set automatically based on config
+setting</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="headers" id="$headers">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$headers</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$headers" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>List of all HTTP request headers</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>List of all HTTP request headers</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		DoTheMath Server API AppFrog API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

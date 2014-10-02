@@ -1,0 +1,1529 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class CI_DB_odbc_driver | DoTheMath Server API AppFrog</title>
+
+	<script type="text/javascript" src="resources/combined.js?1130135532"></script>
+	<script type="text/javascript" src="elementlist.js?4137884977"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li class="active"><a href="package-CodeIgniter.html">CodeIgniter<span></span></a>
+						<ul>
+				<li class="active"><a href="package-CodeIgniter.Drivers.html">Drivers</a>
+						</li>
+				<li><a href="package-CodeIgniter.Libraries.html">Libraries</a>
+						</li>
+							</ul></li>
+				<li><a href="package-DoTheMath.html">DoTheMath<span></span></a>
+						<ul>
+				<li><a href="package-DoTheMath.External.html">External</a>
+						</li>
+				<li><a href="package-DoTheMath.Question.html">Question</a>
+						</li>
+							</ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-CI_DB_active_record.html">CI_DB_active_record</a></li>
+				<li><a href="class-CI_DB_cubrid_driver.html">CI_DB_cubrid_driver</a></li>
+				<li><a href="class-CI_DB_driver.html">CI_DB_driver</a></li>
+				<li><a href="class-CI_DB_mssql_driver.html">CI_DB_mssql_driver</a></li>
+				<li><a href="class-CI_DB_mysql_driver.html">CI_DB_mysql_driver</a></li>
+				<li><a href="class-CI_DB_mysqli_driver.html">CI_DB_mysqli_driver</a></li>
+				<li class="active"><a href="class-CI_DB_odbc_driver.html">CI_DB_odbc_driver</a></li>
+				<li><a href="class-CI_DB_pdo_driver.html">CI_DB_pdo_driver</a></li>
+				<li><a href="class-CI_DB_postgre_driver.html">CI_DB_postgre_driver</a></li>
+				<li><a href="class-CI_DB_sqlite_driver.html">CI_DB_sqlite_driver</a></li>
+				<li><a href="class-CI_DB_sqlsrv_driver.html">CI_DB_sqlsrv_driver</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-CodeIgniter.Drivers.html" title="Summary of CodeIgniter\Drivers"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+			<li>
+				<a href="deprecated.html" title="List of deprecated elements"><span>Deprecated</span></a>
+			</li>
+			<li>
+				<a href="todo.html" title="Todo list"><span>Todo</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class CI_DB_odbc_driver</h1>
+
+
+	<div class="description">
+	
+<p>ODBC Database Adapter Class</p>
+
+<p>Note: _DB is an extender class that the app controller creates dynamically
+based on whether the active record class is being used or not.</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+CI_DB
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>CI_DB_odbc_driver</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-CodeIgniter.html">CodeIgniter</a>\<a href="package-CodeIgniter.Drivers.html">Drivers</a><br />
+
+				<b>Category:</b>
+				Database<br />
+				<b>Author:</b>
+				ExpressionEngine Dev Team<br />
+				<b>Link:</b>
+				<a href="http://codeigniter.com/user_guide/database/">http://codeigniter.com/user_guide/database/</a><br />
+		<b>Located at</b> system/database/drivers/odbc/odbc_driver.php<br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code>__construct( <span>mixed <var>$params</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="db_connect" id="_db_connect">
+
+		<td class="attributes"><code>
+			 public 
+			resource
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_db_connect">#</a>
+		<code>db_connect( )</code>
+
+		<div class="description short">
+			
+<p>Non-persistent database connection</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Non-persistent database connection</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>resource</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="db_pconnect" id="_db_pconnect">
+
+		<td class="attributes"><code>
+			 public 
+			resource
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_db_pconnect">#</a>
+		<code>db_pconnect( )</code>
+
+		<div class="description short">
+			
+<p>Persistent database connection</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Persistent database connection</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>resource</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="reconnect" id="_reconnect">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_reconnect">#</a>
+		<code>reconnect( )</code>
+
+		<div class="description short">
+			
+<p>Reconnect</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Reconnect</p>
+
+<p>Keep / reestablish the db connection if no queries have been sent for a
+length of time exceeding the server's idle timeout</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="db_select" id="_db_select">
+
+		<td class="attributes"><code>
+			 public 
+			resource
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_db_select">#</a>
+		<code>db_select( )</code>
+
+		<div class="description short">
+			
+<p>Select the database</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Select the database</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>resource</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="db_set_charset" id="_db_set_charset">
+
+		<td class="attributes"><code>
+			 public 
+			resource
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_db_set_charset">#</a>
+		<code>db_set_charset( <span>string <var>$charset</var></span>, <span>string <var>$collation</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set client character set</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set client character set</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$charset</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$collation</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>resource</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_version" id="__version">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__version">#</a>
+		<code>_version( )</code>
+
+		<div class="description short">
+			
+<p>Version number query string</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Version number query string</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_execute" id="__execute">
+
+		<td class="attributes"><code>
+			 public 
+			resource
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__execute">#</a>
+		<code>_execute( <span>string <var>$sql</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Execute the query</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Execute the query</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$sql</var></dt>
+					<dd><code>string</code><br>an SQL query</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>resource</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_prep_query" id="__prep_query">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__prep_query">#</a>
+		<code>_prep_query( <span>string <var>$sql</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Prep the query</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Prep the query</p>
+
+<p>If needed, each database adapter can prep the query string</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$sql</var></dt>
+					<dd><code>string</code><br>an SQL query</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="trans_begin" id="_trans_begin">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_trans_begin">#</a>
+		<code>trans_begin( <span>mixed <var>$test_mode</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Begin Transaction</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Begin Transaction</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="trans_commit" id="_trans_commit">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_trans_commit">#</a>
+		<code>trans_commit( )</code>
+
+		<div class="description short">
+			
+<p>Commit Transaction</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Commit Transaction</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="trans_rollback" id="_trans_rollback">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_trans_rollback">#</a>
+		<code>trans_rollback( )</code>
+
+		<div class="description short">
+			
+<p>Rollback Transaction</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Rollback Transaction</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="escape_str" id="_escape_str">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_escape_str">#</a>
+		<code>escape_str( <span>string <var>$str</var></span>, <span>boolean <var>$like</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Escape String</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Escape String</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$like</var></dt>
+					<dd><code>boolean</code><br>whether or not the string will be used in a LIKE condition</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="affected_rows" id="_affected_rows">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_affected_rows">#</a>
+		<code>affected_rows( )</code>
+
+		<div class="description short">
+			
+<p>Affected Rows</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Affected Rows</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="insert_id" id="_insert_id">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_insert_id">#</a>
+		<code>insert_id( )</code>
+
+		<div class="description short">
+			
+<p>Insert ID</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Insert ID</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="count_all" id="_count_all">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_count_all">#</a>
+		<code>count_all( <span>string <var>$table</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>"Count All" query</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>"Count All" query</p>
+
+<p>Generates a platform-specific query string that counts all records in the
+specified database</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_list_tables" id="__list_tables">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__list_tables">#</a>
+		<code>_list_tables( <span>boolean <var>$prefix_limit</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Show table query</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Show table query</p>
+
+<p>Generates a platform-specific query string so that the table names can be
+fetched</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$prefix_limit</var></dt>
+					<dd><code>boolean</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_list_columns" id="__list_columns">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__list_columns">#</a>
+		<code>_list_columns( <span>string <var>$table</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Show column query</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Show column query</p>
+
+<p>Generates a platform-specific query string so that the column names can be
+fetched</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>string</code><br>the table name</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_field_data" id="__field_data">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__field_data">#</a>
+		<code>_field_data( <span>string <var>$table</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Field data query</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Field data query</p>
+
+<p>Generates a platform-specific query so that the column data can be
+retrieved</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>string</code><br>the table name</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_error_message" id="__error_message">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__error_message">#</a>
+		<code>_error_message( )</code>
+
+		<div class="description short">
+			
+<p>The error message string</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>The error message string</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_error_number" id="__error_number">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__error_number">#</a>
+		<code>_error_number( )</code>
+
+		<div class="description short">
+			
+<p>The error message number</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>The error message number</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_escape_identifiers" id="__escape_identifiers">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__escape_identifiers">#</a>
+		<code>_escape_identifiers( <span>string <var>$item</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Escape the SQL Identifiers</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Escape the SQL Identifiers</p>
+
+<p>This function escapes column and table names</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$item</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_from_tables" id="__from_tables">
+
+		<td class="attributes"><code>
+			 public 
+			type
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__from_tables">#</a>
+		<code>_from_tables( <span>type <var>$tables</var></span> )</code>
+
+		<div class="description short">
+			
+<p>From Tables</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>From Tables</p>
+
+<p>This function implicitly groups FROM tables so there is no confusion about
+operator precedence in harmony with SQL standards</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$tables</var></dt>
+					<dd><code>type</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>type</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_insert" id="__insert">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__insert">#</a>
+		<code>_insert( <span>string <var>$table</var></span>, <span>array <var>$keys</var></span>, <span>array <var>$values</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Insert statement</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Insert statement</p>
+
+<p>Generates a platform-specific insert string from the supplied data</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>string</code><br>the table name</dd>
+					<dt><var>$keys</var></dt>
+					<dd><code>array</code><br>the insert keys</dd>
+					<dt><var>$values</var></dt>
+					<dd><code>array</code><br>the insert values</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_update" id="__update">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__update">#</a>
+		<code>_update( <span>string <var>$table</var></span>, <span>array <var>$values</var></span>, <span>array <var>$where</var></span>, <span>array <var>$orderby</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$limit</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Update statement</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Update statement</p>
+
+<p>Generates a platform-specific update string from the supplied data</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>string</code><br>the table name</dd>
+					<dt><var>$values</var></dt>
+					<dd><code>array</code><br>the update data</dd>
+					<dt><var>$where</var></dt>
+					<dd><code>array</code><br>the where clause</dd>
+					<dt><var>$orderby</var></dt>
+					<dd><code>array</code><br>the orderby clause</dd>
+					<dt><var>$limit</var></dt>
+					<dd><code>array</code><br>the limit clause</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_truncate" id="__truncate">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__truncate">#</a>
+		<code>_truncate( <span>string <var>$table</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Truncate statement</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Truncate statement</p>
+
+<p>Generates a platform-specific truncate string from the supplied data If the
+database does not support the truncate() command This function maps to "DELETE
+FROM table"</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>string</code><br>the table name</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_delete" id="__delete">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__delete">#</a>
+		<code>_delete( <span>string <var>$table</var></span>, <span>array <var>$where</var> = <span class="php-keyword1">array</span>()</span>, <span>string <var>$like</var> = <span class="php-keyword1">array</span>()</span>, <span>mixed <var>$limit</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Delete statement</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Delete statement</p>
+
+<p>Generates a platform-specific delete string from the supplied data</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>string</code><br>the table name</dd>
+					<dt><var>$where</var></dt>
+					<dd><code>array</code><br>the where clause</dd>
+					<dt><var>$like</var></dt>
+					<dd><code>string</code><br>the limit clause</dd>
+					<dt><var>$limit</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_limit" id="__limit">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__limit">#</a>
+		<code>_limit( <span>string <var>$sql</var></span>, <span>integer <var>$limit</var></span>, <span>integer <var>$offset</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Limit string</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Limit string</p>
+
+<p>Generates a platform-specific LIMIT clause</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$sql</var></dt>
+					<dd><code>string</code><br>the sql query string</dd>
+					<dt><var>$limit</var></dt>
+					<dd><code>integer</code><br>the number of rows to limit the query to</dd>
+					<dt><var>$offset</var></dt>
+					<dd><code>integer</code><br>the offset value</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_close" id="__close">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__close">#</a>
+		<code>_close( <span>resource <var>$conn_id</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Close DB Connection</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Close DB Connection</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$conn_id</var></dt>
+					<dd><code>resource</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="dbdriver" id="$dbdriver">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$dbdriver</var>		</td>
+		<td class="value"><code><span class="php-quote">'odbc'</span></code></td>
+		<td class="description"><div>
+			<a href="#$dbdriver" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_escape_char" id="$_escape_char">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$_escape_char</var>		</td>
+		<td class="value"><code><span class="php-quote">''</span></code></td>
+		<td class="description"><div>
+			<a href="#$_escape_char" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_like_escape_str" id="$_like_escape_str">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$_like_escape_str</var>		</td>
+		<td class="value"><code><span class="php-quote">&quot; {escape '%s'} &quot;</span></code></td>
+		<td class="description"><div>
+			<a href="#$_like_escape_str" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_like_escape_chr" id="$_like_escape_chr">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$_like_escape_chr</var>		</td>
+		<td class="value"><code><span class="php-quote">'!'</span></code></td>
+		<td class="description"><div>
+			<a href="#$_like_escape_chr" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_count_string" id="$_count_string">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$_count_string</var>		</td>
+		<td class="value"><code><span class="php-quote">&quot;SELECT COUNT(*) AS &quot;</span></code></td>
+		<td class="description"><div>
+			<a href="#$_count_string" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The syntax to count rows is slightly different across different database
+engines, so this string appears in each driver and is used for the count_all()
+and count_all_results() functions.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The syntax to count rows is slightly different across different database
+engines, so this string appears in each driver and is used for the count_all()
+and count_all_results() functions.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_random_keyword" id="$_random_keyword">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+<var>$_random_keyword</var>		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$_random_keyword" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		DoTheMath Server API AppFrog API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

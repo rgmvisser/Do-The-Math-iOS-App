@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class CI_Router | DoTheMath Server API AppFrog</title>
+
+	<script type="text/javascript" src="resources/combined.js?1130135532"></script>
+	<script type="text/javascript" src="elementlist.js?4137884977"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li class="active"><a href="package-CodeIgniter.html">CodeIgniter<span></span></a>
+						<ul>
+				<li><a href="package-CodeIgniter.Drivers.html">Drivers</a>
+						</li>
+				<li class="active"><a href="package-CodeIgniter.Libraries.html">Libraries</a>
+						</li>
+							</ul></li>
+				<li><a href="package-DoTheMath.html">DoTheMath<span></span></a>
+						<ul>
+				<li><a href="package-DoTheMath.External.html">External</a>
+						</li>
+				<li><a href="package-DoTheMath.Question.html">Question</a>
+						</li>
+							</ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-CI_Benchmark.html">CI_Benchmark</a></li>
+				<li><a href="class-CI_Cache.html">CI_Cache</a></li>
+				<li><a href="class-CI_Cache_apc.html">CI_Cache_apc</a></li>
+				<li><a href="class-CI_Cache_dummy.html">CI_Cache_dummy</a></li>
+				<li><a href="class-CI_Cache_file.html">CI_Cache_file</a></li>
+				<li><a href="class-CI_Cache_memcached.html">CI_Cache_memcached</a></li>
+				<li><a href="class-CI_Calendar.html">CI_Calendar</a></li>
+				<li><a href="class-CI_Cart.html">CI_Cart</a></li>
+				<li><a href="class-CI_Config.html">CI_Config</a></li>
+				<li><a href="class-CI_Controller.html">CI_Controller</a></li>
+				<li><a href="class-CI_Driver.html">CI_Driver</a></li>
+				<li><a href="class-CI_Driver_Library.html">CI_Driver_Library</a></li>
+				<li><a href="class-CI_Email.html">CI_Email</a></li>
+				<li><a href="class-CI_Encrypt.html">CI_Encrypt</a></li>
+				<li><a href="class-CI_Exceptions.html">CI_Exceptions</a></li>
+				<li><a href="class-CI_Form_validation.html">CI_Form_validation</a></li>
+				<li><a href="class-CI_FTP.html">CI_FTP</a></li>
+				<li><a href="class-CI_Hooks.html">CI_Hooks</a></li>
+				<li><a href="class-CI_Image_lib.html">CI_Image_lib</a></li>
+				<li><a href="class-CI_Input.html">CI_Input</a></li>
+				<li><a href="class-CI_Javascript.html">CI_Javascript</a></li>
+				<li><a href="class-CI_Jquery.html">CI_Jquery</a></li>
+				<li><a href="class-CI_Lang.html">CI_Lang</a></li>
+				<li><a href="class-CI_Loader.html">CI_Loader</a></li>
+				<li><a href="class-CI_Log.html">CI_Log</a></li>
+				<li><a href="class-CI_Migration.html">CI_Migration</a></li>
+				<li><a href="class-CI_Model.html">CI_Model</a></li>
+				<li><a href="class-CI_Output.html">CI_Output</a></li>
+				<li><a href="class-CI_Pagination.html">CI_Pagination</a></li>
+				<li><a href="class-CI_Parser.html">CI_Parser</a></li>
+				<li><a href="class-CI_Profiler.html">CI_Profiler</a></li>
+				<li class="active"><a href="class-CI_Router.html">CI_Router</a></li>
+				<li><a href="class-CI_Security.html">CI_Security</a></li>
+				<li><a href="class-CI_Session.html">CI_Session</a></li>
+				<li><a href="class-CI_SHA1.html">CI_SHA1</a></li>
+				<li><a href="class-CI_Table.html">CI_Table</a></li>
+				<li><a href="class-CI_Trackback.html">CI_Trackback</a></li>
+				<li><a href="class-CI_Unit_test.html">CI_Unit_test</a></li>
+				<li><a href="class-CI_Upload.html">CI_Upload</a></li>
+				<li><a href="class-CI_URI.html">CI_URI</a></li>
+				<li><a href="class-CI_User_agent.html">CI_User_agent</a></li>
+				<li><a href="class-CI_Utf8.html">CI_Utf8</a></li>
+				<li><a href="class-CI_Xmlrpc.html">CI_Xmlrpc</a></li>
+				<li><a href="class-CI_Xmlrpcs.html">CI_Xmlrpcs</a></li>
+				<li><a href="class-CI_Zip.html">CI_Zip</a></li>
+				<li><a href="class-Curl.html">Curl</a></li>
+				<li><a href="class-Match_model.html">Match_model</a></li>
+				<li><a href="class-REST_Controller.html">REST_Controller</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-CodeIgniter.Libraries.html" title="Summary of CodeIgniter\Libraries"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+			<li>
+				<a href="deprecated.html" title="List of deprecated elements"><span>Deprecated</span></a>
+			</li>
+			<li>
+				<a href="todo.html" title="Todo list"><span>Todo</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class CI_Router</h1>
+
+
+	<div class="description">
+	
+<p>Router Class</p>
+
+<p>Parses URIs and determines routing</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-CodeIgniter.html">CodeIgniter</a>\<a href="package-CodeIgniter.Libraries.html">Libraries</a><br />
+
+				<b>Category:</b>
+				Libraries<br />
+				<b>Author:</b>
+				ExpressionEngine Dev Team<br />
+				<b>Link:</b>
+				<a href="http://codeigniter.com/user_guide/general/routing.html">http://codeigniter.com/user_guide/general/routing.html</a><br />
+		<b>Located at</b> system/core/Router.php<br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code>__construct( )</code>
+
+		<div class="description short">
+			
+<p>Constructor</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Constructor</p>
+
+<p>Runs the route mapping function.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_set_routing" id="__set_routing">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__set_routing">#</a>
+		<code>_set_routing( )</code>
+
+		<div class="description short">
+			
+<p>Set the route mapping</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the route mapping</p>
+
+<p>This function determines what should be served based on the URI request, as
+well as any "routes" that have been set in the routing config file.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_set_default_controller" id="__set_default_controller">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__set_default_controller">#</a>
+		<code>_set_default_controller( )</code>
+
+		<div class="description short">
+			
+<p>Set the default controller</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the default controller</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_set_request" id="__set_request">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__set_request">#</a>
+		<code>_set_request( <span>array <var>$segments</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Set the Route</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the Route</p>
+
+<p>This function takes an array of URI segments as input, and sets the current
+class/method</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$segments</var></dt>
+					<dd><code>array</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_validate_request" id="__validate_request">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__validate_request">#</a>
+		<code>_validate_request( <span>array <var>$segments</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Validates the supplied segments. Attempts to determine the path to the
+controller.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Validates the supplied segments. Attempts to determine the path to the
+controller.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$segments</var></dt>
+					<dd><code>array</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_parse_routes" id="__parse_routes">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__parse_routes">#</a>
+		<code>_parse_routes( )</code>
+
+		<div class="description short">
+			
+<p>Parse Routes</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Parse Routes</p>
+
+<p>This function matches any routes that may exist in the config/routes.php file
+against the URI to determine if the class/method need to be remapped.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set_class" id="_set_class">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set_class">#</a>
+		<code>set_class( <span>string <var>$class</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the class name</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the class name</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$class</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="fetch_class" id="_fetch_class">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_fetch_class">#</a>
+		<code>fetch_class( )</code>
+
+		<div class="description short">
+			
+<p>Fetch the current class</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Fetch the current class</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set_method" id="_set_method">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set_method">#</a>
+		<code>set_method( <span>string <var>$method</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the method name</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the method name</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$method</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="fetch_method" id="_fetch_method">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_fetch_method">#</a>
+		<code>fetch_method( )</code>
+
+		<div class="description short">
+			
+<p>Fetch the current method</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Fetch the current method</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set_directory" id="_set_directory">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set_directory">#</a>
+		<code>set_directory( <span>string <var>$dir</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the directory name</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the directory name</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$dir</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="fetch_directory" id="_fetch_directory">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_fetch_directory">#</a>
+		<code>fetch_directory( )</code>
+
+		<div class="description short">
+			
+<p>Fetch the sub-directory (if any) that contains the requested controller
+class</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Fetch the sub-directory (if any) that contains the requested controller
+class</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_set_overrides" id="__set_overrides">
+
+		<td class="attributes"><code>
+			 public 
+			null
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__set_overrides">#</a>
+		<code>_set_overrides( <span>array <var>$routing</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the controller overrides</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the controller overrides</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$routing</var></dt>
+					<dd><code>array</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>null</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="config" id="$config">
+		<td class="attributes"><code>
+			public  
+			object
+		</code></td>
+
+		<td class="name">
+<var>$config</var>		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$config" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Config class</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Config class</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="routes" id="$routes">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$routes</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$routes" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>List of routes</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>List of routes</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="error_routes" id="$error_routes">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$error_routes</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$error_routes" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>List of error routes</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>List of error routes</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="class" id="$class">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$class</var>		</td>
+		<td class="value"><code><span class="php-quote">''</span></code></td>
+		<td class="description"><div>
+			<a href="#$class" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Current class name</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Current class name</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="method" id="$method">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$method</var>		</td>
+		<td class="value"><code><span class="php-quote">'index'</span></code></td>
+		<td class="description"><div>
+			<a href="#$method" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Current method name</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Current method name</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="directory" id="$directory">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$directory</var>		</td>
+		<td class="value"><code><span class="php-quote">''</span></code></td>
+		<td class="description"><div>
+			<a href="#$directory" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Sub-directory that contains the requested controller class</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Sub-directory that contains the requested controller class</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="default_controller" id="$default_controller">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$default_controller</var>		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$default_controller" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Default controller (and method if specific)</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Default controller (and method if specific)</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		DoTheMath Server API AppFrog API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

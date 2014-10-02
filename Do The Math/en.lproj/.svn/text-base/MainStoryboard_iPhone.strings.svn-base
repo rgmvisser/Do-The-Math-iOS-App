@@ -1,0 +1,239 @@
+
+/* Class = "IBUILabel"; text = "Expression"; ObjectID = "2yi-pq-aoL"; */
+"2yi-pq-aoL.text" = "Expression";
+
+
+/* Class = "IBUIButton"; normalTitle = "Invite"; ObjectID = "4BQ-bf-Fa4"; */
+"4BQ-bf-Fa4.normalTitle" = "Invite";
+
+/* Class = "IBUITextField"; text = "Password"; ObjectID = "6de-rc-Hmi"; */
+"6de-rc-Hmi.text" = "Password";
+
+/* Class = "IBUILabel"; text = "score1"; ObjectID = "6rS-sP-8ra"; */
+"6rS-sP-8ra.text" = "score1";
+
+/* Class = "IBUILabel"; text = "Time bonus:"; ObjectID = "7dA-h7-b5O"; */
+"7dA-h7-b5O.text" = "Time bonus:";
+
+/* Class = "IBUIButton"; normalTitle = "Login"; ObjectID = "99D-tL-hne"; */
+"99D-tL-hne.normalTitle" = "Login";
+
+/* Class = "IBUIButton"; normalTitle = "/"; ObjectID = "Abq-et-oTn"; */
+"Abq-et-oTn.normalTitle" = "/";
+
+/* Class = "IBUILabel"; text = "0"; ObjectID = "Al3-OB-g5F"; */
+"Al3-OB-g5F.text" = "0";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "BYe-4a-lLm"; */
+"BYe-4a-lLm.text" = "Label";
+
+/* Class = "IBUINavigationItem"; title = "New Game"; ObjectID = "CoZ-cC-Fdx"; */
+"CoZ-cC-Fdx.title" = "New Game";
+
+/* Class = "IBUIBarButtonItem"; title = "Back"; ObjectID = "Cxr-BU-BC9"; */
+"Cxr-BU-BC9.title" = "Back";
+
+/* Class = "IBUILabel"; text = "Player 2"; ObjectID = "DKs-Xe-tMA"; */
+"DKs-Xe-tMA.text" = "Player 2";
+
+/* Class = "IBUINavigationItem"; title = "Facebook"; ObjectID = "DbN-9b-Qnc"; */
+"DbN-9b-Qnc.title" = "Facebook";
+
+/* Class = "IBUINavigationItem"; title = "Friends"; ObjectID = "Dlb-jQ-tsK"; */
+"Dlb-jQ-tsK.title" = "Friends";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "E8F-1B-IWJ"; */
+"E8F-1B-IWJ.text" = "Label";
+
+/* Class = "IBUILabel"; text = "Username"; ObjectID = "Fb0-G7-jzU"; */
+"Fb0-G7-jzU.text" = "Username";
+
+/* Class = "IBUIBarButtonItem"; title = "Continue"; ObjectID = "Fh8-K7-fbS"; */
+"Fh8-K7-fbS.title" = "Continue";
+
+/* Class = "IBUIButton"; normalTitle = "Login existing user"; ObjectID = "FtW-8S-9qR"; */
+"FtW-8S-9qR.normalTitle" = "Login existing user";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "HNN-FW-sgo"; */
+"HNN-FW-sgo.normalTitle" = "Button";
+
+/* Class = "IBUILabel"; text = "SOLVE"; ObjectID = "Ifn-MK-dtc"; */
+"Ifn-MK-dtc.text" = "SOLVE";
+
+/* Class = "IBUILabel"; text = "Username"; ObjectID = "JCs-qu-y2Y"; */
+"JCs-qu-y2Y.text" = "Username";
+
+/* Class = "IBUILabel"; text = "Total:"; ObjectID = "Jbw-ze-4vv"; */
+"Jbw-ze-4vv.text" = "Total:";
+
+/* Class = "IBUIBarButtonItem"; title = "Save"; ObjectID = "KQP-xk-Eda"; */
+"KQP-xk-Eda.title" = "Save";
+
+/* Class = "IBUITextField"; placeholder = "E-mail"; ObjectID = "LAi-u3-UbX"; */
+"LAi-u3-UbX.placeholder" = "E-mail";
+
+
+/* Class = "IBUILabel"; text = "0"; ObjectID = "LcH-SL-fcc"; */
+"LcH-SL-fcc.text" = "0";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "Mf3-AW-Kmi"; */
+"Mf3-AW-Kmi.normalTitle" = "Button";
+
+/* Class = "IBUILabel"; text = "Username"; ObjectID = "NmY-pi-K5v"; */
+"NmY-pi-K5v.text" = "Username";
+
+/* Class = "IBUILabel"; text = "Make 24"; ObjectID = "Nq5-oj-E4M"; */
+"Nq5-oj-E4M.text" = "Make 24";
+
+/* Class = "IBUILabel"; text = "Username"; ObjectID = "Oiz-NO-yc5"; */
+"Oiz-NO-yc5.text" = "Username";
+
+/* Class = "IBUIButton"; normalTitle = "Login with"; ObjectID = "PBu-N1-B2g"; */
+"PBu-N1-B2g.normalTitle" = "Login with";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "PIm-eO-I6m"; */
+"PIm-eO-I6m.text" = "Label";
+
+/* Class = "IBUILabel"; text = "5000"; ObjectID = "Sde-9Z-emN"; */
+"Sde-9Z-emN.text" = "5000";
+
+/* Class = "IBUIButton"; normalTitle = "Connect To Facebook"; ObjectID = "Sz1-v5-hR1"; */
+"Sz1-v5-hR1.normalTitle" = "Connect to";
+
+
+/* Class = "IBUILabel"; text = "Username"; ObjectID = "UAr-17-KXh"; */
+"UAr-17-KXh.text" = "Username";
+
+/* Class = "IBUIButton"; normalTitle = "+"; ObjectID = "Uwl-P3-Tf6"; */
+"Uwl-P3-Tf6.normalTitle" = "+";
+
+/* Class = "IBUITextField"; placeholder = "Re-type Password"; ObjectID = "Uwt-hu-fKI"; */
+"Uwt-hu-fKI.placeholder" = "Re-type Password";
+
+/* Class = "IBUINavigationItem"; title = "User Settings"; ObjectID = "VIz-C9-Ztk"; */
+"VIz-C9-Ztk.title" = "User Settings";
+
+
+/* Class = "IBUINavigationItem"; title = "Round Result"; ObjectID = "ZPb-1M-tzI"; */
+"ZPb-1M-tzI.title" = "Round Result";
+
+/* Class = "IBUINavigationItem"; title = "Results"; ObjectID = "ZRJ-Y4-l2T"; */
+"ZRJ-Y4-l2T.title" = "Results";
+
+/* Class = "IBUILabel"; text = "Number Answers Correct:"; ObjectID = "aE1-Qf-Ull"; */
+"aE1-Qf-Ull.text" = "Number Answers Correct:";
+
+/* Class = "IBUIBarButtonItem"; title = "Item"; ObjectID = "alz-jv-QQa"; */
+"alz-jv-QQa.title" = "Item";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "b7K-qJ-QEi"; */
+"b7K-qJ-QEi.text" = "Label";
+
+/* Class = "IBUITextField"; placeholder = "Password"; ObjectID = "bfc-jC-SS1"; */
+"bfc-jC-SS1.placeholder" = "Password";
+
+/* Class = "IBUIButton"; normalTitle = "Respond"; ObjectID = "cdA-z2-bQf"; */
+"cdA-z2-bQf.normalTitle" = "Respond";
+
+/* Class = "IBUILabel"; text = "RIGHT OR WRONG?"; ObjectID = "dLZ-Sl-7Jj"; */
+"dLZ-Sl-7Jj.text" = "RIGHT OR WRONG?";
+
+/* Class = "IBUIButton"; normalTitle = "Select image"; ObjectID = "dhH-yh-n8n"; */
+"dhH-yh-n8n.normalTitle" = "Select image";
+
+/* Class = "IBUINavigationItem"; title = "Titel"; ObjectID = "eFG-jf-P3m"; */
+"eFG-jf-P3m.title" = "Titel";
+
+/* Class = "IBUIButton"; normalTitle = "Load image"; ObjectID = "eRT-3U-3VE"; */
+"eRT-3U-3VE.normalTitle" = "Load image";
+
+/* Class = "IBUILabel"; text = "No result"; ObjectID = "ejN-L9-rAT"; */
+"ejN-L9-rAT.text" = "No result";
+
+/* Class = "IBUIButton"; normalTitle = "Invite"; ObjectID = "fUT-Xy-Oa9"; */
+"fUT-Xy-Oa9.normalTitle" = "Invite";
+
+/* Class = "IBUIViewController"; title = "MainGameViewController"; ObjectID = "fzL-2a-D0d"; */
+"fzL-2a-D0d.title" = "MainGameViewController";
+
+/* Class = "IBUILabel"; text = "Score:"; ObjectID = "gyl-hW-nMD"; */
+"gyl-hW-nMD.text" = "Score:";
+
+/* Class = "IBUINavigationItem"; title = "Search Friends"; ObjectID = "iHW-MI-j01"; */
+"iHW-MI-j01.title" = "Search Friends";
+
+/* Class = "IBUILabel"; text = "0"; ObjectID = "iuH-c8-vGb"; */
+"iuH-c8-vGb.text" = "0";
+
+/* Class = "IBUIButton"; normalTitle = "-"; ObjectID = "jrh-YS-HZF"; */
+"jrh-YS-HZF.normalTitle" = "-";
+
+
+/* Class = "IBUIButton"; normalTitle = "*"; ObjectID = "kyw-j6-oMj"; */
+"kyw-j6-oMj.normalTitle" = "*";
+
+
+
+/* Class = "IBUIBarButtonItem"; title = "Next Round"; ObjectID = "mcT-IN-xqL"; */
+"mcT-IN-xqL.title" = "Next Round";
+
+
+/* Class = "IBUILabel"; text = "Username"; ObjectID = "mfj-bg-gtR"; */
+"mfj-bg-gtR.text" = "Username";
+
+/* Class = "IBUILabel"; text = "0"; ObjectID = "mhT-5H-X66"; */
+"mhT-5H-X66.text" = "0";
+
+/* Class = "IBUIButton"; normalTitle = "Play"; ObjectID = "ndF-K5-K2f"; */
+"ndF-K5-K2f.normalTitle" = "Play";
+
+/* Class = "IBUIButton"; normalTitle = "Send mail"; ObjectID = "pOL-k0-zb0"; */
+"pOL-k0-zb0.normalTitle" = "Send mail";
+
+
+/* Class = "IBUITextField"; text = "Username"; ObjectID = "rrO-sa-s6I"; */
+"rrO-sa-s6I.text" = "Username";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "t0v-hO-Swx"; */
+"t0v-hO-Swx.normalTitle" = "Button";
+
+/* Class = "IBUILabel"; text = "0"; ObjectID = "t9s-Ff-1l3"; */
+"t9s-Ff-1l3.text" = "0";
+
+
+/* Class = "IBUIButton"; normalTitle = "Forgot password?"; ObjectID = "tvR-o7-hj8"; */
+"tvR-o7-hj8.normalTitle" = "Forgot password?";
+
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "ueF-RQ-eVI"; */
+"ueF-RQ-eVI.text" = "Label";
+
+/* Class = "IBUIButton"; normalTitle = "Accept"; ObjectID = "ulq-v1-M2w"; */
+"ulq-v1-M2w.normalTitle" = "Respond";
+
+/* Class = "IBUILabel"; text = "Player 1"; ObjectID = "vLG-0R-kEj"; */
+"vLG-0R-kEj.text" = "Player 1";
+
+
+
+/* Class = "IBUILabel"; text = "2000"; ObjectID = "waZ-Nl-EmN"; */
+"waZ-Nl-EmN.text" = "2000";
+
+/* Class = "IBUILabel"; text = "Expression"; ObjectID = "xcb-FA-UUY"; */
+"xcb-FA-UUY.text" = "Expression";
+
+
+/* Class = "IBUIButton"; normalTitle = "New user"; ObjectID = "yjm-9i-0Uu"; */
+"yjm-9i-0Uu.normalTitle" = "New user";
+
+/* Class = "IBUILabel"; text = "Name"; ObjectID = "yya-cM-AFu"; */
+"yya-cM-AFu.text" = "Name";
+
+/* Class = "IBUITextField"; placeholder = "Username"; ObjectID = "zBc-Ub-Yi1"; */
+"zBc-Ub-Yi1.placeholder" = "Username";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "zEy-rB-tfO"; */
+"zEy-rB-tfO.text" = "Label";
+
+/* Class = "IBUILabel"; text = "E-mail invite"; ObjectID = "cvB-bA-tWT"; */
+"cvB-bA-tWT.text" = "E-mail";

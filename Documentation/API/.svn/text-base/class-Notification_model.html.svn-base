@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Notification_model | DoTheMath Server API AppFrog</title>
+
+	<script type="text/javascript" src="resources/combined.js?1130135532"></script>
+	<script type="text/javascript" src="elementlist.js?4137884977"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-CodeIgniter.html">CodeIgniter<span></span></a>
+						<ul>
+				<li><a href="package-CodeIgniter.Drivers.html">Drivers</a>
+						</li>
+				<li><a href="package-CodeIgniter.Libraries.html">Libraries</a>
+						</li>
+							</ul></li>
+				<li class="active"><a href="package-DoTheMath.html">DoTheMath<span></span></a>
+						<ul>
+				<li><a href="package-DoTheMath.External.html">External</a>
+						</li>
+				<li><a href="package-DoTheMath.Question.html">Question</a>
+						</li>
+							</ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-DoTheMathApi.html">DoTheMathApi</a></li>
+				<li><a href="class-Friends.html">Friends</a></li>
+				<li><a href="class-Invite_model.html">Invite_model</a></li>
+				<li><a href="class-LocalizedNotifications.html">LocalizedNotifications</a></li>
+				<li><a href="class-Logging.html">Logging</a></li>
+				<li><a href="class-Matches.html">Matches</a></li>
+				<li class="active"><a href="class-Notification_model.html">Notification_model</a></li>
+				<li><a href="class-Notifications_ios.html">Notifications_ios</a></li>
+				<li><a href="class-QuestionExample.html">QuestionExample</a></li>
+				<li><a href="class-Rank_model.html">Rank_model</a></li>
+				<li><a href="class-Reminders.html">Reminders</a></li>
+				<li><a href="class-Settings.html">Settings</a></li>
+				<li><a href="class-Settings_model.html">Settings_model</a></li>
+				<li><a href="class-User_model.html">User_model</a></li>
+				<li><a href="class-Users.html">Users</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-DoTheMath.html" title="Summary of DoTheMath"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+			<li>
+				<a href="deprecated.html" title="List of deprecated elements"><span>Deprecated</span></a>
+			</li>
+			<li>
+				<a href="todo.html" title="Todo list"><span>Todo</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Notification_model</h1>
+
+
+	<div class="description">
+	
+<p>This class serves as the model for the Users in the database and gives the
+application a consistent interface to talk to.</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-CI_Model.html"><span>CI_Model</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>Notification_model</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-DoTheMath.html">DoTheMath</a><br />
+
+		<b>Located at</b> application/models/notification_model.php<br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code>__construct( )</code>
+
+		<div class="description short">
+			
+<p>Constructor</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Constructor</p>
+
+
+
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-CI_Model.html#___construct">CI_Model::__construct()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="add" id="_add">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_add">#</a>
+		<code>add( <span>integer <var>$user_id</var></span>, <span>mixed <var>$sound</var></span>, <span>mixed <var>$message</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Fetches a user from the database. If an ID is supplied it fetches just some
+general info If no ID is supplied it fetches all info of the current loggedin
+user</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Fetches a user from the database. If an ID is supplied it fetches just some
+general info If no ID is supplied it fetches all info of the current loggedin
+user</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$user_id</var></dt>
+					<dd><code>integer</code><br>$id The user_id of the user (optional)</dd>
+					<dt><var>$sound</var></dt>
+					<dd></dd>
+					<dt><var>$message</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-CI_Model.html#methods">CI_Model</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-CI_Model.html#___get">__get()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="name" id="$name">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$name</var>		</td>
+		<td class="value"><code><span class="php-quote">'Someone'</span></code></td>
+		<td class="description"><div>
+			<a href="#$name" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		DoTheMath Server API AppFrog API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

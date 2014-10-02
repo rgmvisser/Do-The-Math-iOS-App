@@ -1,0 +1,1857 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class CI_DB_oci8_driver | DoTheMath Server API AppFrog</title>
+
+	<script type="text/javascript" src="resources/combined.js?1130135532"></script>
+	<script type="text/javascript" src="elementlist.js?4137884977"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-CodeIgniter.html">CodeIgniter<span></span></a>
+						<ul>
+				<li><a href="package-CodeIgniter.Drivers.html">Drivers</a>
+						</li>
+				<li><a href="package-CodeIgniter.Libraries.html">Libraries</a>
+						</li>
+							</ul></li>
+				<li><a href="package-DoTheMath.html">DoTheMath<span></span></a>
+						<ul>
+				<li><a href="package-DoTheMath.External.html">External</a>
+						</li>
+				<li><a href="package-DoTheMath.Question.html">Question</a>
+						</li>
+							</ul></li>
+				<li class="active"><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-CI_DB_Cache.html">CI_DB_Cache</a></li>
+				<li><a href="class-CI_DB_cubrid_forge.html">CI_DB_cubrid_forge</a></li>
+				<li><a href="class-CI_DB_cubrid_result.html">CI_DB_cubrid_result</a></li>
+				<li><a href="class-CI_DB_cubrid_utility.html">CI_DB_cubrid_utility</a></li>
+				<li><a href="class-CI_DB_forge.html">CI_DB_forge</a></li>
+				<li><a href="class-CI_DB_mssql_forge.html">CI_DB_mssql_forge</a></li>
+				<li><a href="class-CI_DB_mssql_result.html">CI_DB_mssql_result</a></li>
+				<li><a href="class-CI_DB_mssql_utility.html">CI_DB_mssql_utility</a></li>
+				<li><a href="class-CI_DB_mysql_forge.html">CI_DB_mysql_forge</a></li>
+				<li><a href="class-CI_DB_mysql_result.html">CI_DB_mysql_result</a></li>
+				<li><a href="class-CI_DB_mysql_utility.html">CI_DB_mysql_utility</a></li>
+				<li><a href="class-CI_DB_mysqli_forge.html">CI_DB_mysqli_forge</a></li>
+				<li><a href="class-CI_DB_mysqli_result.html">CI_DB_mysqli_result</a></li>
+				<li><a href="class-CI_DB_mysqli_utility.html">CI_DB_mysqli_utility</a></li>
+				<li class="active"><a href="class-CI_DB_oci8_driver.html">CI_DB_oci8_driver</a></li>
+				<li><a href="class-CI_DB_oci8_forge.html">CI_DB_oci8_forge</a></li>
+				<li><a href="class-CI_DB_oci8_result.html">CI_DB_oci8_result</a></li>
+				<li><a href="class-CI_DB_oci8_utility.html">CI_DB_oci8_utility</a></li>
+				<li><a href="class-CI_DB_odbc_forge.html">CI_DB_odbc_forge</a></li>
+				<li><a href="class-CI_DB_odbc_result.html">CI_DB_odbc_result</a></li>
+				<li><a href="class-CI_DB_odbc_utility.html">CI_DB_odbc_utility</a></li>
+				<li><a href="class-CI_DB_pdo_forge.html">CI_DB_pdo_forge</a></li>
+				<li><a href="class-CI_DB_pdo_result.html">CI_DB_pdo_result</a></li>
+				<li><a href="class-CI_DB_pdo_utility.html">CI_DB_pdo_utility</a></li>
+				<li><a href="class-CI_DB_postgre_forge.html">CI_DB_postgre_forge</a></li>
+				<li><a href="class-CI_DB_postgre_result.html">CI_DB_postgre_result</a></li>
+				<li><a href="class-CI_DB_postgre_utility.html">CI_DB_postgre_utility</a></li>
+				<li><a href="class-CI_DB_result.html">CI_DB_result</a></li>
+				<li><a href="class-CI_DB_sqlite_forge.html">CI_DB_sqlite_forge</a></li>
+				<li><a href="class-CI_DB_sqlite_result.html">CI_DB_sqlite_result</a></li>
+				<li><a href="class-CI_DB_sqlite_utility.html">CI_DB_sqlite_utility</a></li>
+				<li><a href="class-CI_DB_sqlsrv_forge.html">CI_DB_sqlsrv_forge</a></li>
+				<li><a href="class-CI_DB_sqlsrv_result.html">CI_DB_sqlsrv_result</a></li>
+				<li><a href="class-CI_DB_sqlsrv_utility.html">CI_DB_sqlsrv_utility</a></li>
+				<li><a href="class-CI_DB_utility.html">CI_DB_utility</a></li>
+				<li><a href="class-CI_Typography.html">CI_Typography</a></li>
+				<li><a href="class-Format.html">Format</a></li>
+				<li><a href="class-Friend_model.html">Friend_model</a></li>
+				<li><a href="class-S3Request.html">S3Request</a></li>
+				<li><a href="class-XML_RPC_Client.html">XML_RPC_Client</a></li>
+				<li><a href="class-XML_RPC_Message.html">XML_RPC_Message</a></li>
+				<li><a href="class-XML_RPC_Response.html">XML_RPC_Response</a></li>
+				<li><a href="class-XML_RPC_Values.html">XML_RPC_Values</a></li>
+			</ul>
+
+
+
+			<h3>Exceptions</h3>
+			<ul>
+				<li><a href="class-S3Exception.html">S3Exception</a></li>
+			</ul>
+
+
+			<h3>Functions</h3>
+			<ul>
+				<li><a href="function-__autoload.html">__autoload</a></li>
+				<li><a href="function-_attributes_to_string.html">_attributes_to_string</a></li>
+				<li><a href="function-_exception_handler.html">_exception_handler</a></li>
+				<li><a href="function-_get_smiley_array.html">_get_smiley_array</a></li>
+				<li><a href="function-_get_validation_object.html">_get_validation_object</a></li>
+				<li><a href="function-_list.html">_list</a></li>
+				<li><a href="function-_parse_attributes.html">_parse_attributes</a></li>
+				<li><a href="function-_parse_form_attributes.html">_parse_form_attributes</a></li>
+				<li><a href="function-alternator.html">alternator</a></li>
+				<li><a href="function-anchor.html">anchor</a></li>
+				<li><a href="function-anchor_popup.html">anchor_popup</a></li>
+				<li><a href="function-ascii_to_entities.html">ascii_to_entities</a></li>
+				<li><a href="function-auto_link.html">auto_link</a></li>
+				<li><a href="function-auto_typography.html">auto_typography</a></li>
+				<li><a href="function-base_url.html">base_url</a></li>
+				<li><a href="function-br.html">br</a></li>
+				<li><a href="function-byte_format.html">byte_format</a></li>
+				<li><a href="function-camelize.html">camelize</a></li>
+				<li><a href="function-character_limiter.html">character_limiter</a></li>
+				<li><a href="function-config_item.html">config_item</a></li>
+				<li><a href="function-convert_accented_characters.html">convert_accented_characters</a></li>
+				<li><a href="function-create_captcha.html">create_captcha</a></li>
+				<li><a href="function-current_url.html">current_url</a></li>
+				<li><a href="function-days_in_month.html">days_in_month</a></li>
+				<li><a href="function-DB.html">DB</a></li>
+				<li><a href="function-delete_cookie.html">delete_cookie</a></li>
+				<li><a href="function-delete_files.html">delete_files</a></li>
+				<li><a href="function-directory_map.html">directory_map</a></li>
+				<li><a href="function-do_hash.html">do_hash</a></li>
+				<li><a href="function-doctype.html">doctype</a></li>
+				<li><a href="function-element.html">element</a></li>
+				<li><a href="function-elements.html">elements</a></li>
+				<li><a href="function-ellipsize.html">ellipsize</a></li>
+				<li><a href="function-encode_php_tags.html">encode_php_tags</a></li>
+				<li><a href="function-entities_to_ascii.html">entities_to_ascii</a></li>
+				<li><a href="function-entity_decode.html">entity_decode</a></li>
+				<li><a href="function-force_download.html">force_download</a></li>
+				<li><a href="function-form_button.html">form_button</a></li>
+				<li><a href="function-form_checkbox.html">form_checkbox</a></li>
+				<li><a href="function-form_close.html">form_close</a></li>
+				<li><a href="function-form_dropdown.html">form_dropdown</a></li>
+				<li><a href="function-form_error.html">form_error</a></li>
+				<li><a href="function-form_fieldset.html">form_fieldset</a></li>
+				<li><a href="function-form_fieldset_close.html">form_fieldset_close</a></li>
+				<li><a href="function-form_hidden.html">form_hidden</a></li>
+				<li><a href="function-form_input.html">form_input</a></li>
+				<li><a href="function-form_label.html">form_label</a></li>
+				<li><a href="function-form_multiselect.html">form_multiselect</a></li>
+				<li><a href="function-form_open.html">form_open</a></li>
+				<li><a href="function-form_open_multipart.html">form_open_multipart</a></li>
+				<li><a href="function-form_password.html">form_password</a></li>
+				<li><a href="function-form_prep.html">form_prep</a></li>
+				<li><a href="function-form_radio.html">form_radio</a></li>
+				<li><a href="function-form_reset.html">form_reset</a></li>
+				<li><a href="function-form_submit.html">form_submit</a></li>
+				<li><a href="function-form_textarea.html">form_textarea</a></li>
+				<li><a href="function-form_upload.html">form_upload</a></li>
+				<li><a href="function-get_clickable_smileys.html">get_clickable_smileys</a></li>
+				<li><a href="function-get_config.html">get_config</a></li>
+				<li><a href="function-get_cookie.html">get_cookie</a></li>
+				<li><a href="function-get_dir_file_info.html">get_dir_file_info</a></li>
+				<li><a href="function-get_file_info.html">get_file_info</a></li>
+				<li><a href="function-get_filenames.html">get_filenames</a></li>
+				<li><a href="function-get_instance.html">get_instance</a></li>
+				<li><a href="function-get_mime_by_extension.html">get_mime_by_extension</a></li>
+				<li><a href="function-gmt_to_local.html">gmt_to_local</a></li>
+				<li><a href="function-heading.html">heading</a></li>
+				<li><a href="function-highlight_code.html">highlight_code</a></li>
+				<li><a href="function-highlight_phrase.html">highlight_phrase</a></li>
+				<li><a href="function-html_escape.html">html_escape</a></li>
+				<li><a href="function-human_to_unix.html">human_to_unix</a></li>
+				<li><a href="function-humanize.html">humanize</a></li>
+				<li><a href="function-img.html">img</a></li>
+				<li><a href="function-increment_string.html">increment_string</a></li>
+				<li><a href="function-index_page.html">index_page</a></li>
+				<li><a href="function-is_false.html">is_false</a></li>
+				<li><a href="function-is_loaded.html">is_loaded</a></li>
+				<li><a href="function-is_php.html">is_php</a></li>
+				<li><a href="function-is_really_writable.html">is_really_writable</a></li>
+				<li><a href="function-is_true.html">is_true</a></li>
+				<li><a href="function-js_insert_smiley.html">js_insert_smiley</a></li>
+				<li><a href="function-lang.html">lang</a></li>
+				<li><a href="function-link_tag.html">link_tag</a></li>
+				<li><a href="function-load_class.html">load_class</a></li>
+				<li><a href="function-local_to_gmt.html">local_to_gmt</a></li>
+				<li><a href="function-log_message.html">log_message</a></li>
+				<li><a href="function-mailto.html">mailto</a></li>
+				<li><a href="function-mdate.html">mdate</a></li>
+				<li><a href="function-meta.html">meta</a></li>
+				<li><a href="function-mysql_to_unix.html">mysql_to_unix</a></li>
+				<li><a href="function-nbs.html">nbs</a></li>
+				<li><a href="function-nl2br_except_pre.html">nl2br_except_pre</a></li>
+				<li><a href="function-now.html">now</a></li>
+				<li><a href="function-octal_permissions.html">octal_permissions</a></li>
+				<li><a href="function-ol.html">ol</a></li>
+				<li><a href="function-parse_smileys.html">parse_smileys</a></li>
+				<li><a href="function-plural.html">plural</a></li>
+				<li><a href="function-prep_url.html">prep_url</a></li>
+				<li><a href="function-quotes_to_entities.html">quotes_to_entities</a></li>
+				<li><a href="function-random_element.html">random_element</a></li>
+				<li><a href="function-random_string.html">random_string</a></li>
+				<li><a href="function-read_file.html">read_file</a></li>
+				<li><a href="function-redirect.html">redirect</a></li>
+				<li><a href="function-reduce_double_slashes.html">reduce_double_slashes</a></li>
+				<li><a href="function-reduce_multiples.html">reduce_multiples</a></li>
+				<li><a href="function-remove_invisible_characters.html">remove_invisible_characters</a></li>
+				<li><a href="function-repeater.html">repeater</a></li>
+				<li><a href="function-safe_mailto.html">safe_mailto</a></li>
+				<li><a href="function-sanitize_filename.html">sanitize_filename</a></li>
+				<li><a href="function-send_email.html">send_email</a></li>
+				<li><a href="function-set_checkbox.html">set_checkbox</a></li>
+				<li><a href="function-set_cookie.html">set_cookie</a></li>
+				<li><a href="function-set_radio.html">set_radio</a></li>
+				<li><a href="function-set_realpath.html">set_realpath</a></li>
+				<li><a href="function-set_select.html">set_select</a></li>
+				<li><a href="function-set_status_header.html">set_status_header</a></li>
+				<li><a href="function-set_value.html">set_value</a></li>
+				<li><a href="function-show_404.html">show_404</a></li>
+				<li><a href="function-show_error.html">show_error</a></li>
+				<li><a href="function-singular.html">singular</a></li>
+				<li><a href="function-site_url.html">site_url</a></li>
+				<li><a href="function-smiley_js.html">smiley_js</a></li>
+				<li><a href="function-standard_date.html">standard_date</a></li>
+				<li><a href="function-strip_image_tags.html">strip_image_tags</a></li>
+				<li><a href="function-strip_quotes.html">strip_quotes</a></li>
+				<li><a href="function-strip_slashes.html">strip_slashes</a></li>
+				<li><a href="function-symbolic_permissions.html">symbolic_permissions</a></li>
+				<li><a href="function-timespan.html">timespan</a></li>
+				<li><a href="function-timezone_menu.html">timezone_menu</a></li>
+				<li><a href="function-timezones.html">timezones</a></li>
+				<li><a href="function-trim_slashes.html">trim_slashes</a></li>
+				<li><a href="function-ul.html">ul</a></li>
+				<li><a href="function-underscore.html">underscore</a></li>
+				<li><a href="function-unix_to_human.html">unix_to_human</a></li>
+				<li><a href="function-uri_string.html">uri_string</a></li>
+				<li><a href="function-url_title.html">url_title</a></li>
+				<li><a href="function-valid_email.html">valid_email</a></li>
+				<li><a href="function-validation_errors.html">validation_errors</a></li>
+				<li><a href="function-word_censor.html">word_censor</a></li>
+				<li><a href="function-word_limiter.html">word_limiter</a></li>
+				<li><a href="function-word_wrap.html">word_wrap</a></li>
+				<li><a href="function-write_file.html">write_file</a></li>
+				<li><a href="function-xml_convert.html">xml_convert</a></li>
+				<li><a href="function-xss_clean.html">xss_clean</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-None.html" title="Summary of None"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+			<li>
+				<a href="deprecated.html" title="List of deprecated elements"><span>Deprecated</span></a>
+			</li>
+			<li>
+				<a href="todo.html" title="Todo list"><span>Todo</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class CI_DB_oci8_driver</h1>
+
+
+	<div class="description">
+	
+<p>oci8 Database Adapter Class</p>
+
+<p>This is a modification of the DB_driver class to permit access to oracle
+databases</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+CI_DB
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>CI_DB_oci8_driver</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		
+
+				<b>Author:</b>
+				Kelly McArdle<br />
+		<b>Located at</b> system/database/drivers/oci8/oci8_driver.php<br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="db_connect" id="_db_connect">
+
+		<td class="attributes"><code>
+			 public 
+			resource
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_db_connect">#</a>
+		<code>db_connect( )</code>
+
+		<div class="description short">
+			
+<p>Non-persistent database connection</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Non-persistent database connection</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>resource</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="db_pconnect" id="_db_pconnect">
+
+		<td class="attributes"><code>
+			 public 
+			resource
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_db_pconnect">#</a>
+		<code>db_pconnect( )</code>
+
+		<div class="description short">
+			
+<p>Persistent database connection</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Persistent database connection</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>resource</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="reconnect" id="_reconnect">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_reconnect">#</a>
+		<code>reconnect( )</code>
+
+		<div class="description short">
+			
+<p>Reconnect</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Reconnect</p>
+
+<p>Keep / reestablish the db connection if no queries have been sent for a
+length of time exceeding the server's idle timeout</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="db_select" id="_db_select">
+
+		<td class="attributes"><code>
+			 public 
+			resource
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_db_select">#</a>
+		<code>db_select( )</code>
+
+		<div class="description short">
+			
+<p>Select the database</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Select the database</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>resource</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="db_set_charset" id="_db_set_charset">
+
+		<td class="attributes"><code>
+			 public 
+			resource
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_db_set_charset">#</a>
+		<code>db_set_charset( <span>string <var>$charset</var></span>, <span>string <var>$collation</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set client character set</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set client character set</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$charset</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$collation</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>resource</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_version" id="__version">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__version">#</a>
+		<code>_version( )</code>
+
+		<div class="description short">
+			
+<p>Version number query string</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Version number query string</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_execute" id="__execute">
+
+		<td class="attributes"><code>
+			 protected 
+			resource
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__execute">#</a>
+		<code>_execute( <span>string <var>$sql</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Execute the query</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Execute the query</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$sql</var></dt>
+					<dd><code>string</code><br>an SQL query</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>resource</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get_cursor" id="_get_cursor">
+
+		<td class="attributes"><code>
+			 public 
+			cursor
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get_cursor">#</a>
+		<code>get_cursor( )</code>
+
+		<div class="description short">
+			
+<p>getCursor. Returns a cursor from the datbase</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>getCursor. Returns a cursor from the datbase</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>cursor</code><br>id<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="stored_procedure" id="_stored_procedure">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_stored_procedure">#</a>
+		<code>stored_procedure( <span>package <var>$package</var></span>, <span>procedure <var>$procedure</var></span>, <span>params <var>$params</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Stored Procedure. Executes a stored procedure</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Stored Procedure. Executes a stored procedure</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$package</var></dt>
+					<dd><code>package</code><br>package stored procedure is in</dd>
+					<dt><var>$procedure</var></dt>
+					<dd><code>procedure</code><br>stored procedure to execute</dd>
+					<dt><var>$params</var></dt>
+					<dd><code>params</code><br>array of parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>params array keys KEY OPTIONAL NOTES name no the name of the parameter should be
+in :&lt;param_name&gt; format value no the value of the parameter. If this is an
+OUT or IN OUT parameter, this should be a reference to a variable type yes the
+type of the parameter length yes the max size of the parameter<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="trans_begin" id="_trans_begin">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_trans_begin">#</a>
+		<code>trans_begin( <span>mixed <var>$test_mode</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Begin Transaction</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Begin Transaction</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="trans_commit" id="_trans_commit">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_trans_commit">#</a>
+		<code>trans_commit( )</code>
+
+		<div class="description short">
+			
+<p>Commit Transaction</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Commit Transaction</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="trans_rollback" id="_trans_rollback">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_trans_rollback">#</a>
+		<code>trans_rollback( )</code>
+
+		<div class="description short">
+			
+<p>Rollback Transaction</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Rollback Transaction</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="escape_str" id="_escape_str">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_escape_str">#</a>
+		<code>escape_str( <span>string <var>$str</var></span>, <span>boolean <var>$like</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Escape String</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Escape String</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$like</var></dt>
+					<dd><code>boolean</code><br>whether or not the string will be used in a LIKE condition</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="affected_rows" id="_affected_rows">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_affected_rows">#</a>
+		<code>affected_rows( )</code>
+
+		<div class="description short">
+			
+<p>Affected Rows</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Affected Rows</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="insert_id" id="_insert_id">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_insert_id">#</a>
+		<code>insert_id( )</code>
+
+		<div class="description short">
+			
+<p>Insert ID</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Insert ID</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="count_all" id="_count_all">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_count_all">#</a>
+		<code>count_all( <span>string <var>$table</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>"Count All" query</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>"Count All" query</p>
+
+<p>Generates a platform-specific query string that counts all records in the
+specified database</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_list_tables" id="__list_tables">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__list_tables">#</a>
+		<code>_list_tables( <span>boolean <var>$prefix_limit</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Show table query</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Show table query</p>
+
+<p>Generates a platform-specific query string so that the table names can be
+fetched</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$prefix_limit</var></dt>
+					<dd><code>boolean</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_list_columns" id="__list_columns">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__list_columns">#</a>
+		<code>_list_columns( <span>string <var>$table</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Show column query</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Show column query</p>
+
+<p>Generates a platform-specific query string so that the column names can be
+fetched</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>string</code><br>the table name</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_field_data" id="__field_data">
+
+		<td class="attributes"><code>
+			 protected 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__field_data">#</a>
+		<code>_field_data( <span>string <var>$table</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Field data query</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Field data query</p>
+
+<p>Generates a platform-specific query so that the column data can be
+retrieved</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>string</code><br>the table name</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_error_message" id="__error_message">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__error_message">#</a>
+		<code>_error_message( )</code>
+
+		<div class="description short">
+			
+<p>The error message string</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>The error message string</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_error_number" id="__error_number">
+
+		<td class="attributes"><code>
+			 protected 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__error_number">#</a>
+		<code>_error_number( )</code>
+
+		<div class="description short">
+			
+<p>The error message number</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>The error message number</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_escape_identifiers" id="__escape_identifiers">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__escape_identifiers">#</a>
+		<code>_escape_identifiers( <span>string <var>$item</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Escape the SQL Identifiers</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Escape the SQL Identifiers</p>
+
+<p>This function escapes column and table names</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$item</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_from_tables" id="__from_tables">
+
+		<td class="attributes"><code>
+			 protected 
+			type
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__from_tables">#</a>
+		<code>_from_tables( <span>type <var>$tables</var></span> )</code>
+
+		<div class="description short">
+			
+<p>From Tables</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>From Tables</p>
+
+<p>This function implicitly groups FROM tables so there is no confusion about
+operator precedence in harmony with SQL standards</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$tables</var></dt>
+					<dd><code>type</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>type</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_insert" id="__insert">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__insert">#</a>
+		<code>_insert( <span>string <var>$table</var></span>, <span>array <var>$keys</var></span>, <span>array <var>$values</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Insert statement</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Insert statement</p>
+
+<p>Generates a platform-specific insert string from the supplied data</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>string</code><br>the table name</dd>
+					<dt><var>$keys</var></dt>
+					<dd><code>array</code><br>the insert keys</dd>
+					<dt><var>$values</var></dt>
+					<dd><code>array</code><br>the insert values</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_insert_batch" id="__insert_batch">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__insert_batch">#</a>
+		<code>_insert_batch( <span>string <var>$table</var></span>, <span>array <var>$keys</var></span>, <span>array <var>$values</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Insert_batch statement</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Insert_batch statement</p>
+
+<p>Generates a platform-specific insert string from the supplied data</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>string</code><br>the table name</dd>
+					<dt><var>$keys</var></dt>
+					<dd><code>array</code><br>the insert keys</dd>
+					<dt><var>$values</var></dt>
+					<dd><code>array</code><br>the insert values</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_update" id="__update">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__update">#</a>
+		<code>_update( <span>string <var>$table</var></span>, <span>array <var>$values</var></span>, <span>array <var>$where</var></span>, <span>array <var>$orderby</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$limit</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Update statement</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Update statement</p>
+
+<p>Generates a platform-specific update string from the supplied data</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>string</code><br>the table name</dd>
+					<dt><var>$values</var></dt>
+					<dd><code>array</code><br>the update data</dd>
+					<dt><var>$where</var></dt>
+					<dd><code>array</code><br>the where clause</dd>
+					<dt><var>$orderby</var></dt>
+					<dd><code>array</code><br>the orderby clause</dd>
+					<dt><var>$limit</var></dt>
+					<dd><code>array</code><br>the limit clause</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_truncate" id="__truncate">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__truncate">#</a>
+		<code>_truncate( <span>string <var>$table</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Truncate statement</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Truncate statement</p>
+
+<p>Generates a platform-specific truncate string from the supplied data If the
+database does not support the truncate() command This function maps to "DELETE
+FROM table"</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>string</code><br>the table name</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_delete" id="__delete">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__delete">#</a>
+		<code>_delete( <span>string <var>$table</var></span>, <span>array <var>$where</var> = <span class="php-keyword1">array</span>()</span>, <span>string <var>$like</var> = <span class="php-keyword1">array</span>()</span>, <span>mixed <var>$limit</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Delete statement</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Delete statement</p>
+
+<p>Generates a platform-specific delete string from the supplied data</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>string</code><br>the table name</dd>
+					<dt><var>$where</var></dt>
+					<dd><code>array</code><br>the where clause</dd>
+					<dt><var>$like</var></dt>
+					<dd><code>string</code><br>the limit clause</dd>
+					<dt><var>$limit</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_limit" id="__limit">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__limit">#</a>
+		<code>_limit( <span>string <var>$sql</var></span>, <span>integer <var>$limit</var></span>, <span>integer <var>$offset</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Limit string</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Limit string</p>
+
+<p>Generates a platform-specific LIMIT clause</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$sql</var></dt>
+					<dd><code>string</code><br>the sql query string</dd>
+					<dt><var>$limit</var></dt>
+					<dd><code>integer</code><br>the number of rows to limit the query to</dd>
+					<dt><var>$offset</var></dt>
+					<dd><code>integer</code><br>the offset value</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_close" id="__close">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__close">#</a>
+		<code>_close( <span>resource <var>$conn_id</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Close DB Connection</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Close DB Connection</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$conn_id</var></dt>
+					<dd><code>resource</code></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="dbdriver" id="$dbdriver">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$dbdriver</var>		</td>
+		<td class="value"><code><span class="php-quote">'oci8'</span></code></td>
+		<td class="description"><div>
+			<a href="#$dbdriver" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_escape_char" id="$_escape_char">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$_escape_char</var>		</td>
+		<td class="value"><code><span class="php-quote">'&quot;'</span></code></td>
+		<td class="description"><div>
+			<a href="#$_escape_char" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_like_escape_str" id="$_like_escape_str">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$_like_escape_str</var>		</td>
+		<td class="value"><code><span class="php-quote">&quot; escape '%s' &quot;</span></code></td>
+		<td class="description"><div>
+			<a href="#$_like_escape_str" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_like_escape_chr" id="$_like_escape_chr">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$_like_escape_chr</var>		</td>
+		<td class="value"><code><span class="php-quote">'!'</span></code></td>
+		<td class="description"><div>
+			<a href="#$_like_escape_chr" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_count_string" id="$_count_string">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$_count_string</var>		</td>
+		<td class="value"><code><span class="php-quote">&quot;SELECT COUNT(1) AS &quot;</span></code></td>
+		<td class="description"><div>
+			<a href="#$_count_string" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The syntax to count rows is slightly different across different database
+engines, so this string appears in each driver and is used for the count_all()
+and count_all_results() functions.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The syntax to count rows is slightly different across different database
+engines, so this string appears in each driver and is used for the count_all()
+and count_all_results() functions.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_random_keyword" id="$_random_keyword">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$_random_keyword</var>		</td>
+		<td class="value"><code><span class="php-quote">' ASC'</span></code></td>
+		<td class="description"><div>
+			<a href="#$_random_keyword" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="_commit" id="$_commit">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+<var>$_commit</var>		</td>
+		<td class="value"><code>OCI_COMMIT_ON_SUCCESS</code></td>
+		<td class="description"><div>
+			<a href="#$_commit" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="stmt_id" id="$stmt_id">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+<var>$stmt_id</var>		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$stmt_id" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="curs_id" id="$curs_id">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+<var>$curs_id</var>		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$curs_id" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="limit_used" id="$limit_used">
+		<td class="attributes"><code>
+			public  
+			mixed
+		</code></td>
+
+		<td class="name">
+<var>$limit_used</var>		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$limit_used" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		DoTheMath Server API AppFrog API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

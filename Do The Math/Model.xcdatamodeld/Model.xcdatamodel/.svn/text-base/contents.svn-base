@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1811" systemVersion="12C60" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="CorrectWrong" representedClassName="CorrectWrong" parentEntity="Question" syncable="YES">
+        <attribute name="answer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="question" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Friend" representedClassName="Friend" syncable="YES">
+        <attribute name="avatar" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="username" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Game" representedClassName="Game" syncable="YES">
+        <attribute name="gameId" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="opponent" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Opponent" inverseName="game" inverseEntity="Opponent" syncable="YES"/>
+        <relationship name="rounds" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Round" inverseName="game" inverseEntity="Round" syncable="YES"/>
+    </entity>
+    <entity name="Opponent" representedClassName="Opponent" syncable="YES">
+        <attribute name="avatar" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gameId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="opponentId" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="game" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Game" inverseName="opponent" inverseEntity="Game" syncable="YES"/>
+    </entity>
+    <entity name="Question" representedClassName="Question" syncable="YES">
+        <attribute name="questionId" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="roundId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="theirAnswer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="theirAnswerCorrect" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="yourAnswer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="yourAnswerCorrect" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="round" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Round" inverseName="questions" inverseEntity="Round" syncable="YES"/>
+    </entity>
+    <entity name="Round" representedClassName="Round" syncable="YES">
+        <attribute name="gameId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="isPlayed" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="roundId" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="roundTime" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="game" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Game" inverseName="rounds" inverseEntity="Game" syncable="YES"/>
+        <relationship name="questions" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Question" inverseName="round" inverseEntity="Question" syncable="YES"/>
+    </entity>
+    <entity name="Solve" representedClassName="Solve" parentEntity="Question" syncable="YES">
+        <attribute name="answer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="question" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="TwentyFour" representedClassName="TwentyFour" parentEntity="Question" syncable="YES">
+        <attribute name="number1" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="number2" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="number3" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="number4" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="solution" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES">
+        <attribute name="avatar" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="birthday" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="facebook_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="gender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="language" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="premium" optional="YES" attributeType="Boolean" defaultValueString="0" syncable="YES"/>
+        <attribute name="token" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CorrectWrong" positionX="-675" positionY="-108" width="128" height="73"/>
+        <element name="Friend" positionX="-171" positionY="-63" width="128" height="88"/>
+        <element name="Game" positionX="-119" positionY="-316" width="128" height="103"/>
+        <element name="Opponent" positionX="81" positionY="-265" width="128" height="120"/>
+        <element name="Question" positionX="-585" positionY="-279" width="128" height="150"/>
+        <element name="Round" positionX="-317" positionY="-279" width="128" height="150"/>
+        <element name="Solve" positionX="-405" positionY="-108" width="128" height="73"/>
+        <element name="TwentyFour" positionX="-540" positionY="-108" width="128" height="118"/>
+        <element name="User" positionX="-11" positionY="-60" width="128" height="210"/>
+    </elements>
+</model>

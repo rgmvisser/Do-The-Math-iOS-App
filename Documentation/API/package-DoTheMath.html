@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Package DoTheMath | DoTheMath Server API AppFrog</title>
+
+	<script type="text/javascript" src="resources/combined.js?1130135532"></script>
+	<script type="text/javascript" src="elementlist.js?4137884977"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-CodeIgniter.html">CodeIgniter<span></span></a>
+						<ul>
+				<li><a href="package-CodeIgniter.Drivers.html">Drivers</a>
+						</li>
+				<li><a href="package-CodeIgniter.Libraries.html">Libraries</a>
+						</li>
+							</ul></li>
+				<li class="active"><a href="package-DoTheMath.html">DoTheMath<span></span></a>
+						<ul>
+				<li><a href="package-DoTheMath.External.html">External</a>
+						</li>
+				<li><a href="package-DoTheMath.Question.html">Question</a>
+						</li>
+							</ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-DoTheMathApi.html">DoTheMathApi</a></li>
+				<li><a href="class-Friends.html">Friends</a></li>
+				<li><a href="class-Invite_model.html">Invite_model</a></li>
+				<li><a href="class-LocalizedNotifications.html">LocalizedNotifications</a></li>
+				<li><a href="class-Logging.html">Logging</a></li>
+				<li><a href="class-Matches.html">Matches</a></li>
+				<li><a href="class-Notification_model.html">Notification_model</a></li>
+				<li><a href="class-Notifications_ios.html">Notifications_ios</a></li>
+				<li><a href="class-QuestionExample.html">QuestionExample</a></li>
+				<li><a href="class-Rank_model.html">Rank_model</a></li>
+				<li><a href="class-Reminders.html">Reminders</a></li>
+				<li><a href="class-Settings.html">Settings</a></li>
+				<li><a href="class-Settings_model.html">Settings_model</a></li>
+				<li><a href="class-User_model.html">User_model</a></li>
+				<li><a href="class-Users.html">Users</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li class="active">
+<span>Package</span>			</li>
+			<li>
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+			<li>
+				<a href="deprecated.html" title="List of deprecated elements"><span>Deprecated</span></a>
+			</li>
+			<li>
+				<a href="todo.html" title="Todo list"><span>Todo</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="package">
+	<h1>Package DoTheMath</h1>
+
+	<table class="summary" id="packages">
+	<caption>Packages summary</caption>
+	<tr>
+		<td class="name"><a href="package-DoTheMath.External.html">DoTheMath\External</a></td>
+	</tr>
+	<tr>
+		<td class="name"><a href="package-DoTheMath.Question.html">DoTheMath\Question</a></td>
+	</tr>
+	</table>
+
+
+<table class="summary" id="classes">
+<caption>Classes summary</caption>
+<tr>
+	<td class="name"><a href="class-DoTheMathApi.html">DoTheMathApi</a></td>
+	<td>The central class which should be subclassed by almost any controller for the
+API</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-Friends.html">Friends</a></td>
+	<td>The User class handles the get, set and creation of users.</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-Invite_model.html">Invite_model</a></td>
+	<td></td>
+</tr>
+<tr>
+	<td class="name"><a href="class-LocalizedNotifications.html">LocalizedNotifications</a></td>
+	<td>this class localizes the notifications for the language the user requested</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-Logging.html">Logging</a></td>
+	<td>The logging class handles all stuff that should go to the log file A level can
+be set such that only information which is more important or equal to that
+level. If you'd like to force something to be written to the log you may use the
+force function which writes the log data regardless of the level set You may
+change the level using setCurrentLevel($level) and get it with getCurrentLevel()
+This getter should not be necessary usually. Always use the LOGLEVEL_* constants
+when calling methods of this class, it really improves readibility.</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-Matches.html">Matches</a></td>
+	<td>The Match class handles the creation of the new matches Every match should
+create three round</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-Notification_model.html">Notification_model</a></td>
+	<td>This class serves as the model for the Users in the database and gives the
+application a consistent interface to talk to.</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-Notifications_ios.html">Notifications_ios</a></td>
+	<td>The notifications_ios class handles the nofitications for iOS devices As
+determined in its _check_login function only the local server may access it</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-QuestionExample.html">QuestionExample</a></td>
+	<td>This class provides anyone who wants with soms sample questions</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-Rank_model.html">Rank_model</a></td>
+	<td></td>
+</tr>
+<tr>
+	<td class="name"><a href="class-Reminders.html">Reminders</a></td>
+	<td>Construct the reminder class With database connections and some models it needs</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-Settings.html">Settings</a></td>
+	<td>This class handles the settings which are used for the app</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-Settings_model.html">Settings_model</a></td>
+	<td></td>
+</tr>
+<tr>
+	<td class="name"><a href="class-User_model.html">User_model</a></td>
+	<td>This class serves as the model for the Users in the database and gives the
+application a consistent interface to talk to.</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-Users.html">Users</a></td>
+	<td>The User class handles the get, set and creation of users.</td>
+</tr>
+</table>
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		DoTheMath Server API AppFrog API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

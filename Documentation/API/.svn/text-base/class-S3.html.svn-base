@@ -1,0 +1,2358 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class S3 | DoTheMath Server API AppFrog</title>
+
+	<script type="text/javascript" src="resources/combined.js?1130135532"></script>
+	<script type="text/javascript" src="elementlist.js?4137884977"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-CodeIgniter.html">CodeIgniter<span></span></a>
+						<ul>
+				<li><a href="package-CodeIgniter.Drivers.html">Drivers</a>
+						</li>
+				<li><a href="package-CodeIgniter.Libraries.html">Libraries</a>
+						</li>
+							</ul></li>
+				<li class="active"><a href="package-DoTheMath.html">DoTheMath<span></span></a>
+						<ul>
+				<li class="active"><a href="package-DoTheMath.External.html">External</a>
+						</li>
+				<li><a href="package-DoTheMath.Question.html">Question</a>
+						</li>
+							</ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-APN.html">APN</a></li>
+				<li><a href="class-MemcacheSASL.html">MemcacheSASL</a></li>
+				<li class="active"><a href="class-S3.html">S3</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-DoTheMath.External.html" title="Summary of DoTheMath\External"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+			<li>
+				<a href="deprecated.html" title="List of deprecated elements"><span>Deprecated</span></a>
+			</li>
+			<li>
+				<a href="todo.html" title="Todo list"><span>Todo</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class S3</h1>
+
+
+	<div class="description">
+	
+<p>Amazon S3 PHP class</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-DoTheMath.html">DoTheMath</a>\<a href="package-DoTheMath.External.html">External</a><br />
+
+				<b>Version:</b>
+				0.5.0-dev<br />
+				<b>Link:</b>
+				<a href="http://undesigned.org.za/2007/10/22/amazon-s3-php-class">http://undesigned.org.za/2007/10/22/amazon-s3-php-class</a><br />
+		<b>Located at</b> application/helpers/S3.php<br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code>__construct( <span>string <var>$accessKey</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$secretKey</var> = <span class="php-keyword1">null</span></span>, <span>boolean <var>$useSSL</var> = <span class="php-keyword1">false</span></span>, <span>mixed <var>$endpoint</var> = <span class="php-quote">'s3.amazonaws.com'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Constructor - if you're not using the class statically</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Constructor - if you're not using the class statically</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$accessKey</var></dt>
+					<dd><code>string</code><br>$accessKey Access key</dd>
+					<dt><var>$secretKey</var></dt>
+					<dd><code>string</code><br>$secretKey Secret key</dd>
+					<dt><var>$useSSL</var></dt>
+					<dd><code>boolean</code><br>$useSSL Enable SSL</dd>
+					<dt><var>$endpoint</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setEndpoint" id="_setEndpoint">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setEndpoint">#</a>
+		<code>setEndpoint( <span>string <var>$host</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the sertvice endpoint</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the sertvice endpoint</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$host</var></dt>
+					<dd><code>string</code><br>$host Hostname</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setAuth" id="_setAuth">
+
+		<td class="attributes"><code>
+			 public static
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setAuth">#</a>
+		<code>setAuth( <span>string <var>$accessKey</var></span>, <span>string <var>$secretKey</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set AWS access key and secret key</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set AWS access key and secret key</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$accessKey</var></dt>
+					<dd><code>string</code><br>$accessKey Access key</dd>
+					<dt><var>$secretKey</var></dt>
+					<dd><code>string</code><br>$secretKey Secret key</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="hasAuth" id="_hasAuth">
+
+		<td class="attributes"><code>
+			 public static
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_hasAuth">#</a>
+		<code>hasAuth( )</code>
+
+		<div class="description short">
+			
+<p>Check if AWS keys have been set</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Check if AWS keys have been set</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setSSL" id="_setSSL">
+
+		<td class="attributes"><code>
+			 public static
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setSSL">#</a>
+		<code>setSSL( <span>boolean <var>$enabled</var></span>, <span>boolean <var>$validate</var> = <span class="php-keyword1">true</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set SSL on or off</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set SSL on or off</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$enabled</var></dt>
+					<dd><code>boolean</code><br>$enabled SSL enabled</dd>
+					<dt><var>$validate</var></dt>
+					<dd><code>boolean</code><br>$validate SSL certificate validation</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setSSLAuth" id="_setSSLAuth">
+
+		<td class="attributes"><code>
+			 public static
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setSSLAuth">#</a>
+		<code>setSSLAuth( <span>string <var>$sslCert</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$sslKey</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$sslCACert</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set SSL client certificates (experimental)</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set SSL client certificates (experimental)</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$sslCert</var></dt>
+					<dd><code>string</code><br>$sslCert SSL client certificate</dd>
+					<dt><var>$sslKey</var></dt>
+					<dd><code>string</code><br>$sslKey SSL client key</dd>
+					<dt><var>$sslCACert</var></dt>
+					<dd><code>string</code><br>$sslCACert SSL CA cert (only required if you are having problems with your
+system CA cert)</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setProxy" id="_setProxy">
+
+		<td class="attributes"><code>
+			 public static
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setProxy">#</a>
+		<code>setProxy( <span>string <var>$host</var></span>, <span>string <var>$user</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$pass</var> = <span class="php-keyword1">null</span></span>, <span>constant <var>$type</var> = CURLPROXY_SOCKS5</span> )</code>
+
+		<div class="description short">
+			
+<p>Set proxy information</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set proxy information</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$host</var></dt>
+					<dd><code>string</code><br>$host Proxy hostname and port (localhost:1234)</dd>
+					<dt><var>$user</var></dt>
+					<dd><code>string</code><br>$user Proxy username</dd>
+					<dt><var>$pass</var></dt>
+					<dd><code>string</code><br>$pass Proxy password</dd>
+					<dt><var>$type</var></dt>
+					<dd><code>constant</code><br>$type CURL proxy type</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setExceptions" id="_setExceptions">
+
+		<td class="attributes"><code>
+			 public static
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setExceptions">#</a>
+		<code>setExceptions( <span>boolean <var>$enabled</var> = <span class="php-keyword1">true</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the error mode to exceptions</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the error mode to exceptions</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$enabled</var></dt>
+					<dd><code>boolean</code><br>$enabled Enable exceptions</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setSigningKey" id="_setSigningKey">
+
+		<td class="attributes"><code>
+			 public static
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setSigningKey">#</a>
+		<code>setSigningKey( <span>string <var>$keyPairId</var></span>, <span>string <var>$signingKey</var></span>, <span>boolean <var>$isFile</var> = <span class="php-keyword1">true</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set signing key</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set signing key</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$keyPairId</var></dt>
+					<dd><code>string</code><br>$keyPairId AWS Key Pair ID</dd>
+					<dt><var>$signingKey</var></dt>
+					<dd><code>string</code><br>$signingKey Private Key</dd>
+					<dt><var>$isFile</var></dt>
+					<dd><code>boolean</code><br>$isFile Load private key from file, set to false to load string</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="freeSigningKey" id="_freeSigningKey">
+
+		<td class="attributes"><code>
+			 public static
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_freeSigningKey">#</a>
+		<code>freeSigningKey( )</code>
+
+		<div class="description short">
+			
+<p>Free signing key from memory, MUST be called if you are using
+setSigningKey()</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Free signing key from memory, MUST be called if you are using
+setSigningKey()</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="listBuckets" id="_listBuckets">
+
+		<td class="attributes"><code>
+			 public static
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_listBuckets">#</a>
+		<code>listBuckets( <span>boolean <var>$detailed</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get a list of buckets</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get a list of buckets</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$detailed</var></dt>
+					<dd><code>boolean</code><br>$detailed Returns detailed bucket list when true</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>| false<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getBucket" id="_getBucket">
+
+		<td class="attributes"><code>
+			 public static
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getBucket">#</a>
+		<code>getBucket( <span>mixed <var>$bucket</var></span>, <span>mixed <var>$prefix</var> = <span class="php-keyword1">null</span></span>, <span>mixed <var>$marker</var> = <span class="php-keyword1">null</span></span>, <span>mixed <var>$maxKeys</var> = <span class="php-keyword1">null</span></span>, <span>mixed <var>$delimiter</var> = <span class="php-keyword1">null</span></span>, <span>mixed <var>$returnCommonPrefixes</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="putBucket" id="_putBucket">
+
+		<td class="attributes"><code>
+			 public static
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_putBucket">#</a>
+		<code>putBucket( <span>string <var>$bucket</var></span>, <span>constant <var>$acl</var> = <code><a href="class-S3.html#ACL_PRIVATE">S3::<b>ACL_PRIVATE</b></a></code></span>, <span>string <var>$location</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Put a bucket</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Put a bucket</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$bucket</var></dt>
+					<dd><code>string</code><br>$bucket Bucket name</dd>
+					<dt><var>$acl</var></dt>
+					<dd><code>constant</code><br>$acl ACL flag</dd>
+					<dt><var>$location</var></dt>
+					<dd><code>string</code><br>$location Set as "EU" to create buckets hosted in Europe</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="deleteBucket" id="_deleteBucket">
+
+		<td class="attributes"><code>
+			 public static
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_deleteBucket">#</a>
+		<code>deleteBucket( <span>string <var>$bucket</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Delete an empty bucket</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Delete an empty bucket</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$bucket</var></dt>
+					<dd><code>string</code><br>$bucket Bucket name</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="inputFile" id="_inputFile">
+
+		<td class="attributes"><code>
+			 public static
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_inputFile">#</a>
+		<code>inputFile( <span>string <var>$file</var></span>, <span>mixed <var>$md5sum</var> = <span class="php-keyword1">true</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Create input info array for putObject()</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create input info array for putObject()</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$file</var></dt>
+					<dd><code>string</code><br>$file Input file</dd>
+					<dt><var>$md5sum</var></dt>
+					<dd><code>mixed</code><br>$md5sum Use MD5 hash (supply a string if you want to use your own)</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>| false<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="inputResource" id="_inputResource">
+
+		<td class="attributes"><code>
+			 public static
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_inputResource">#</a>
+		<code>inputResource( <span>string <var>&amp; $resource</var></span>, <span>integer <var>$bufferSize</var></span>, <span>string <var>$md5sum</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Create input array info for putObject() with a resource</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create input array info for putObject() with a resource</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$resource</var></dt>
+					<dd><code>string</code><br>$resource Input resource to read from</dd>
+					<dt><var>$bufferSize</var></dt>
+					<dd><code>integer</code><br>$bufferSize Input byte size</dd>
+					<dt><var>$md5sum</var></dt>
+					<dd><code>string</code><br>$md5sum MD5 hash to send (optional)</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>| false<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="putObject" id="_putObject">
+
+		<td class="attributes"><code>
+			 public static
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_putObject">#</a>
+		<code>putObject( <span>mixed <var>$input</var></span>, <span>string <var>$bucket</var></span>, <span>string <var>$uri</var></span>, <span>constant <var>$acl</var> = <code><a href="class-S3.html#ACL_PRIVATE">S3::<b>ACL_PRIVATE</b></a></code></span>, <span>array <var>$metaHeaders</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$requestHeaders</var> = <span class="php-keyword1">array</span>()</span>, <span>constant <var>$storageClass</var> = <code><a href="class-S3.html#STORAGE_CLASS_STANDARD">S3::<b>STORAGE_CLASS_STANDARD</b></a></code></span> )</code>
+
+		<div class="description short">
+			
+<p>Put an object</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Put an object</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$input</var></dt>
+					<dd><code>mixed</code><br>$input Input data</dd>
+					<dt><var>$bucket</var></dt>
+					<dd><code>string</code><br>$bucket Bucket name</dd>
+					<dt><var>$uri</var></dt>
+					<dd><code>string</code><br>$uri Object URI</dd>
+					<dt><var>$acl</var></dt>
+					<dd><code>constant</code><br>$acl ACL constant</dd>
+					<dt><var>$metaHeaders</var></dt>
+					<dd><code>array</code><br>$metaHeaders Array of x-amz-meta-* headers</dd>
+					<dt><var>$requestHeaders</var></dt>
+					<dd><code>array</code><br>$requestHeaders Array of request headers or content type as a string</dd>
+					<dt><var>$storageClass</var></dt>
+					<dd><code>constant</code><br>$storageClass Storage class constant</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="putObjectFile" id="_putObjectFile">
+
+		<td class="attributes"><code>
+			 public static
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_putObjectFile">#</a>
+		<code>putObjectFile( <span>string <var>$file</var></span>, <span>string <var>$bucket</var></span>, <span>string <var>$uri</var></span>, <span>constant <var>$acl</var> = <code><a href="class-S3.html#ACL_PRIVATE">S3::<b>ACL_PRIVATE</b></a></code></span>, <span>array <var>$metaHeaders</var> = <span class="php-keyword1">array</span>()</span>, <span>string <var>$contentType</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Put an object from a file (legacy function)</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Put an object from a file (legacy function)</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$file</var></dt>
+					<dd><code>string</code><br>$file Input file path</dd>
+					<dt><var>$bucket</var></dt>
+					<dd><code>string</code><br>$bucket Bucket name</dd>
+					<dt><var>$uri</var></dt>
+					<dd><code>string</code><br>$uri Object URI</dd>
+					<dt><var>$acl</var></dt>
+					<dd><code>constant</code><br>$acl ACL constant</dd>
+					<dt><var>$metaHeaders</var></dt>
+					<dd><code>array</code><br>$metaHeaders Array of x-amz-meta-* headers</dd>
+					<dt><var>$contentType</var></dt>
+					<dd><code>string</code><br>$contentType Content type</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="putObjectString" id="_putObjectString">
+
+		<td class="attributes"><code>
+			 public static
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_putObjectString">#</a>
+		<code>putObjectString( <span>string <var>$string</var></span>, <span>string <var>$bucket</var></span>, <span>string <var>$uri</var></span>, <span>constant <var>$acl</var> = <code><a href="class-S3.html#ACL_PRIVATE">S3::<b>ACL_PRIVATE</b></a></code></span>, <span>array <var>$metaHeaders</var> = <span class="php-keyword1">array</span>()</span>, <span>string <var>$contentType</var> = <span class="php-quote">'text/plain'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Put an object from a string (legacy function)</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Put an object from a string (legacy function)</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$string</var></dt>
+					<dd><code>string</code><br>$string Input data</dd>
+					<dt><var>$bucket</var></dt>
+					<dd><code>string</code><br>$bucket Bucket name</dd>
+					<dt><var>$uri</var></dt>
+					<dd><code>string</code><br>$uri Object URI</dd>
+					<dt><var>$acl</var></dt>
+					<dd><code>constant</code><br>$acl ACL constant</dd>
+					<dt><var>$metaHeaders</var></dt>
+					<dd><code>array</code><br>$metaHeaders Array of x-amz-meta-* headers</dd>
+					<dt><var>$contentType</var></dt>
+					<dd><code>string</code><br>$contentType Content type</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getObject" id="_getObject">
+
+		<td class="attributes"><code>
+			 public static
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getObject">#</a>
+		<code>getObject( <span>string <var>$bucket</var></span>, <span>string <var>$uri</var></span>, <span>mixed <var>$saveTo</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get an object</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get an object</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$bucket</var></dt>
+					<dd><code>string</code><br>$bucket Bucket name</dd>
+					<dt><var>$uri</var></dt>
+					<dd><code>string</code><br>$uri Object URI</dd>
+					<dt><var>$saveTo</var></dt>
+					<dd><code>mixed</code><br>$saveTo Filename or resource to write to</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getObjectInfo" id="_getObjectInfo">
+
+		<td class="attributes"><code>
+			 public static
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getObjectInfo">#</a>
+		<code>getObjectInfo( <span>string <var>$bucket</var></span>, <span>string <var>$uri</var></span>, <span>boolean <var>$returnInfo</var> = <span class="php-keyword1">true</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get object information</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get object information</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$bucket</var></dt>
+					<dd><code>string</code><br>$bucket Bucket name</dd>
+					<dt><var>$uri</var></dt>
+					<dd><code>string</code><br>$uri Object URI</dd>
+					<dt><var>$returnInfo</var></dt>
+					<dd><code>boolean</code><br>$returnInfo Return response information</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>| false<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="copyObject" id="_copyObject">
+
+		<td class="attributes"><code>
+			 public static
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_copyObject">#</a>
+		<code>copyObject( <span>string <var>$srcBucket</var></span>, <span>string <var>$srcUri</var></span>, <span>string <var>$bucket</var></span>, <span>string <var>$uri</var></span>, <span>constant <var>$acl</var> = <code><a href="class-S3.html#ACL_PRIVATE">S3::<b>ACL_PRIVATE</b></a></code></span>, <span>array <var>$metaHeaders</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$requestHeaders</var> = <span class="php-keyword1">array</span>()</span>, <span>constant <var>$storageClass</var> = <code><a href="class-S3.html#STORAGE_CLASS_STANDARD">S3::<b>STORAGE_CLASS_STANDARD</b></a></code></span> )</code>
+
+		<div class="description short">
+			
+<p>Copy an object</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Copy an object</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$srcBucket</var></dt>
+					<dd><code>string</code><br>$bucket Source bucket name</dd>
+					<dt><var>$srcUri</var></dt>
+					<dd><code>string</code><br>$uri Source object URI</dd>
+					<dt><var>$bucket</var></dt>
+					<dd><code>string</code><br>$bucket Destination bucket name</dd>
+					<dt><var>$uri</var></dt>
+					<dd><code>string</code><br>$uri Destination object URI</dd>
+					<dt><var>$acl</var></dt>
+					<dd><code>constant</code><br>$acl ACL constant</dd>
+					<dt><var>$metaHeaders</var></dt>
+					<dd><code>array</code><br>$metaHeaders Optional array of x-amz-meta-* headers</dd>
+					<dt><var>$requestHeaders</var></dt>
+					<dd><code>array</code><br>$requestHeaders Optional array of request headers (content type, disposition,
+etc.)</dd>
+					<dt><var>$storageClass</var></dt>
+					<dd><code>constant</code><br>$storageClass Storage class constant</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>| false<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setBucketLogging" id="_setBucketLogging">
+
+		<td class="attributes"><code>
+			 public static
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setBucketLogging">#</a>
+		<code>setBucketLogging( <span>string <var>$bucket</var></span>, <span>string <var>$targetBucket</var></span>, <span>string <var>$targetPrefix</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set logging for a bucket</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set logging for a bucket</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$bucket</var></dt>
+					<dd><code>string</code><br>$bucket Bucket name</dd>
+					<dt><var>$targetBucket</var></dt>
+					<dd><code>string</code><br>$targetBucket Target bucket (where logs are stored)</dd>
+					<dt><var>$targetPrefix</var></dt>
+					<dd><code>string</code><br>$targetPrefix Log prefix (e,g; domain.com-)</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getBucketLogging" id="_getBucketLogging">
+
+		<td class="attributes"><code>
+			 public static
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getBucketLogging">#</a>
+		<code>getBucketLogging( <span>string <var>$bucket</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get logging status for a bucket</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get logging status for a bucket</p>
+
+<p>This will return false if logging is not enabled. Note: To enable logging,
+you also need to grant write access to the log group</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$bucket</var></dt>
+					<dd><code>string</code><br>$bucket Bucket name</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>| false<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="disableBucketLogging" id="_disableBucketLogging">
+
+		<td class="attributes"><code>
+			 public static
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_disableBucketLogging">#</a>
+		<code>disableBucketLogging( <span>string <var>$bucket</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Disable bucket logging</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Disable bucket logging</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$bucket</var></dt>
+					<dd><code>string</code><br>$bucket Bucket name</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getBucketLocation" id="_getBucketLocation">
+
+		<td class="attributes"><code>
+			 public static
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getBucketLocation">#</a>
+		<code>getBucketLocation( <span>string <var>$bucket</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get a bucket's location</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get a bucket's location</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$bucket</var></dt>
+					<dd><code>string</code><br>$bucket Bucket name</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>| false<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setAccessControlPolicy" id="_setAccessControlPolicy">
+
+		<td class="attributes"><code>
+			 public static
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setAccessControlPolicy">#</a>
+		<code>setAccessControlPolicy( <span>string <var>$bucket</var></span>, <span>string <var>$uri</var> = <span class="php-quote">''</span></span>, <span>array <var>$acp</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Set object or bucket Access Control Policy</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set object or bucket Access Control Policy</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$bucket</var></dt>
+					<dd><code>string</code><br>$bucket Bucket name</dd>
+					<dt><var>$uri</var></dt>
+					<dd><code>string</code><br>$uri Object URI</dd>
+					<dt><var>$acp</var></dt>
+					<dd><code>array</code><br>$acp Access Control Policy Data (same as the data returned from
+getAccessControlPolicy)</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getAccessControlPolicy" id="_getAccessControlPolicy">
+
+		<td class="attributes"><code>
+			 public static
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getAccessControlPolicy">#</a>
+		<code>getAccessControlPolicy( <span>string <var>$bucket</var></span>, <span>string <var>$uri</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get object or bucket Access Control Policy</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get object or bucket Access Control Policy</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$bucket</var></dt>
+					<dd><code>string</code><br>$bucket Bucket name</dd>
+					<dt><var>$uri</var></dt>
+					<dd><code>string</code><br>$uri Object URI</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br>| false<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="deleteObject" id="_deleteObject">
+
+		<td class="attributes"><code>
+			 public static
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_deleteObject">#</a>
+		<code>deleteObject( <span>string <var>$bucket</var></span>, <span>string <var>$uri</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Delete an object</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Delete an object</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$bucket</var></dt>
+					<dd><code>string</code><br>$bucket Bucket name</dd>
+					<dt><var>$uri</var></dt>
+					<dd><code>string</code><br>$uri Object URI</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getAuthenticatedURL" id="_getAuthenticatedURL">
+
+		<td class="attributes"><code>
+			 public static
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getAuthenticatedURL">#</a>
+		<code>getAuthenticatedURL( <span>string <var>$bucket</var></span>, <span>string <var>$uri</var></span>, <span>integer <var>$lifetime</var></span>, <span>boolean <var>$hostBucket</var> = <span class="php-keyword1">false</span></span>, <span>boolean <var>$https</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get a query string authenticated URL</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get a query string authenticated URL</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$bucket</var></dt>
+					<dd><code>string</code><br>$bucket Bucket name</dd>
+					<dt><var>$uri</var></dt>
+					<dd><code>string</code><br>$uri Object URI</dd>
+					<dt><var>$lifetime</var></dt>
+					<dd><code>integer</code><br>$lifetime Lifetime in seconds</dd>
+					<dt><var>$hostBucket</var></dt>
+					<dd><code>boolean</code><br>$hostBucket Use the bucket name as the hostname</dd>
+					<dt><var>$https</var></dt>
+					<dd><code>boolean</code><br>$https Use HTTPS ($hostBucket should be false for SSL verification)</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getSignedPolicyURL" id="_getSignedPolicyURL">
+
+		<td class="attributes"><code>
+			 public static
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getSignedPolicyURL">#</a>
+		<code>getSignedPolicyURL( <span>array <var>$policy</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get a CloudFront signed policy URL</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get a CloudFront signed policy URL</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$policy</var></dt>
+					<dd><code>array</code><br>$policy Policy</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getSignedCannedURL" id="_getSignedCannedURL">
+
+		<td class="attributes"><code>
+			 public static
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getSignedCannedURL">#</a>
+		<code>getSignedCannedURL( <span>string <var>$url</var></span>, <span>integer <var>$lifetime</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get a CloudFront canned policy URL</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get a CloudFront canned policy URL</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$url</var></dt>
+					<dd><code>string</code><br>$string URL to sign</dd>
+					<dt><var>$lifetime</var></dt>
+					<dd><code>integer</code><br>$lifetime URL lifetime</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getHttpUploadPostParams" id="_getHttpUploadPostParams">
+
+		<td class="attributes"><code>
+			 public static
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getHttpUploadPostParams">#</a>
+		<code>getHttpUploadPostParams( <span>string <var>$bucket</var></span>, <span>string <var>$uriPrefix</var> = <span class="php-quote">''</span></span>, <span>constant <var>$acl</var> = <code><a href="class-S3.html#ACL_PRIVATE">S3::<b>ACL_PRIVATE</b></a></code></span>, <span>integer <var>$lifetime</var> = <span class="php-num">3600</span></span>, <span>integer <var>$maxFileSize</var> = <span class="php-num">5242880</span></span>, <span>string <var>$successRedirect</var> = <span class="php-quote">&quot;201&quot;</span></span>, <span>array <var>$amzHeaders</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$headers</var> = <span class="php-keyword1">array</span>()</span>, <span>boolean <var>$flashVars</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get upload POST parameters for form uploads</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get upload POST parameters for form uploads</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$bucket</var></dt>
+					<dd><code>string</code><br>$bucket Bucket name</dd>
+					<dt><var>$uriPrefix</var></dt>
+					<dd><code>string</code><br>$uriPrefix Object URI prefix</dd>
+					<dt><var>$acl</var></dt>
+					<dd><code>constant</code><br>$acl ACL constant</dd>
+					<dt><var>$lifetime</var></dt>
+					<dd><code>integer</code><br>$lifetime Lifetime in seconds</dd>
+					<dt><var>$maxFileSize</var></dt>
+					<dd><code>integer</code><br>$maxFileSize Maximum filesize in bytes (default 5MB)</dd>
+					<dt><var>$successRedirect</var></dt>
+					<dd><code>string</code><br>$successRedirect Redirect URL or 200 / 201 status code</dd>
+					<dt><var>$amzHeaders</var></dt>
+					<dd><code>array</code><br>$amzHeaders Array of x-amz-meta-* headers</dd>
+					<dt><var>$headers</var></dt>
+					<dd><code>array</code><br>$headers Array of request headers or content type as a string</dd>
+					<dt><var>$flashVars</var></dt>
+					<dd><code>boolean</code><br>$flashVars Includes additional "Filename" variable posted by Flash</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="createDistribution" id="_createDistribution">
+
+		<td class="attributes"><code>
+			 public static
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_createDistribution">#</a>
+		<code>createDistribution( <span>string <var>$bucket</var></span>, <span>boolean <var>$enabled</var> = <span class="php-keyword1">true</span></span>, <span>array <var>$cnames</var> = <span class="php-keyword1">array</span>()</span>, <span>string <var>$comment</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$defaultRootObject</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$originAccessIdentity</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$trustedSigners</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Create a CloudFront distribution</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Create a CloudFront distribution</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$bucket</var></dt>
+					<dd><code>string</code><br>$bucket Bucket name</dd>
+					<dt><var>$enabled</var></dt>
+					<dd><code>boolean</code><br>$enabled Enabled (true/false)</dd>
+					<dt><var>$cnames</var></dt>
+					<dd><code>array</code><br>$cnames Array containing CNAME aliases</dd>
+					<dt><var>$comment</var></dt>
+					<dd><code>string</code><br>$comment Use the bucket name as the hostname</dd>
+					<dt><var>$defaultRootObject</var></dt>
+					<dd><code>string</code><br>$defaultRootObject Default root object</dd>
+					<dt><var>$originAccessIdentity</var></dt>
+					<dd><code>string</code><br>$originAccessIdentity Origin access identity</dd>
+					<dt><var>$trustedSigners</var></dt>
+					<dd><code>array</code><br>$trustedSigners Array of trusted signers</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>| false<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getDistribution" id="_getDistribution">
+
+		<td class="attributes"><code>
+			 public static
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getDistribution">#</a>
+		<code>getDistribution( <span>string <var>$distributionId</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get CloudFront distribution info</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get CloudFront distribution info</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$distributionId</var></dt>
+					<dd><code>string</code><br>$distributionId Distribution ID from listDistributions()</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>| false<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="updateDistribution" id="_updateDistribution">
+
+		<td class="attributes"><code>
+			 public static
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_updateDistribution">#</a>
+		<code>updateDistribution( <span>array <var>$dist</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Update a CloudFront distribution</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Update a CloudFront distribution</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$dist</var></dt>
+					<dd><code>array</code><br>$dist Distribution array info identical to output of getDistribution()</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br>| false<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="deleteDistribution" id="_deleteDistribution">
+
+		<td class="attributes"><code>
+			 public static
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_deleteDistribution">#</a>
+		<code>deleteDistribution( <span>array <var>$dist</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Delete a CloudFront distribution</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Delete a CloudFront distribution</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$dist</var></dt>
+					<dd><code>array</code><br>$dist Distribution array info identical to output of getDistribution()</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="listDistributions" id="_listDistributions">
+
+		<td class="attributes"><code>
+			 public static
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_listDistributions">#</a>
+		<code>listDistributions( )</code>
+
+		<div class="description short">
+			
+<p>Get a list of CloudFront distributions</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get a list of CloudFront distributions</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="listOriginAccessIdentities" id="_listOriginAccessIdentities">
+
+		<td class="attributes"><code>
+			 public static
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_listOriginAccessIdentities">#</a>
+		<code>listOriginAccessIdentities( )</code>
+
+		<div class="description short">
+			
+<p>List CloudFront Origin Access Identities</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>List CloudFront Origin Access Identities</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="invalidateDistribution" id="_invalidateDistribution">
+
+		<td class="attributes"><code>
+			 public static
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_invalidateDistribution">#</a>
+		<code>invalidateDistribution( <span>string <var>$distributionId</var></span>, <span>array <var>$paths</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Invalidate objects in a CloudFront distribution</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Invalidate objects in a CloudFront distribution</p>
+
+<p>Thanks to Martin Lindkvist for S3::invalidateDistribution()</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$distributionId</var></dt>
+					<dd><code>string</code><br>$distributionId Distribution ID from listDistributions()</dd>
+					<dt><var>$paths</var></dt>
+					<dd><code>array</code><br>$paths Array of object paths to invalidate</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getDistributionInvalidationList" id="_getDistributionInvalidationList">
+
+		<td class="attributes"><code>
+			 public static
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getDistributionInvalidationList">#</a>
+		<code>getDistributionInvalidationList( <span>string <var>$distributionId</var></span> )</code>
+
+		<div class="description short">
+			
+<p>List your invalidation batches for invalidateDistribution() in a CloudFront
+distribution</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>List your invalidation batches for invalidateDistribution() in a CloudFront
+distribution</p>
+
+<p><a
+href="http://docs.amazonwebservices.com/AmazonCloudFront/latest/APIReference/ListInvalidation.html">http://docs.amazonwebservices.com/AmazonCloudFront/latest/APIReference/ListInvalidation.html</a>
+returned array looks like this: Array ( [I31TWB0CN9V6XD] =&gt; InProgress
+[IT3TFE31M0IHZ] =&gt; Completed [I12HK7MPO1UQDA] =&gt; Completed
+[I1IA7R6JKTC3L2] =&gt; Completed )</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$distributionId</var></dt>
+					<dd><code>string</code><br>$distributionId Distribution ID from listDistributions()</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__getMimeType" id="___getMimeType">
+
+		<td class="attributes"><code>
+			 public static
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___getMimeType">#</a>
+		<code>__getMimeType( <span>string <var>&amp; $file</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get MIME type for file</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get MIME type for file</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$file</var></dt>
+					<dd><code>string</code><br>&amp;$file File path</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__getSignature" id="___getSignature">
+
+		<td class="attributes"><code>
+			 public static
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___getSignature">#</a>
+		<code>__getSignature( <span>string <var>$string</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Generate the auth string: "AWS AccessKey:Signature"</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Generate the auth string: "AWS AccessKey:Signature"</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$string</var></dt>
+					<dd><code>string</code><br>$string String to sign</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+	<table class="summary" id="constants">
+	<caption>Constants summary</caption>
+	<tr data-order="ACL_PRIVATE" id="ACL_PRIVATE">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name"><code>
+<b>ACL_PRIVATE</b>		</code></td>
+		<td class="value"><code><span class="php-quote">'private'</span></code></td>
+		<td class="description"><div>
+			<a href="#ACL_PRIVATE" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="ACL_PUBLIC_READ" id="ACL_PUBLIC_READ">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name"><code>
+<b>ACL_PUBLIC_READ</b>		</code></td>
+		<td class="value"><code><span class="php-quote">'public-read'</span></code></td>
+		<td class="description"><div>
+			<a href="#ACL_PUBLIC_READ" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="ACL_PUBLIC_READ_WRITE" id="ACL_PUBLIC_READ_WRITE">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name"><code>
+<b>ACL_PUBLIC_READ_WRITE</b>		</code></td>
+		<td class="value"><code><span class="php-quote">'public-read-write'</span></code></td>
+		<td class="description"><div>
+			<a href="#ACL_PUBLIC_READ_WRITE" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="ACL_AUTHENTICATED_READ" id="ACL_AUTHENTICATED_READ">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name"><code>
+<b>ACL_AUTHENTICATED_READ</b>		</code></td>
+		<td class="value"><code><span class="php-quote">'authenticated-read'</span></code></td>
+		<td class="description"><div>
+			<a href="#ACL_AUTHENTICATED_READ" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="STORAGE_CLASS_STANDARD" id="STORAGE_CLASS_STANDARD">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name"><code>
+<b>STORAGE_CLASS_STANDARD</b>		</code></td>
+		<td class="value"><code><span class="php-quote">'STANDARD'</span></code></td>
+		<td class="description"><div>
+			<a href="#STORAGE_CLASS_STANDARD" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="STORAGE_CLASS_RRS" id="STORAGE_CLASS_RRS">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name"><code>
+<b>STORAGE_CLASS_RRS</b>		</code></td>
+		<td class="value"><code><span class="php-quote">'REDUCED_REDUNDANCY'</span></code></td>
+		<td class="description"><div>
+			<a href="#STORAGE_CLASS_RRS" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="endpoint" id="$endpoint">
+		<td class="attributes"><code>
+			public static 
+			string
+		</code></td>
+
+		<td class="name">
+<var>$endpoint</var>		</td>
+		<td class="value"><code><span class="php-quote">'s3-eu-west-1.amazonaws.com'</span></code></td>
+		<td class="description"><div>
+			<a href="#$endpoint" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="proxy" id="$proxy">
+		<td class="attributes"><code>
+			public static 
+			mixed
+		</code></td>
+
+		<td class="name">
+<var>$proxy</var>		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$proxy" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="useSSL" id="$useSSL">
+		<td class="attributes"><code>
+			public static 
+			boolean
+		</code></td>
+
+		<td class="name">
+<var>$useSSL</var>		</td>
+		<td class="value"><code><span class="php-keyword1">false</span></code></td>
+		<td class="description"><div>
+			<a href="#$useSSL" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="useSSLValidation" id="$useSSLValidation">
+		<td class="attributes"><code>
+			public static 
+			boolean
+		</code></td>
+
+		<td class="name">
+<var>$useSSLValidation</var>		</td>
+		<td class="value"><code><span class="php-keyword1">true</span></code></td>
+		<td class="description"><div>
+			<a href="#$useSSLValidation" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="useExceptions" id="$useExceptions">
+		<td class="attributes"><code>
+			public static 
+			boolean
+		</code></td>
+
+		<td class="name">
+<var>$useExceptions</var>		</td>
+		<td class="value"><code><span class="php-keyword1">true</span></code></td>
+		<td class="description"><div>
+			<a href="#$useExceptions" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="sslKey" id="$sslKey">
+		<td class="attributes"><code>
+			public static 
+			mixed
+		</code></td>
+
+		<td class="name">
+<var>$sslKey</var>		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$sslKey" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="sslCert" id="$sslCert">
+		<td class="attributes"><code>
+			public static 
+			mixed
+		</code></td>
+
+		<td class="name">
+<var>$sslCert</var>		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$sslCert" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="sslCACert" id="$sslCACert">
+		<td class="attributes"><code>
+			public static 
+			mixed
+		</code></td>
+
+		<td class="name">
+<var>$sslCACert</var>		</td>
+		<td class="value"><code><span class="php-keyword1">null</span></code></td>
+		<td class="description"><div>
+			<a href="#$sslCACert" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		DoTheMath Server API AppFrog API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

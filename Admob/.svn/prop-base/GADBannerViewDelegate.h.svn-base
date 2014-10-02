@@ -1,0 +1,33 @@
+K 13
+svn:mergeinfo
+V 1536
+/branches/Code review/GADBannerViewDelegate.h:151-168
+/branches/Edit Profile/GADBannerViewDelegate.h:22-27
+/branches/Game invite/GADBannerViewDelegate.h:64-67
+/branches/Implementing game/GADBannerViewDelegate.h:70-81
+/branches/Main Game controllers/GADBannerViewDelegate.h:74-89
+/branches/Play Game/GADBannerViewDelegate.h:95-103
+/branches/Random player invite/GADBannerViewDelegate.h:138-148
+/branches/RestKit update/GADBannerViewDelegate.h:107-111
+/branches/Results/GADBannerViewDelegate.h:114-126
+/branches/Results to server/GADBannerViewDelegate.h:129-135
+/branches/SolveGame/GADBannerViewDelegate.h:118-122
+/branches/Starting game/GADBannerViewDelegate.h:83-91
+/branches/Week 10/GADBannerViewDelegate.h:195-206
+/branches/Week 13/GADBannerViewDelegate.h:248-266
+/branches/Week 14/GADBannerViewDelegate.h:268-274
+/branches/Week 14.2/GADBannerViewDelegate.h:276-295
+/branches/Week 17/GADBannerViewDelegate.h:334-357
+/branches/Week 18/GADBannerViewDelegate.h:359-369
+/branches/Week 19/GADBannerViewDelegate.h:374-400
+/branches/Week 22/GADBannerViewDelegate.h:402-437
+/branches/Week 24/GADBannerViewDelegate.h:439-478
+/branches/Week 9/GADBannerViewDelegate.h:176-192
+/branches/friend search/GADBannerViewDelegate.h:24-41
+/branches/friend_invite/GADBannerViewDelegate.h:53-58
+/branches/serverAPI correct-wrong/GADBannerViewDelegate.h:60-72
+/branches/week 11/GADBannerViewDelegate.h:209-221
+/branches/week 12/GADBannerViewDelegate.h:230-245
+/branches/week15/GADBannerViewDelegate.h:298-311
+/branches/week16/GADBannerViewDelegate.h:316-332
+END

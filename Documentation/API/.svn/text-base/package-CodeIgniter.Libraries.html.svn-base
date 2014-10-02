@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Package CodeIgniter\Libraries | DoTheMath Server API AppFrog</title>
+
+	<script type="text/javascript" src="resources/combined.js?1130135532"></script>
+	<script type="text/javascript" src="elementlist.js?4137884977"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li class="active"><a href="package-CodeIgniter.html">CodeIgniter<span></span></a>
+						<ul>
+				<li><a href="package-CodeIgniter.Drivers.html">Drivers</a>
+						</li>
+				<li class="active"><a href="package-CodeIgniter.Libraries.html">Libraries</a>
+						</li>
+							</ul></li>
+				<li><a href="package-DoTheMath.html">DoTheMath<span></span></a>
+						<ul>
+				<li><a href="package-DoTheMath.External.html">External</a>
+						</li>
+				<li><a href="package-DoTheMath.Question.html">Question</a>
+						</li>
+							</ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-CI_Benchmark.html">CI_Benchmark</a></li>
+				<li><a href="class-CI_Cache.html">CI_Cache</a></li>
+				<li><a href="class-CI_Cache_apc.html">CI_Cache_apc</a></li>
+				<li><a href="class-CI_Cache_dummy.html">CI_Cache_dummy</a></li>
+				<li><a href="class-CI_Cache_file.html">CI_Cache_file</a></li>
+				<li><a href="class-CI_Cache_memcached.html">CI_Cache_memcached</a></li>
+				<li><a href="class-CI_Calendar.html">CI_Calendar</a></li>
+				<li><a href="class-CI_Cart.html">CI_Cart</a></li>
+				<li><a href="class-CI_Config.html">CI_Config</a></li>
+				<li><a href="class-CI_Controller.html">CI_Controller</a></li>
+				<li><a href="class-CI_Driver.html">CI_Driver</a></li>
+				<li><a href="class-CI_Driver_Library.html">CI_Driver_Library</a></li>
+				<li><a href="class-CI_Email.html">CI_Email</a></li>
+				<li><a href="class-CI_Encrypt.html">CI_Encrypt</a></li>
+				<li><a href="class-CI_Exceptions.html">CI_Exceptions</a></li>
+				<li><a href="class-CI_Form_validation.html">CI_Form_validation</a></li>
+				<li><a href="class-CI_FTP.html">CI_FTP</a></li>
+				<li><a href="class-CI_Hooks.html">CI_Hooks</a></li>
+				<li><a href="class-CI_Image_lib.html">CI_Image_lib</a></li>
+				<li><a href="class-CI_Input.html">CI_Input</a></li>
+				<li><a href="class-CI_Javascript.html">CI_Javascript</a></li>
+				<li><a href="class-CI_Jquery.html">CI_Jquery</a></li>
+				<li><a href="class-CI_Lang.html">CI_Lang</a></li>
+				<li><a href="class-CI_Loader.html">CI_Loader</a></li>
+				<li><a href="class-CI_Log.html">CI_Log</a></li>
+				<li><a href="class-CI_Migration.html">CI_Migration</a></li>
+				<li><a href="class-CI_Model.html">CI_Model</a></li>
+				<li><a href="class-CI_Output.html">CI_Output</a></li>
+				<li><a href="class-CI_Pagination.html">CI_Pagination</a></li>
+				<li><a href="class-CI_Parser.html">CI_Parser</a></li>
+				<li><a href="class-CI_Profiler.html">CI_Profiler</a></li>
+				<li><a href="class-CI_Router.html">CI_Router</a></li>
+				<li><a href="class-CI_Security.html">CI_Security</a></li>
+				<li><a href="class-CI_Session.html">CI_Session</a></li>
+				<li><a href="class-CI_SHA1.html">CI_SHA1</a></li>
+				<li><a href="class-CI_Table.html">CI_Table</a></li>
+				<li><a href="class-CI_Trackback.html">CI_Trackback</a></li>
+				<li><a href="class-CI_Unit_test.html">CI_Unit_test</a></li>
+				<li><a href="class-CI_Upload.html">CI_Upload</a></li>
+				<li><a href="class-CI_URI.html">CI_URI</a></li>
+				<li><a href="class-CI_User_agent.html">CI_User_agent</a></li>
+				<li><a href="class-CI_Utf8.html">CI_Utf8</a></li>
+				<li><a href="class-CI_Xmlrpc.html">CI_Xmlrpc</a></li>
+				<li><a href="class-CI_Xmlrpcs.html">CI_Xmlrpcs</a></li>
+				<li><a href="class-CI_Zip.html">CI_Zip</a></li>
+				<li><a href="class-Curl.html">Curl</a></li>
+				<li><a href="class-Match_model.html">Match_model</a></li>
+				<li><a href="class-REST_Controller.html">REST_Controller</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li class="active">
+<span>Package</span>			</li>
+			<li>
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+			<li>
+				<a href="deprecated.html" title="List of deprecated elements"><span>Deprecated</span></a>
+			</li>
+			<li>
+				<a href="todo.html" title="Todo list"><span>Todo</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="package">
+	<h1>Package <a href="package-CodeIgniter.html">CodeIgniter</a>\Libraries</h1>
+
+
+
+<table class="summary" id="classes">
+<caption>Classes summary</caption>
+<tr>
+	<td class="name"><a href="class-CI_Benchmark.html">CI_Benchmark</a></td>
+	<td>CodeIgniter Benchmark Class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-CI_Cache.html">CI_Cache</a></td>
+	<td>CodeIgniter Caching Class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-CI_Cache_apc.html">CI_Cache_apc</a></td>
+	<td>CodeIgniter APC Caching Class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-CI_Cache_dummy.html">CI_Cache_dummy</a></td>
+	<td>CodeIgniter Dummy Caching Class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-CI_Cache_file.html">CI_Cache_file</a></td>
+	<td>CodeIgniter Memcached Caching Class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-CI_Cache_memcached.html">CI_Cache_memcached</a></td>
+	<td>CodeIgniter Memcached Caching Class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-CI_Calendar.html">CI_Calendar</a></td>
+	<td>CodeIgniter Calendar Class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-CI_Cart.html">CI_Cart</a></td>
+	<td>Shopping Cart Class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-CI_Config.html">CI_Config</a></td>
+	<td>CodeIgniter Config Class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-CI_Controller.html">CI_Controller</a></td>
+	<td>CodeIgniter Application Controller Class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-CI_Driver.html">CI_Driver</a></td>
+	<td>CodeIgniter Driver Class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-CI_Driver_Library.html">CI_Driver_Library</a></td>
+	<td>CodeIgniter Driver Library Class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-CI_Email.html">CI_Email</a></td>
+	<td>CodeIgniter Email Class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-CI_Encrypt.html">CI_Encrypt</a></td>
+	<td>CodeIgniter Encryption Class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-CI_Exceptions.html">CI_Exceptions</a></td>
+	<td>Exceptions Class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-CI_Form_validation.html">CI_Form_validation</a></td>
+	<td>Form Validation Class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-CI_FTP.html">CI_FTP</a></td>
+	<td>FTP Class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-CI_Hooks.html">CI_Hooks</a></td>
+	<td>CodeIgniter Hooks Class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-CI_Image_lib.html">CI_Image_lib</a></td>
+	<td>Image Manipulation class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-CI_Input.html">CI_Input</a></td>
+	<td>Input Class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-CI_Javascript.html">CI_Javascript</a></td>
+	<td>Javascript Class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-CI_Jquery.html">CI_Jquery</a></td>
+	<td>Jquery Class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-CI_Lang.html">CI_Lang</a></td>
+	<td>Language Class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-CI_Loader.html">CI_Loader</a></td>
+	<td>Loader Class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-CI_Log.html">CI_Log</a></td>
+	<td>Logging Class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-CI_Migration.html">CI_Migration</a></td>
+	<td>Migration Class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-CI_Model.html">CI_Model</a></td>
+	<td>CodeIgniter Model Class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-CI_Output.html">CI_Output</a></td>
+	<td>Output Class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-CI_Pagination.html">CI_Pagination</a></td>
+	<td>Pagination Class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-CI_Parser.html">CI_Parser</a></td>
+	<td>Parser Class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-CI_Profiler.html">CI_Profiler</a></td>
+	<td>CodeIgniter Profiler Class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-CI_Router.html">CI_Router</a></td>
+	<td>Router Class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-CI_Security.html">CI_Security</a></td>
+	<td>Security Class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-CI_Session.html">CI_Session</a></td>
+	<td>Session Class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-CI_SHA1.html">CI_SHA1</a></td>
+	<td>SHA1 Encoding Class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-CI_Table.html">CI_Table</a></td>
+	<td>HTML Table Generating Class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-CI_Trackback.html">CI_Trackback</a></td>
+	<td>Trackback Class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-CI_Unit_test.html">CI_Unit_test</a></td>
+	<td>Unit Testing Class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-CI_Upload.html">CI_Upload</a></td>
+	<td>File Uploading Class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-CI_URI.html">CI_URI</a></td>
+	<td>URI Class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-CI_User_agent.html">CI_User_agent</a></td>
+	<td>User Agent Class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-CI_Utf8.html">CI_Utf8</a></td>
+	<td>Utf8 Class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-CI_Xmlrpc.html">CI_Xmlrpc</a></td>
+	<td>XML-RPC request handler class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-CI_Xmlrpcs.html">CI_Xmlrpcs</a></td>
+	<td>XML-RPC server class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-CI_Zip.html">CI_Zip</a></td>
+	<td>Zip Compression Class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-Curl.html">Curl</a></td>
+	<td>CodeIgniter Curl Class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-Match_model.html">Match_model</a></td>
+	<td>CodeIgniter Model Class</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-REST_Controller.html">REST_Controller</a></td>
+	<td>CodeIgniter Rest Controller</td>
+</tr>
+</table>
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		DoTheMath Server API AppFrog API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

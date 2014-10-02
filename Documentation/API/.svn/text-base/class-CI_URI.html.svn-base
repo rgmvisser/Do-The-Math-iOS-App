@@ -1,0 +1,1217 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class CI_URI | DoTheMath Server API AppFrog</title>
+
+	<script type="text/javascript" src="resources/combined.js?1130135532"></script>
+	<script type="text/javascript" src="elementlist.js?4137884977"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li class="active"><a href="package-CodeIgniter.html">CodeIgniter<span></span></a>
+						<ul>
+				<li><a href="package-CodeIgniter.Drivers.html">Drivers</a>
+						</li>
+				<li class="active"><a href="package-CodeIgniter.Libraries.html">Libraries</a>
+						</li>
+							</ul></li>
+				<li><a href="package-DoTheMath.html">DoTheMath<span></span></a>
+						<ul>
+				<li><a href="package-DoTheMath.External.html">External</a>
+						</li>
+				<li><a href="package-DoTheMath.Question.html">Question</a>
+						</li>
+							</ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-CI_Benchmark.html">CI_Benchmark</a></li>
+				<li><a href="class-CI_Cache.html">CI_Cache</a></li>
+				<li><a href="class-CI_Cache_apc.html">CI_Cache_apc</a></li>
+				<li><a href="class-CI_Cache_dummy.html">CI_Cache_dummy</a></li>
+				<li><a href="class-CI_Cache_file.html">CI_Cache_file</a></li>
+				<li><a href="class-CI_Cache_memcached.html">CI_Cache_memcached</a></li>
+				<li><a href="class-CI_Calendar.html">CI_Calendar</a></li>
+				<li><a href="class-CI_Cart.html">CI_Cart</a></li>
+				<li><a href="class-CI_Config.html">CI_Config</a></li>
+				<li><a href="class-CI_Controller.html">CI_Controller</a></li>
+				<li><a href="class-CI_Driver.html">CI_Driver</a></li>
+				<li><a href="class-CI_Driver_Library.html">CI_Driver_Library</a></li>
+				<li><a href="class-CI_Email.html">CI_Email</a></li>
+				<li><a href="class-CI_Encrypt.html">CI_Encrypt</a></li>
+				<li><a href="class-CI_Exceptions.html">CI_Exceptions</a></li>
+				<li><a href="class-CI_Form_validation.html">CI_Form_validation</a></li>
+				<li><a href="class-CI_FTP.html">CI_FTP</a></li>
+				<li><a href="class-CI_Hooks.html">CI_Hooks</a></li>
+				<li><a href="class-CI_Image_lib.html">CI_Image_lib</a></li>
+				<li><a href="class-CI_Input.html">CI_Input</a></li>
+				<li><a href="class-CI_Javascript.html">CI_Javascript</a></li>
+				<li><a href="class-CI_Jquery.html">CI_Jquery</a></li>
+				<li><a href="class-CI_Lang.html">CI_Lang</a></li>
+				<li><a href="class-CI_Loader.html">CI_Loader</a></li>
+				<li><a href="class-CI_Log.html">CI_Log</a></li>
+				<li><a href="class-CI_Migration.html">CI_Migration</a></li>
+				<li><a href="class-CI_Model.html">CI_Model</a></li>
+				<li><a href="class-CI_Output.html">CI_Output</a></li>
+				<li><a href="class-CI_Pagination.html">CI_Pagination</a></li>
+				<li><a href="class-CI_Parser.html">CI_Parser</a></li>
+				<li><a href="class-CI_Profiler.html">CI_Profiler</a></li>
+				<li><a href="class-CI_Router.html">CI_Router</a></li>
+				<li><a href="class-CI_Security.html">CI_Security</a></li>
+				<li><a href="class-CI_Session.html">CI_Session</a></li>
+				<li><a href="class-CI_SHA1.html">CI_SHA1</a></li>
+				<li><a href="class-CI_Table.html">CI_Table</a></li>
+				<li><a href="class-CI_Trackback.html">CI_Trackback</a></li>
+				<li><a href="class-CI_Unit_test.html">CI_Unit_test</a></li>
+				<li><a href="class-CI_Upload.html">CI_Upload</a></li>
+				<li class="active"><a href="class-CI_URI.html">CI_URI</a></li>
+				<li><a href="class-CI_User_agent.html">CI_User_agent</a></li>
+				<li><a href="class-CI_Utf8.html">CI_Utf8</a></li>
+				<li><a href="class-CI_Xmlrpc.html">CI_Xmlrpc</a></li>
+				<li><a href="class-CI_Xmlrpcs.html">CI_Xmlrpcs</a></li>
+				<li><a href="class-CI_Zip.html">CI_Zip</a></li>
+				<li><a href="class-Curl.html">Curl</a></li>
+				<li><a href="class-Match_model.html">Match_model</a></li>
+				<li><a href="class-REST_Controller.html">REST_Controller</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-CodeIgniter.Libraries.html" title="Summary of CodeIgniter\Libraries"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+			<li>
+				<a href="deprecated.html" title="List of deprecated elements"><span>Deprecated</span></a>
+			</li>
+			<li>
+				<a href="todo.html" title="Todo list"><span>Todo</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class CI_URI</h1>
+
+
+	<div class="description">
+	
+<p>URI Class</p>
+
+<p>Parses URIs and determines routing</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-CodeIgniter.html">CodeIgniter</a>\<a href="package-CodeIgniter.Libraries.html">Libraries</a><br />
+
+				<b>Category:</b>
+				URI<br />
+				<b>Author:</b>
+				ExpressionEngine Dev Team<br />
+				<b>Link:</b>
+				<a href="http://codeigniter.com/user_guide/libraries/uri.html">http://codeigniter.com/user_guide/libraries/uri.html</a><br />
+		<b>Located at</b> system/core/URI.php<br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code>__construct( )</code>
+
+		<div class="description short">
+			
+<p>Constructor</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Constructor</p>
+
+<p>Simply globalizes the $RTR object. The front loads the Router class early on
+so it's not available normally as other classes are.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_fetch_uri_string" id="__fetch_uri_string">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__fetch_uri_string">#</a>
+		<code>_fetch_uri_string( )</code>
+
+		<div class="description short">
+			
+<p>Get the URI String</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the URI String</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_set_uri_string" id="__set_uri_string">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__set_uri_string">#</a>
+		<code>_set_uri_string( <span>string <var>$str</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Set the URI String</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set the URI String</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_filter_uri" id="__filter_uri">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__filter_uri">#</a>
+		<code>_filter_uri( <span>string <var>$str</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Filter segments for malicious characters</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Filter segments for malicious characters</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_remove_url_suffix" id="__remove_url_suffix">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__remove_url_suffix">#</a>
+		<code>_remove_url_suffix( )</code>
+
+		<div class="description short">
+			
+<p>Remove the suffix from the URL if needed</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Remove the suffix from the URL if needed</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_explode_segments" id="__explode_segments">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__explode_segments">#</a>
+		<code>_explode_segments( )</code>
+
+		<div class="description short">
+			
+<p>Explode the URI Segments. The individual segments will be stored in the
+$this-&gt;segments array.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Explode the URI Segments. The individual segments will be stored in the
+$this-&gt;segments array.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_reindex_segments" id="__reindex_segments">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__reindex_segments">#</a>
+		<code>_reindex_segments( )</code>
+
+		<div class="description short">
+			
+<p>Re-index Segments</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Re-index Segments</p>
+
+<p>This function re-indexes the $this-&gt;segment array so that it starts at 1
+rather than 0. Doing so makes it simpler to use functions like
+$this-&gt;uri-&gt;segment(n) since there is a 1:1 relationship between the
+segment array and the actual segments.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="segment" id="_segment">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_segment">#</a>
+		<code>segment( <span>integer <var>$n</var></span>, <span>boolean <var>$no_result</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Fetch a URI Segment</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Fetch a URI Segment</p>
+
+<p>This function returns the URI segment based on the number provided.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$n</var></dt>
+					<dd><code>integer</code></dd>
+					<dt><var>$no_result</var></dt>
+					<dd><code>boolean</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="rsegment" id="_rsegment">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_rsegment">#</a>
+		<code>rsegment( <span>integer <var>$n</var></span>, <span>boolean <var>$no_result</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Fetch a URI "routed" Segment</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Fetch a URI "routed" Segment</p>
+
+<p>This function returns the re-routed URI segment (assuming routing rules are
+used) based on the number provided. If there is no routing this function returns
+the same result as $this-&gt;segment()</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$n</var></dt>
+					<dd><code>integer</code></dd>
+					<dt><var>$no_result</var></dt>
+					<dd><code>boolean</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="uri_to_assoc" id="_uri_to_assoc">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_uri_to_assoc">#</a>
+		<code>uri_to_assoc( <span>integer <var>$n</var> = <span class="php-num">3</span></span>, <span>array <var>$default</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Generate a key value pair from the URI string</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Generate a key value pair from the URI string</p>
+
+<p>This function generates and associative array of URI data starting at the
+supplied segment. For example, if this is your URI:</p>
+
+<p>example.com/user/search/name/joe/location/UK/gender/male</p>
+
+<p>You can use this function to generate an array with this prototype:</p>
+
+<p>array ( name =&gt; joe location =&gt; UK gender =&gt; male )</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$n</var></dt>
+					<dd><code>integer</code><br>the starting segment number</dd>
+					<dt><var>$default</var></dt>
+					<dd><code>array</code><br>an array of default values</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="ruri_to_assoc" id="_ruri_to_assoc">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_ruri_to_assoc">#</a>
+		<code>ruri_to_assoc( <span>integer <var>$n</var> = <span class="php-num">3</span></span>, <span>array <var>$default</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Identical to above only it uses the re-routed segment array</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Identical to above only it uses the re-routed segment array</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$n</var></dt>
+					<dd><code>integer</code><br>the starting segment number</dd>
+					<dt><var>$default</var></dt>
+					<dd><code>array</code><br>an array of default values</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_uri_to_assoc" id="__uri_to_assoc">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__uri_to_assoc">#</a>
+		<code>_uri_to_assoc( <span>integer <var>$n</var> = <span class="php-num">3</span></span>, <span>array <var>$default</var> = <span class="php-keyword1">array</span>()</span>, <span>string <var>$which</var> = <span class="php-quote">'segment'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Generate a key value pair from the URI string or Re-routed URI string</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Generate a key value pair from the URI string or Re-routed URI string</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$n</var></dt>
+					<dd><code>integer</code><br>the starting segment number</dd>
+					<dt><var>$default</var></dt>
+					<dd><code>array</code><br>an array of default values</dd>
+					<dt><var>$which</var></dt>
+					<dd><code>string</code><br>which array we should use</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="assoc_to_uri" id="_assoc_to_uri">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_assoc_to_uri">#</a>
+		<code>assoc_to_uri( <span>array <var>$array</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Generate a URI string from an associative array</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Generate a URI string from an associative array</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$array</var></dt>
+					<dd><code>array</code><br>an associative array of key/values</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="slash_segment" id="_slash_segment">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_slash_segment">#</a>
+		<code>slash_segment( <span>integer <var>$n</var></span>, <span>string <var>$where</var> = <span class="php-quote">'trailing'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Fetch a URI Segment and add a trailing slash</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Fetch a URI Segment and add a trailing slash</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$n</var></dt>
+					<dd><code>integer</code></dd>
+					<dt><var>$where</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="slash_rsegment" id="_slash_rsegment">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_slash_rsegment">#</a>
+		<code>slash_rsegment( <span>integer <var>$n</var></span>, <span>string <var>$where</var> = <span class="php-quote">'trailing'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Fetch a URI Segment and add a trailing slash</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Fetch a URI Segment and add a trailing slash</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$n</var></dt>
+					<dd><code>integer</code></dd>
+					<dt><var>$where</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_slash_segment" id="__slash_segment">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__slash_segment">#</a>
+		<code>_slash_segment( <span>integer <var>$n</var></span>, <span>string <var>$where</var> = <span class="php-quote">'trailing'</span></span>, <span>string <var>$which</var> = <span class="php-quote">'segment'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Fetch a URI Segment and add a trailing slash - helper function</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Fetch a URI Segment and add a trailing slash - helper function</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$n</var></dt>
+					<dd><code>integer</code></dd>
+					<dt><var>$where</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$which</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="segment_array" id="_segment_array">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_segment_array">#</a>
+		<code>segment_array( )</code>
+
+		<div class="description short">
+			
+<p>Segment Array</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Segment Array</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="rsegment_array" id="_rsegment_array">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_rsegment_array">#</a>
+		<code>rsegment_array( )</code>
+
+		<div class="description short">
+			
+<p>Routed Segment Array</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Routed Segment Array</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="total_segments" id="_total_segments">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_total_segments">#</a>
+		<code>total_segments( )</code>
+
+		<div class="description short">
+			
+<p>Total number of segments</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Total number of segments</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="total_rsegments" id="_total_rsegments">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_total_rsegments">#</a>
+		<code>total_rsegments( )</code>
+
+		<div class="description short">
+			
+<p>Total number of routed segments</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Total number of routed segments</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="uri_string" id="_uri_string">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_uri_string">#</a>
+		<code>uri_string( )</code>
+
+		<div class="description short">
+			
+<p>Fetch the entire URI string</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Fetch the entire URI string</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="ruri_string" id="_ruri_string">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_ruri_string">#</a>
+		<code>ruri_string( )</code>
+
+		<div class="description short">
+			
+<p>Fetch the entire Re-routed URI string</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Fetch the entire Re-routed URI string</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="keyval" id="$keyval">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$keyval</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$keyval" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>List of cached uri segments</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>List of cached uri segments</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="uri_string" id="$uri_string">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$uri_string</var>		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$uri_string" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Current uri string</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Current uri string</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="segments" id="$segments">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$segments</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$segments" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>List of uri segments</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>List of uri segments</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="rsegments" id="$rsegments">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$rsegments</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$rsegments" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Re-indexed list of uri segments Starts at 1 instead of 0</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Re-indexed list of uri segments Starts at 1 instead of 0</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		DoTheMath Server API AppFrog API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+K 13
+svn:mergeinfo
+V 1594
+/branches/Code review/GADInterstitialDelegate.h:151-168
+/branches/Edit Profile/GADInterstitialDelegate.h:22-27
+/branches/Game invite/GADInterstitialDelegate.h:64-67
+/branches/Implementing game/GADInterstitialDelegate.h:70-81
+/branches/Main Game controllers/GADInterstitialDelegate.h:74-89
+/branches/Play Game/GADInterstitialDelegate.h:95-103
+/branches/Random player invite/GADInterstitialDelegate.h:138-148
+/branches/RestKit update/GADInterstitialDelegate.h:107-111
+/branches/Results/GADInterstitialDelegate.h:114-126
+/branches/Results to server/GADInterstitialDelegate.h:129-135
+/branches/SolveGame/GADInterstitialDelegate.h:118-122
+/branches/Starting game/GADInterstitialDelegate.h:83-91
+/branches/Week 10/GADInterstitialDelegate.h:195-206
+/branches/Week 13/GADInterstitialDelegate.h:248-266
+/branches/Week 14/GADInterstitialDelegate.h:268-274
+/branches/Week 14.2/GADInterstitialDelegate.h:276-295
+/branches/Week 17/GADInterstitialDelegate.h:334-357
+/branches/Week 18/GADInterstitialDelegate.h:359-369
+/branches/Week 19/GADInterstitialDelegate.h:374-400
+/branches/Week 22/GADInterstitialDelegate.h:402-437
+/branches/Week 24/GADInterstitialDelegate.h:439-478
+/branches/Week 9/GADInterstitialDelegate.h:176-192
+/branches/friend search/GADInterstitialDelegate.h:24-41
+/branches/friend_invite/GADInterstitialDelegate.h:53-58
+/branches/serverAPI correct-wrong/GADInterstitialDelegate.h:60-72
+/branches/week 11/GADInterstitialDelegate.h:209-221
+/branches/week 12/GADInterstitialDelegate.h:230-245
+/branches/week15/GADInterstitialDelegate.h:298-311
+/branches/week16/GADInterstitialDelegate.h:316-332
+END

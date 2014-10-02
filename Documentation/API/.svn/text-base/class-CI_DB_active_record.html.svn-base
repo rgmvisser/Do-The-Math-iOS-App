@@ -1,0 +1,3523 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class CI_DB_active_record | DoTheMath Server API AppFrog</title>
+
+	<script type="text/javascript" src="resources/combined.js?1130135532"></script>
+	<script type="text/javascript" src="elementlist.js?4137884977"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li class="active"><a href="package-CodeIgniter.html">CodeIgniter<span></span></a>
+						<ul>
+				<li class="active"><a href="package-CodeIgniter.Drivers.html">Drivers</a>
+						</li>
+				<li><a href="package-CodeIgniter.Libraries.html">Libraries</a>
+						</li>
+							</ul></li>
+				<li><a href="package-DoTheMath.html">DoTheMath<span></span></a>
+						<ul>
+				<li><a href="package-DoTheMath.External.html">External</a>
+						</li>
+				<li><a href="package-DoTheMath.Question.html">Question</a>
+						</li>
+							</ul></li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-CI_DB_active_record.html">CI_DB_active_record</a></li>
+				<li><a href="class-CI_DB_cubrid_driver.html">CI_DB_cubrid_driver</a></li>
+				<li><a href="class-CI_DB_driver.html">CI_DB_driver</a></li>
+				<li><a href="class-CI_DB_mssql_driver.html">CI_DB_mssql_driver</a></li>
+				<li><a href="class-CI_DB_mysql_driver.html">CI_DB_mysql_driver</a></li>
+				<li><a href="class-CI_DB_mysqli_driver.html">CI_DB_mysqli_driver</a></li>
+				<li><a href="class-CI_DB_odbc_driver.html">CI_DB_odbc_driver</a></li>
+				<li><a href="class-CI_DB_pdo_driver.html">CI_DB_pdo_driver</a></li>
+				<li><a href="class-CI_DB_postgre_driver.html">CI_DB_postgre_driver</a></li>
+				<li><a href="class-CI_DB_sqlite_driver.html">CI_DB_sqlite_driver</a></li>
+				<li><a href="class-CI_DB_sqlsrv_driver.html">CI_DB_sqlsrv_driver</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-CodeIgniter.Drivers.html" title="Summary of CodeIgniter\Drivers"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+			<li>
+				<a href="deprecated.html" title="List of deprecated elements"><span>Deprecated</span></a>
+			</li>
+			<li>
+				<a href="todo.html" title="Todo list"><span>Todo</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class CI_DB_active_record</h1>
+
+
+	<div class="description">
+	
+<p>Active Record Class</p>
+
+<p>This is the platform-independent base Active Record implementation class.</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-CI_DB_driver.html"><span>CI_DB_driver</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>CI_DB_active_record</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-CodeIgniter.html">CodeIgniter</a>\<a href="package-CodeIgniter.Drivers.html">Drivers</a><br />
+
+				<b>Category:</b>
+				Database<br />
+				<b>Author:</b>
+				ExpressionEngine Dev Team<br />
+				<b>Link:</b>
+				<a href="http://codeigniter.com/user_guide/database/">http://codeigniter.com/user_guide/database/</a><br />
+		<b>Located at</b> system/database/DB_active_rec.php<br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="select" id="_select">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_select">#</a>
+		<code>select( <span>string <var>$select</var> = <span class="php-quote">'*'</span></span>, <span>mixed <var>$escape</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Select</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Select</p>
+
+<p>Generates the SELECT portion of the query</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$select</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$escape</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="select_max" id="_select_max">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_select_max">#</a>
+		<code>select_max( <span>string <var>$select</var> = <span class="php-quote">''</span></span>, <span>string <var>$alias</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Select Max</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Select Max</p>
+
+<p>Generates a SELECT MAX(field) portion of a query</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$select</var></dt>
+					<dd><code>string</code><br>the field</dd>
+					<dt><var>$alias</var></dt>
+					<dd><code>string</code><br>an alias</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="select_min" id="_select_min">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_select_min">#</a>
+		<code>select_min( <span>string <var>$select</var> = <span class="php-quote">''</span></span>, <span>string <var>$alias</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Select Min</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Select Min</p>
+
+<p>Generates a SELECT MIN(field) portion of a query</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$select</var></dt>
+					<dd><code>string</code><br>the field</dd>
+					<dt><var>$alias</var></dt>
+					<dd><code>string</code><br>an alias</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="select_avg" id="_select_avg">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_select_avg">#</a>
+		<code>select_avg( <span>string <var>$select</var> = <span class="php-quote">''</span></span>, <span>string <var>$alias</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Select Average</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Select Average</p>
+
+<p>Generates a SELECT AVG(field) portion of a query</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$select</var></dt>
+					<dd><code>string</code><br>the field</dd>
+					<dt><var>$alias</var></dt>
+					<dd><code>string</code><br>an alias</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="select_sum" id="_select_sum">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_select_sum">#</a>
+		<code>select_sum( <span>string <var>$select</var> = <span class="php-quote">''</span></span>, <span>string <var>$alias</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Select Sum</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Select Sum</p>
+
+<p>Generates a SELECT SUM(field) portion of a query</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$select</var></dt>
+					<dd><code>string</code><br>the field</dd>
+					<dt><var>$alias</var></dt>
+					<dd><code>string</code><br>an alias</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_max_min_avg_sum" id="__max_min_avg_sum">
+
+		<td class="attributes"><code>
+			 protected 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__max_min_avg_sum">#</a>
+		<code>_max_min_avg_sum( <span>string <var>$select</var> = <span class="php-quote">''</span></span>, <span>string <var>$alias</var> = <span class="php-quote">''</span></span>, <span>mixed <var>$type</var> = <span class="php-quote">'MAX'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Processing Function for the four functions above:</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Processing Function for the four functions above:</p>
+
+<p>select_max() select_min() select_avg() select_sum()</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$select</var></dt>
+					<dd><code>string</code><br>the field</dd>
+					<dt><var>$alias</var></dt>
+					<dd><code>string</code><br>an alias</dd>
+					<dt><var>$type</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_create_alias_from_table" id="__create_alias_from_table">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__create_alias_from_table">#</a>
+		<code>_create_alias_from_table( <span>string <var>$item</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Determines the alias name based on the table</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Determines the alias name based on the table</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$item</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="distinct" id="_distinct">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_distinct">#</a>
+		<code>distinct( <span>boolean <var>$val</var> = <span class="php-keyword1">TRUE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>DISTINCT</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>DISTINCT</p>
+
+<p>Sets a flag which tells the query string compiler to add DISTINCT</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$val</var></dt>
+					<dd><code>boolean</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="from" id="_from">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_from">#</a>
+		<code>from( <span>mixed <var>$from</var></span> )</code>
+
+		<div class="description short">
+			
+<p>From</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>From</p>
+
+<p>Generates the FROM portion of the query</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$from</var></dt>
+					<dd><code>mixed</code><br>can be a string or array</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="join" id="_join">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_join">#</a>
+		<code>join( <span>string <var>$table</var></span>, <span>string <var>$cond</var></span>, <span>string <var>$type</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Join</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Join</p>
+
+<p>Generates the JOIN portion of the query</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$cond</var></dt>
+					<dd><code>string</code><br>the join condition</dd>
+					<dt><var>$type</var></dt>
+					<dd><code>string</code><br>the type of join</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="where" id="_where">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_where">#</a>
+		<code>where( <span>mixed <var>$key</var></span>, <span>mixed <var>$value</var> = <span class="php-keyword1">NULL</span></span>, <span>mixed <var>$escape</var> = <span class="php-keyword1">TRUE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Where</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Where</p>
+
+<p>Generates the WHERE portion of the query. Separates multiple calls with
+AND</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>mixed</code></dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code></dd>
+					<dt><var>$escape</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="or_where" id="_or_where">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_or_where">#</a>
+		<code>or_where( <span>mixed <var>$key</var></span>, <span>mixed <var>$value</var> = <span class="php-keyword1">NULL</span></span>, <span>mixed <var>$escape</var> = <span class="php-keyword1">TRUE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>OR Where</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>OR Where</p>
+
+<p>Generates the WHERE portion of the query. Separates multiple calls with
+OR</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>mixed</code></dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code></dd>
+					<dt><var>$escape</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_where" id="__where">
+
+		<td class="attributes"><code>
+			 protected 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__where">#</a>
+		<code>_where( <span>mixed <var>$key</var></span>, <span>mixed <var>$value</var> = <span class="php-keyword1">NULL</span></span>, <span>string <var>$type</var> = <span class="php-quote">'AND '</span></span>, <span>mixed <var>$escape</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Where</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Where</p>
+
+<p>Called by where() or or_where()</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>mixed</code></dd>
+					<dt><var>$value</var></dt>
+					<dd><code>mixed</code></dd>
+					<dt><var>$type</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$escape</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="where_in" id="_where_in">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_where_in">#</a>
+		<code>where_in( <span>string <var>$key</var> = <span class="php-keyword1">NULL</span></span>, <span>array <var>$values</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Where_in</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Where_in</p>
+
+<p>Generates a WHERE field IN ('item', 'item') SQL query joined with AND if
+appropriate</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code><br>The field to search</dd>
+					<dt><var>$values</var></dt>
+					<dd><code>array</code><br>The values searched on</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="or_where_in" id="_or_where_in">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_or_where_in">#</a>
+		<code>or_where_in( <span>string <var>$key</var> = <span class="php-keyword1">NULL</span></span>, <span>array <var>$values</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Where_in_or</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Where_in_or</p>
+
+<p>Generates a WHERE field IN ('item', 'item') SQL query joined with OR if
+appropriate</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code><br>The field to search</dd>
+					<dt><var>$values</var></dt>
+					<dd><code>array</code><br>The values searched on</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="where_not_in" id="_where_not_in">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_where_not_in">#</a>
+		<code>where_not_in( <span>string <var>$key</var> = <span class="php-keyword1">NULL</span></span>, <span>array <var>$values</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Where_not_in</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Where_not_in</p>
+
+<p>Generates a WHERE field NOT IN ('item', 'item') SQL query joined with AND if
+appropriate</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code><br>The field to search</dd>
+					<dt><var>$values</var></dt>
+					<dd><code>array</code><br>The values searched on</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="or_where_not_in" id="_or_where_not_in">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_or_where_not_in">#</a>
+		<code>or_where_not_in( <span>string <var>$key</var> = <span class="php-keyword1">NULL</span></span>, <span>array <var>$values</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Where_not_in_or</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Where_not_in_or</p>
+
+<p>Generates a WHERE field NOT IN ('item', 'item') SQL query joined with OR if
+appropriate</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code><br>The field to search</dd>
+					<dt><var>$values</var></dt>
+					<dd><code>array</code><br>The values searched on</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_where_in" id="__where_in">
+
+		<td class="attributes"><code>
+			 protected 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__where_in">#</a>
+		<code>_where_in( <span>string <var>$key</var> = <span class="php-keyword1">NULL</span></span>, <span>array <var>$values</var> = <span class="php-keyword1">NULL</span></span>, <span>boolean <var>$not</var> = <span class="php-keyword1">FALSE</span></span>, <span>string <var>$type</var> = <span class="php-quote">'AND '</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Where_in</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Where_in</p>
+
+<p>Called by where_in, where_in_or, where_not_in, where_not_in_or</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code><br>The field to search</dd>
+					<dt><var>$values</var></dt>
+					<dd><code>array</code><br>The values searched on</dd>
+					<dt><var>$not</var></dt>
+					<dd><code>boolean</code><br>If the statement would be IN or NOT IN</dd>
+					<dt><var>$type</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="like" id="_like">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_like">#</a>
+		<code>like( <span>mixed <var>$field</var></span>, <span>mixed <var>$match</var> = <span class="php-quote">''</span></span>, <span>mixed <var>$side</var> = <span class="php-quote">'both'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Like</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Like</p>
+
+<p>Generates a %LIKE% portion of the query. Separates multiple calls with
+AND</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$field</var></dt>
+					<dd><code>mixed</code></dd>
+					<dt><var>$match</var></dt>
+					<dd><code>mixed</code></dd>
+					<dt><var>$side</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="not_like" id="_not_like">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_not_like">#</a>
+		<code>not_like( <span>mixed <var>$field</var></span>, <span>mixed <var>$match</var> = <span class="php-quote">''</span></span>, <span>mixed <var>$side</var> = <span class="php-quote">'both'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Not Like</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Not Like</p>
+
+<p>Generates a NOT LIKE portion of the query. Separates multiple calls with
+AND</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$field</var></dt>
+					<dd><code>mixed</code></dd>
+					<dt><var>$match</var></dt>
+					<dd><code>mixed</code></dd>
+					<dt><var>$side</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="or_like" id="_or_like">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_or_like">#</a>
+		<code>or_like( <span>mixed <var>$field</var></span>, <span>mixed <var>$match</var> = <span class="php-quote">''</span></span>, <span>mixed <var>$side</var> = <span class="php-quote">'both'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>OR Like</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>OR Like</p>
+
+<p>Generates a %LIKE% portion of the query. Separates multiple calls with OR</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$field</var></dt>
+					<dd><code>mixed</code></dd>
+					<dt><var>$match</var></dt>
+					<dd><code>mixed</code></dd>
+					<dt><var>$side</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="or_not_like" id="_or_not_like">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_or_not_like">#</a>
+		<code>or_not_like( <span>mixed <var>$field</var></span>, <span>mixed <var>$match</var> = <span class="php-quote">''</span></span>, <span>mixed <var>$side</var> = <span class="php-quote">'both'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>OR Not Like</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>OR Not Like</p>
+
+<p>Generates a NOT LIKE portion of the query. Separates multiple calls with
+OR</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$field</var></dt>
+					<dd><code>mixed</code></dd>
+					<dt><var>$match</var></dt>
+					<dd><code>mixed</code></dd>
+					<dt><var>$side</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_like" id="__like">
+
+		<td class="attributes"><code>
+			 protected 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__like">#</a>
+		<code>_like( <span>mixed <var>$field</var></span>, <span>mixed <var>$match</var> = <span class="php-quote">''</span></span>, <span>string <var>$type</var> = <span class="php-quote">'AND '</span></span>, <span>mixed <var>$side</var> = <span class="php-quote">'both'</span></span>, <span>mixed <var>$not</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Like</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Like</p>
+
+<p>Called by like() or orlike()</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$field</var></dt>
+					<dd><code>mixed</code></dd>
+					<dt><var>$match</var></dt>
+					<dd><code>mixed</code></dd>
+					<dt><var>$type</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$side</var></dt>
+					<dd></dd>
+					<dt><var>$not</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="group_by" id="_group_by">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_group_by">#</a>
+		<code>group_by( <span>string <var>$by</var></span> )</code>
+
+		<div class="description short">
+			
+<p>GROUP BY</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>GROUP BY</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$by</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="having" id="_having">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_having">#</a>
+		<code>having( <span>string <var>$key</var></span>, <span>string <var>$value</var> = <span class="php-quote">''</span></span>, <span>mixed <var>$escape</var> = <span class="php-keyword1">TRUE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the HAVING value</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the HAVING value</p>
+
+<p>Separates multiple calls with AND</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$value</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$escape</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="or_having" id="_or_having">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_or_having">#</a>
+		<code>or_having( <span>string <var>$key</var></span>, <span>string <var>$value</var> = <span class="php-quote">''</span></span>, <span>mixed <var>$escape</var> = <span class="php-keyword1">TRUE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the OR HAVING value</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the OR HAVING value</p>
+
+<p>Separates multiple calls with OR</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$value</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$escape</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_having" id="__having">
+
+		<td class="attributes"><code>
+			 protected 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__having">#</a>
+		<code>_having( <span>string <var>$key</var></span>, <span>string <var>$value</var> = <span class="php-quote">''</span></span>, <span>mixed <var>$type</var> = <span class="php-quote">'AND '</span></span>, <span>mixed <var>$escape</var> = <span class="php-keyword1">TRUE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the HAVING values</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the HAVING values</p>
+
+<p>Called by having() or or_having()</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$value</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$type</var></dt>
+					<dd></dd>
+					<dt><var>$escape</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="order_by" id="_order_by">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_order_by">#</a>
+		<code>order_by( <span>string <var>$orderby</var></span>, <span>string <var>$direction</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the ORDER BY value</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the ORDER BY value</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$orderby</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$direction</var></dt>
+					<dd><code>string</code><br>direction: asc or desc</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="limit" id="_limit">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_limit">#</a>
+		<code>limit( <span>integer <var>$value</var></span>, <span>integer <var>$offset</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the LIMIT value</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the LIMIT value</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$value</var></dt>
+					<dd><code>integer</code><br>the limit value</dd>
+					<dt><var>$offset</var></dt>
+					<dd><code>integer</code><br>the offset value</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="offset" id="_offset">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_offset">#</a>
+		<code>offset( <span>integer <var>$offset</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sets the OFFSET value</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sets the OFFSET value</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$offset</var></dt>
+					<dd><code>integer</code><br>the offset value</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set" id="_set">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set">#</a>
+		<code>set( <span>mixed <var>$key</var></span>, <span>string <var>$value</var> = <span class="php-quote">''</span></span>, <span>boolean <var>$escape</var> = <span class="php-keyword1">TRUE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>The "set" function. Allows key/value pairs to be set for inserting or
+updating</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>The "set" function. Allows key/value pairs to be set for inserting or
+updating</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>mixed</code></dd>
+					<dt><var>$value</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$escape</var></dt>
+					<dd><code>boolean</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get" id="_get">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get">#</a>
+		<code>get( <span>string <var>$table</var> = <span class="php-quote">''</span></span>, <span>string <var>$limit</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$offset</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get</p>
+
+<p>Compiles the select statement based on the other functions called and runs
+the query</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>string</code><br>the table</dd>
+					<dt><var>$limit</var></dt>
+					<dd><code>string</code><br>the limit clause</dd>
+					<dt><var>$offset</var></dt>
+					<dd><code>string</code><br>the offset clause</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="count_all_results" id="_count_all_results">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_count_all_results">#</a>
+		<code>count_all_results( <span>string <var>$table</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>"Count All Results" query</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>"Count All Results" query</p>
+
+<p>Generates a platform-specific query string that counts all records returned
+by an Active Record query.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get_where" id="_get_where">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get_where">#</a>
+		<code>get_where( <span>string <var>$table</var> = <span class="php-quote">''</span></span>, <span>string <var>$where</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$limit</var> = <span class="php-keyword1">null</span></span>, <span>mixed <var>$offset</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get_Where</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get_Where</p>
+
+<p>Allows the where clause, limit and offset to be added directly</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>string</code><br>the where clause</dd>
+					<dt><var>$where</var></dt>
+					<dd><code>string</code><br>the limit clause</dd>
+					<dt><var>$limit</var></dt>
+					<dd><code>string</code><br>the offset clause</dd>
+					<dt><var>$offset</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="insert_batch" id="_insert_batch">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_insert_batch">#</a>
+		<code>insert_batch( <span>string <var>$table</var> = <span class="php-quote">''</span></span>, <span>array <var>$set</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Insert_Batch</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Insert_Batch</p>
+
+<p>Compiles batch insert strings and runs the queries</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>string</code><br>the table to retrieve the results from</dd>
+					<dt><var>$set</var></dt>
+					<dd><code>array</code><br>an associative array of insert values</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set_insert_batch" id="_set_insert_batch">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set_insert_batch">#</a>
+		<code>set_insert_batch( <span>mixed <var>$key</var></span>, <span>string <var>$value</var> = <span class="php-quote">''</span></span>, <span>boolean <var>$escape</var> = <span class="php-keyword1">TRUE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>The "set_insert_batch" function. Allows key/value pairs to be set for batch
+inserts</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>The "set_insert_batch" function. Allows key/value pairs to be set for batch
+inserts</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>mixed</code></dd>
+					<dt><var>$value</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$escape</var></dt>
+					<dd><code>boolean</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="insert" id="_insert">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_insert">#</a>
+		<code>insert( <span>string <var>$table</var> = <span class="php-quote">''</span></span>, <span>array <var>$set</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Insert</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Insert</p>
+
+<p>Compiles an insert string and runs the query</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>string</code><br>the table to insert data into</dd>
+					<dt><var>$set</var></dt>
+					<dd><code>array</code><br>an associative array of insert values</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="replace" id="_replace">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_replace">#</a>
+		<code>replace( <span>string <var>$table</var> = <span class="php-quote">''</span></span>, <span>array <var>$set</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Replace</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Replace</p>
+
+<p>Compiles an replace into string and runs the query</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>string</code><br>the table to replace data into</dd>
+					<dt><var>$set</var></dt>
+					<dd><code>array</code><br>an associative array of insert values</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="update" id="_update">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_update">#</a>
+		<code>update( <span>string <var>$table</var> = <span class="php-quote">''</span></span>, <span>array <var>$set</var> = <span class="php-keyword1">NULL</span></span>, <span>mixed <var>$where</var> = <span class="php-keyword1">NULL</span></span>, <span>mixed <var>$limit</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Update</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Update</p>
+
+<p>Compiles an update string and runs the query</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>string</code><br>the table to retrieve the results from</dd>
+					<dt><var>$set</var></dt>
+					<dd><code>array</code><br>an associative array of update values</dd>
+					<dt><var>$where</var></dt>
+					<dd><code>mixed</code><br>the where clause</dd>
+					<dt><var>$limit</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="update_batch" id="_update_batch">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_update_batch">#</a>
+		<code>update_batch( <span>string <var>$table</var> = <span class="php-quote">''</span></span>, <span>array <var>$set</var> = <span class="php-keyword1">NULL</span></span>, <span>string <var>$index</var> = <span class="php-keyword1">NULL</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Update_Batch</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Update_Batch</p>
+
+<p>Compiles an update string and runs the query</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>string</code><br>the table to retrieve the results from</dd>
+					<dt><var>$set</var></dt>
+					<dd><code>array</code><br>an associative array of update values</dd>
+					<dt><var>$index</var></dt>
+					<dd><code>string</code><br>the where key</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set_update_batch" id="_set_update_batch">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set_update_batch">#</a>
+		<code>set_update_batch( <span>array <var>$key</var></span>, <span>string <var>$index</var> = <span class="php-quote">''</span></span>, <span>boolean <var>$escape</var> = <span class="php-keyword1">TRUE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>The "set_update_batch" function. Allows key/value pairs to be set for batch
+updating</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>The "set_update_batch" function. Allows key/value pairs to be set for batch
+updating</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>array</code></dd>
+					<dt><var>$index</var></dt>
+					<dd><code>string</code></dd>
+					<dt><var>$escape</var></dt>
+					<dd><code>boolean</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="empty_table" id="_empty_table">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_empty_table">#</a>
+		<code>empty_table( <span>string <var>$table</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Empty Table</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Empty Table</p>
+
+<p>Compiles a delete string and runs "DELETE FROM table"</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>string</code><br>the table to empty</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="truncate" id="_truncate">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_truncate">#</a>
+		<code>truncate( <span>string <var>$table</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Truncate</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Truncate</p>
+
+<p>Compiles a truncate string and runs the query If the database does not
+support the truncate() command This function maps to "DELETE FROM table"</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>string</code><br>the table to truncate</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="delete" id="_delete">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_delete">#</a>
+		<code>delete( <span>mixed <var>$table</var> = <span class="php-quote">''</span></span>, <span>mixed <var>$where</var> = <span class="php-quote">''</span></span>, <span>mixed <var>$limit</var> = <span class="php-keyword1">NULL</span></span>, <span>boolean <var>$reset_data</var> = <span class="php-keyword1">TRUE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Delete</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Delete</p>
+
+<p>Compiles a delete string and runs the query</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>mixed</code><br>the table(s) to delete from. String or array</dd>
+					<dt><var>$where</var></dt>
+					<dd><code>mixed</code><br>the where clause</dd>
+					<dt><var>$limit</var></dt>
+					<dd><code>mixed</code><br>the limit clause</dd>
+					<dt><var>$reset_data</var></dt>
+					<dd><code>boolean</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="dbprefix" id="_dbprefix">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_dbprefix">#</a>
+		<code>dbprefix( <span>string <var>$table</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>DB Prefix</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>DB Prefix</p>
+
+<p>Prepends a database prefix if one exists in configuration</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>string</code><br>the table</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="set_dbprefix" id="_set_dbprefix">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_set_dbprefix">#</a>
+		<code>set_dbprefix( <span>string <var>$prefix</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Set DB Prefix</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Set DB Prefix</p>
+
+<p>Set's the DB Prefix to something new without needing to reconnect</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$prefix</var></dt>
+					<dd><code>string</code><br>the prefix</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_track_aliases" id="__track_aliases">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__track_aliases">#</a>
+		<code>_track_aliases( <span>string <var>$table</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Track Aliases</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Track Aliases</p>
+
+<p>Used to track SQL statements written with aliased tables.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>string</code><br>The table to inspect</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_compile_select" id="__compile_select">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__compile_select">#</a>
+		<code>_compile_select( <span>mixed <var>$select_override</var> = <span class="php-keyword1">FALSE</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Compile the SELECT statement</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Compile the SELECT statement</p>
+
+<p>Generates a query string based on which functions were used. Should not be
+called directly. The get() function calls it.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_object_to_array" id="__object_to_array">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__object_to_array">#</a>
+		<code>_object_to_array( <span>object <var>$object</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Object to Array</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Object to Array</p>
+
+<p>Takes an object as input and converts the class variables to array
+key/vals</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$object</var></dt>
+					<dd><code>object</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_object_to_array_batch" id="__object_to_array_batch">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__object_to_array_batch">#</a>
+		<code>_object_to_array_batch( <span>object <var>$object</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Object to Array</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Object to Array</p>
+
+<p>Takes an object as input and converts the class variables to array
+key/vals</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$object</var></dt>
+					<dd><code>object</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="start_cache" id="_start_cache">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_start_cache">#</a>
+		<code>start_cache( )</code>
+
+		<div class="description short">
+			
+<p>Start Cache</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Start Cache</p>
+
+<p>Starts AR caching</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="stop_cache" id="_stop_cache">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_stop_cache">#</a>
+		<code>stop_cache( )</code>
+
+		<div class="description short">
+			
+<p>Stop Cache</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Stop Cache</p>
+
+<p>Stops AR caching</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="flush_cache" id="_flush_cache">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_flush_cache">#</a>
+		<code>flush_cache( )</code>
+
+		<div class="description short">
+			
+<p>Flush Cache</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Flush Cache</p>
+
+<p>Empties the AR cache</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_merge_cache" id="__merge_cache">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__merge_cache">#</a>
+		<code>_merge_cache( )</code>
+
+		<div class="description short">
+			
+<p>Merge Cache</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Merge Cache</p>
+
+<p>When called, this function merges any cached AR arrays with locally called
+ones.</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_reset_run" id="__reset_run">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__reset_run">#</a>
+		<code>_reset_run( <span>array <var>$ar_reset_items</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Resets the active record values. Called by the get() function</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Resets the active record values. Called by the get() function</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$ar_reset_items</var></dt>
+					<dd><code>array</code><br>An array of fields to reset</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_reset_select" id="__reset_select">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__reset_select">#</a>
+		<code>_reset_select( )</code>
+
+		<div class="description short">
+			
+<p>Resets the active record values. Called by the get() function</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Resets the active record values. Called by the get() function</p>
+
+
+
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-CI_DB_driver.html#__reset_select">CI_DB_driver::_reset_select()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="_reset_write" id="__reset_write">
+
+		<td class="attributes"><code>
+			 protected 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#__reset_write">#</a>
+		<code>_reset_write( )</code>
+
+		<div class="description short">
+			
+<p>Resets the active record "write" values.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Resets the active record "write" values.</p>
+
+<p>Called by the insert() update() insert_batch() update_batch() and delete()
+functions</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-CI_DB_driver.html#methods">CI_DB_driver</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-CI_DB_driver.html#___construct">__construct()</a>, 
+			<a href="class-CI_DB_driver.html#__cache_init">_cache_init()</a>, 
+			<a href="class-CI_DB_driver.html#__has_operator">_has_operator()</a>, 
+			<a href="class-CI_DB_driver.html#__protect_identifiers">_protect_identifiers()</a>, 
+			<a href="class-CI_DB_driver.html#_cache_delete">cache_delete()</a>, 
+			<a href="class-CI_DB_driver.html#_cache_delete_all">cache_delete_all()</a>, 
+			<a href="class-CI_DB_driver.html#_cache_off">cache_off()</a>, 
+			<a href="class-CI_DB_driver.html#_cache_on">cache_on()</a>, 
+			<a href="class-CI_DB_driver.html#_cache_set_path">cache_set_path()</a>, 
+			<a href="class-CI_DB_driver.html#_call_function">call_function()</a>, 
+			<a href="class-CI_DB_driver.html#_close">close()</a>, 
+			<a href="class-CI_DB_driver.html#_compile_binds">compile_binds()</a>, 
+			<a href="class-CI_DB_driver.html#_db_set_charset">db_set_charset()</a>, 
+			<a href="class-CI_DB_driver.html#_display_error">display_error()</a>, 
+			<a href="class-CI_DB_driver.html#_elapsed_time">elapsed_time()</a>, 
+			<a href="class-CI_DB_driver.html#_escape">escape()</a>, 
+			<a href="class-CI_DB_driver.html#_escape_like_str">escape_like_str()</a>, 
+			<a href="class-CI_DB_driver.html#_field_data">field_data()</a>, 
+			<a href="class-CI_DB_driver.html#_field_exists">field_exists()</a>, 
+			<a href="class-CI_DB_driver.html#_initialize">initialize()</a>, 
+			<a href="class-CI_DB_driver.html#_insert_string">insert_string()</a>, 
+			<a href="class-CI_DB_driver.html#_is_write_type">is_write_type()</a>, 
+			<a href="class-CI_DB_driver.html#_last_query">last_query()</a>, 
+			<a href="class-CI_DB_driver.html#_list_fields">list_fields()</a>, 
+			<a href="class-CI_DB_driver.html#_list_tables">list_tables()</a>, 
+			<a href="class-CI_DB_driver.html#_load_rdriver">load_rdriver()</a>, 
+			<a href="class-CI_DB_driver.html#_platform">platform()</a>, 
+			<a href="class-CI_DB_driver.html#_primary">primary()</a>, 
+			<a href="class-CI_DB_driver.html#_protect_identifiers">protect_identifiers()</a>, 
+			<a href="class-CI_DB_driver.html#_query">query()</a>, 
+			<a href="class-CI_DB_driver.html#_simple_query">simple_query()</a>, 
+			<a href="class-CI_DB_driver.html#_table_exists">table_exists()</a>, 
+			<a href="class-CI_DB_driver.html#_total_queries">total_queries()</a>, 
+			<a href="class-CI_DB_driver.html#_trans_complete">trans_complete()</a>, 
+			<a href="class-CI_DB_driver.html#_trans_off">trans_off()</a>, 
+			<a href="class-CI_DB_driver.html#_trans_start">trans_start()</a>, 
+			<a href="class-CI_DB_driver.html#_trans_status">trans_status()</a>, 
+			<a href="class-CI_DB_driver.html#_trans_strict">trans_strict()</a>, 
+			<a href="class-CI_DB_driver.html#_update_string">update_string()</a>, 
+			<a href="class-CI_DB_driver.html#_version">version()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="ar_select" id="$ar_select">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$ar_select</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$ar_select" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="ar_distinct" id="$ar_distinct">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+<var>$ar_distinct</var>		</td>
+		<td class="value"><code><span class="php-keyword1">FALSE</span></code></td>
+		<td class="description"><div>
+			<a href="#$ar_distinct" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="ar_from" id="$ar_from">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$ar_from</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$ar_from" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="ar_join" id="$ar_join">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$ar_join</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$ar_join" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="ar_where" id="$ar_where">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$ar_where</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$ar_where" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="ar_like" id="$ar_like">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$ar_like</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$ar_like" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="ar_groupby" id="$ar_groupby">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$ar_groupby</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$ar_groupby" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="ar_having" id="$ar_having">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$ar_having</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$ar_having" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="ar_keys" id="$ar_keys">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$ar_keys</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$ar_keys" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="ar_limit" id="$ar_limit">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+<var>$ar_limit</var>		</td>
+		<td class="value"><code><span class="php-keyword1">FALSE</span></code></td>
+		<td class="description"><div>
+			<a href="#$ar_limit" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="ar_offset" id="$ar_offset">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+<var>$ar_offset</var>		</td>
+		<td class="value"><code><span class="php-keyword1">FALSE</span></code></td>
+		<td class="description"><div>
+			<a href="#$ar_offset" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="ar_order" id="$ar_order">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+<var>$ar_order</var>		</td>
+		<td class="value"><code><span class="php-keyword1">FALSE</span></code></td>
+		<td class="description"><div>
+			<a href="#$ar_order" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="ar_orderby" id="$ar_orderby">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$ar_orderby</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$ar_orderby" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="ar_set" id="$ar_set">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$ar_set</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$ar_set" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="ar_wherein" id="$ar_wherein">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$ar_wherein</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$ar_wherein" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="ar_aliased_tables" id="$ar_aliased_tables">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$ar_aliased_tables</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$ar_aliased_tables" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="ar_store_array" id="$ar_store_array">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$ar_store_array</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$ar_store_array" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="ar_caching" id="$ar_caching">
+		<td class="attributes"><code>
+			public  
+			boolean
+		</code></td>
+
+		<td class="name">
+<var>$ar_caching</var>		</td>
+		<td class="value"><code><span class="php-keyword1">FALSE</span></code></td>
+		<td class="description"><div>
+			<a href="#$ar_caching" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="ar_cache_exists" id="$ar_cache_exists">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$ar_cache_exists</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$ar_cache_exists" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="ar_cache_select" id="$ar_cache_select">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$ar_cache_select</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$ar_cache_select" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="ar_cache_from" id="$ar_cache_from">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$ar_cache_from</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$ar_cache_from" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="ar_cache_join" id="$ar_cache_join">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$ar_cache_join</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$ar_cache_join" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="ar_cache_where" id="$ar_cache_where">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$ar_cache_where</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$ar_cache_where" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="ar_cache_like" id="$ar_cache_like">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$ar_cache_like</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$ar_cache_like" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="ar_cache_groupby" id="$ar_cache_groupby">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$ar_cache_groupby</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$ar_cache_groupby" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="ar_cache_having" id="$ar_cache_having">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$ar_cache_having</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$ar_cache_having" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="ar_cache_orderby" id="$ar_cache_orderby">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$ar_cache_orderby</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$ar_cache_orderby" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="ar_cache_set" id="$ar_cache_set">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$ar_cache_set</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$ar_cache_set" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="ar_no_escape" id="$ar_no_escape">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$ar_no_escape</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$ar_no_escape" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="ar_cache_no_escape" id="$ar_cache_no_escape">
+		<td class="attributes"><code>
+			public  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$ar_cache_no_escape</var>		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$ar_cache_no_escape" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-CI_DB_driver.html#properties">CI_DB_driver</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-CI_DB_driver.html#$CACHE"><var>$CACHE</var></a>, 
+			<a href="class-CI_DB_driver.html#$_protect_identifiers"><var>$_protect_identifiers</var></a>, 
+			<a href="class-CI_DB_driver.html#$_reserved_identifiers"><var>$_reserved_identifiers</var></a>, 
+			<a href="class-CI_DB_driver.html#$_trans_depth"><var>$_trans_depth</var></a>, 
+			<a href="class-CI_DB_driver.html#$_trans_status"><var>$_trans_status</var></a>, 
+			<a href="class-CI_DB_driver.html#$autoinit"><var>$autoinit</var></a>, 
+			<a href="class-CI_DB_driver.html#$benchmark"><var>$benchmark</var></a>, 
+			<a href="class-CI_DB_driver.html#$bind_marker"><var>$bind_marker</var></a>, 
+			<a href="class-CI_DB_driver.html#$cache_autodel"><var>$cache_autodel</var></a>, 
+			<a href="class-CI_DB_driver.html#$cache_on"><var>$cache_on</var></a>, 
+			<a href="class-CI_DB_driver.html#$cachedir"><var>$cachedir</var></a>, 
+			<a href="class-CI_DB_driver.html#$char_set"><var>$char_set</var></a>, 
+			<a href="class-CI_DB_driver.html#$conn_id"><var>$conn_id</var></a>, 
+			<a href="class-CI_DB_driver.html#$curs_id"><var>$curs_id</var></a>, 
+			<a href="class-CI_DB_driver.html#$data_cache"><var>$data_cache</var></a>, 
+			<a href="class-CI_DB_driver.html#$database"><var>$database</var></a>, 
+			<a href="class-CI_DB_driver.html#$db_debug"><var>$db_debug</var></a>, 
+			<a href="class-CI_DB_driver.html#$dbcollat"><var>$dbcollat</var></a>, 
+			<a href="class-CI_DB_driver.html#$dbdriver"><var>$dbdriver</var></a>, 
+			<a href="class-CI_DB_driver.html#$dbprefix"><var>$dbprefix</var></a>, 
+			<a href="class-CI_DB_driver.html#$hostname"><var>$hostname</var></a>, 
+			<a href="class-CI_DB_driver.html#$limit_used"><var>$limit_used</var></a>, 
+			<a href="class-CI_DB_driver.html#$password"><var>$password</var></a>, 
+			<a href="class-CI_DB_driver.html#$pconnect"><var>$pconnect</var></a>, 
+			<a href="class-CI_DB_driver.html#$port"><var>$port</var></a>, 
+			<a href="class-CI_DB_driver.html#$queries"><var>$queries</var></a>, 
+			<a href="class-CI_DB_driver.html#$query_count"><var>$query_count</var></a>, 
+			<a href="class-CI_DB_driver.html#$query_times"><var>$query_times</var></a>, 
+			<a href="class-CI_DB_driver.html#$result_id"><var>$result_id</var></a>, 
+			<a href="class-CI_DB_driver.html#$save_queries"><var>$save_queries</var></a>, 
+			<a href="class-CI_DB_driver.html#$stmt_id"><var>$stmt_id</var></a>, 
+			<a href="class-CI_DB_driver.html#$swap_pre"><var>$swap_pre</var></a>, 
+			<a href="class-CI_DB_driver.html#$trans_enabled"><var>$trans_enabled</var></a>, 
+			<a href="class-CI_DB_driver.html#$trans_strict"><var>$trans_strict</var></a>, 
+			<a href="class-CI_DB_driver.html#$username"><var>$username</var></a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		DoTheMath Server API AppFrog API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+K 13
+svn:mergeinfo
+V 1217
+/branches/Code review/GADRequest.h:151-168
+/branches/Edit Profile/GADRequest.h:22-27
+/branches/Game invite/GADRequest.h:64-67
+/branches/Implementing game/GADRequest.h:70-81
+/branches/Main Game controllers/GADRequest.h:74-89
+/branches/Play Game/GADRequest.h:95-103
+/branches/Random player invite/GADRequest.h:138-148
+/branches/RestKit update/GADRequest.h:107-111
+/branches/Results/GADRequest.h:114-126
+/branches/Results to server/GADRequest.h:129-135
+/branches/SolveGame/GADRequest.h:118-122
+/branches/Starting game/GADRequest.h:83-91
+/branches/Week 10/GADRequest.h:195-206
+/branches/Week 13/GADRequest.h:248-266
+/branches/Week 14/GADRequest.h:268-274
+/branches/Week 14.2/GADRequest.h:276-295
+/branches/Week 17/GADRequest.h:334-357
+/branches/Week 18/GADRequest.h:359-369
+/branches/Week 19/GADRequest.h:374-400
+/branches/Week 22/GADRequest.h:402-437
+/branches/Week 24/GADRequest.h:439-478
+/branches/Week 9/GADRequest.h:176-192
+/branches/friend search/GADRequest.h:24-41
+/branches/friend_invite/GADRequest.h:53-58
+/branches/serverAPI correct-wrong/GADRequest.h:60-72
+/branches/week 11/GADRequest.h:209-221
+/branches/week 12/GADRequest.h:230-245
+/branches/week15/GADRequest.h:298-311
+/branches/week16/GADRequest.h:316-332
+END
